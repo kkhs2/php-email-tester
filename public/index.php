@@ -1,5 +1,7 @@
 <?php
-require_once(__DIR__ . '/../vendor/autoload.php');
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$config = include __DIR__ . ' /../config.php';
 
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\PHPMailer;
@@ -12,20 +14,17 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'kshumbooker@gmail.com';                     //SMTP username
-    $mail->Password   = 'bxwp ulbn urjt fbpq';                               //SMTP password
+    $mail->Host = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->SMTPAuth = true;                                   //Enable SMTP authentication
+    $mail->Username = $config['email']['username'];                     //SMTP username
+    $mail->Password = $config['email']['password'];                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
-    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->Port = $config['email']['port'];                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('donotreply@bookertest.co.uk', 'Mailer');
-    $mail->addAddress('kenneth.shum@booker.co.uk', 'Test Email');     //Add a recipient
-    //$mail->addAddress('ellen@example.com');               //Name is optional
-    $mail->addReplyTo('donotreply@bookertest.co.uk', 'Booker UAT');
-    //$mail->addCC('cc@example.com');
-    //$mail->addBCC('bcc@example.com');
+    $mail->setFrom($config['email']['fromAddress'], $config['email']['fromName']);
+    $mail->addAddress($config['email']['toAddress']);     //Add a recipient
+    $mail->addReplyTo($config['email']['replyTo'], $config['email']['replyName']);
 
     //Attachments
     //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
@@ -34,7 +33,7 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->Body = 'This is the HTML message body <b>in bold!</b>';
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
