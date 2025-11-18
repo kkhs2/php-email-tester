@@ -1,0 +1,17 @@
+{
+    "name": "codespace/php-email-tester",
+    "autoload": {
+        "psr-4": {
+            "Codespace\\PhpEmailTester\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kkhs2",
+            "email": "69503967+kkhs2@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
+}
