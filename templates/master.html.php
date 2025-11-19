@@ -52,7 +52,7 @@
 
       .body,
       .email-container {
-        font-family: 'Inter', Arial, sans-serif;
+        font-family: \'Inter\', Arial, sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
         font-weight: 400;
@@ -87,7 +87,7 @@
         display: block;
       }
 
-      div[style*='margin:16px 0'] {
+      div[style*=\'margin:16px 0\'] {
         margin: 0 !important;
       }
 
@@ -115,6 +115,12 @@
         font-family: inherit !important;
         font-weight: inherit !important;
         line-height: inherit !important;
+      }
+
+      a {
+         text-decoration: none;
+                        border-bottom: 1px dotted #000;
+                        color: #000;
       }
 
       u + #body a {
@@ -277,7 +283,7 @@
                 <td
                   style="
                     padding: 0 24px;
-                    font-family: 'Inter', Arial, sans-serif;
+                    font-family: \'Inter\', Arial, sans-serif;
                     margin: 0;
                     font-size: 16px;
                     line-height: 22.4px;
@@ -285,368 +291,9 @@
                 >
                   <!-- last paragraph (different padding) -->
 
-                  <p style="padding: 12px 0; margin: 0">
-                    Dear [Branch Manager Name]
-                  </p>
+                <?= $output ?>
 
-                  <p style="padding: 12px 0; margin: 0">
-                    The following customer would like to be able to order
-                    on-line:
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td height="12"></td>
-              </tr>
-
-              <!-- table -->
-              <tr>
-                <td style="padding: 0 18px">
-                  <table
-                    cellpadding="0"
-                    cellspacing="0"
-                    width="100%"
-                    bgcolor="#faf9f5"
-                    style="
-                      background-color: #f5f4f0;
-                      border-radius: 20px;
-                      font-family: 'Inter', Arial, sans-serif;
-                      margin: 0;
-                      font-size: 14px;
-                      color: #000000;
-                    "
-                  >
-                    <tr>
-                      <td style="padding: 8px 8px">
-                        <table
-                          role="presentation"
-                          border="0"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                        >
-                          <tr>
-                            <td align="center">
-                              <table
-                                role="presentation"
-                                border="0"
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="586"
-                                style="width: 100%; max-width: 586px"
-                              >
-                                <tr>
-                                  <td style="font-size: 0; padding: 0">
-                                    <!--[if mso]>
-                                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="586">
-                                                                <tr>
-                                                                    <td width="586" valign="top">
-                                                                <![endif]-->
-
-                                    <div
-                                      style="
-                                        display: inline-block;
-                                        vertical-align: top;
-                                        width: 100%;
-                                        max-width: 586px;
-                                        font-size: 14px;
-                                      "
-                                    >
-                                      <table
-                                        role="presentation"
-                                        border="0"
-                                        cellpadding="0"
-                                        cellspacing="0"
-                                        width="100%"
-                                      >
-                                        <tr>
-                                          <td
-                                            style="
-                                              padding: 16px 8px;
-                                              font-family: Arial, sans-serif;
-                                              font-size: 14px;
-                                              line-height: 20px;
-                                            "
-                                          >
-                                            <strong>Customer Name:</strong
-                                            ><br />
-                                            <div
-                                              style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              "
-                                            >
-                                              &nbsp;
-                                            </div>
-                                            &lsaquo;customer name&rsaquo;
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td colspan="4">
-                                            <hr
-                                              style="
-                                                border: none;
-                                                border-top: 1px dotted #cccccc;
-                                                margin: 0 8px;
-                                              "
-                                            />
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td
-                                            style="
-                                              padding: 16px 8px;
-                                              font-family: Arial, sans-serif;
-                                              font-size: 14px;
-                                              line-height: 20px;
-                                            "
-                                          >
-                                            <strong>Customer Number:</strong
-                                            ><br />
-                                            <div
-                                              style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              "
-                                            >
-                                              &nbsp;
-                                            </div>
-                                            &lsaquo;booker card number&rsaquo;
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td colspan="4">
-                                            <hr
-                                              style="
-                                                border: none;
-                                                border-top: 1px dotted #cccccc;
-                                                margin: 0 8px;
-                                              "
-                                            />
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td
-                                            style="
-                                              padding: 16px 8px;
-                                              font-family: Arial, sans-serif;
-                                              font-size: 14px;
-                                              line-height: 20px;
-                                            "
-                                          >
-                                            <strong>Trading Name:</strong><br />
-                                            <div
-                                              style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              "
-                                            >
-                                              &nbsp;
-                                            </div>
-                                            &lsaquo;trading name&rsaquo;
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td colspan="4">
-                                            <hr
-                                              style="
-                                                border: none;
-                                                border-top: 1px dotted #cccccc;
-                                                margin: 0 8px;
-                                              "
-                                            />
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td
-                                            style="
-                                              padding: 16px 8px;
-                                              font-family: Arial, sans-serif;
-                                              font-size: 14px;
-                                              line-height: 20px;
-                                            "
-                                          >
-                                            <strong>Contact Number</strong
-                                            ><br />
-                                            <div
-                                              style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              "
-                                            >
-                                              &nbsp;
-                                            </div>
-                                            &lsaquo;telephone number&rsaquo;
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td colspan="4">
-                                            <hr
-                                              style="
-                                                border: none;
-                                                border-top: 1px dotted #cccccc;
-                                                margin: 0 8px;
-                                              "
-                                            />
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td
-                                            style="
-                                              padding: 16px 8px;
-                                              font-family: Arial, sans-serif;
-                                              font-size: 14px;
-                                              line-height: 20px;
-                                            "
-                                          >
-                                            <strong
-                                              >Contact Mobile Number</strong
-                                            ><br />
-                                            <div
-                                              style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              "
-                                            >
-                                              &nbsp;
-                                            </div>
-                                            &lsaquo;Mobile telephone
-                                            number&rsaquo;
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td colspan="4">
-                                            <hr
-                                              style="
-                                                border: none;
-                                                border-top: 1px dotted #cccccc;
-                                                margin: 0 8px;
-                                              "
-                                            />
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td
-                                            style="
-                                              padding: 16px 8px;
-                                              font-family: Arial, sans-serif;
-                                              font-size: 14px;
-                                              line-height: 20px;
-                                            "
-                                          >
-                                            <strong>Contact Email</strong><br />
-                                            <div
-                                              style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              "
-                                            >
-                                              &nbsp;
-                                            </div>
-                                            &lsaquo;customer e-mail
-                                            address&rsaquo;
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </div>
-
-                                    <!--[if mso]>
-                                                                    </td>
-                                                                </tr>
-                                                                </table>
-                                                                <![endif]-->
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-
-              <tr>
-                <td height="12"></td>
-              </tr>
-              <tr>
-                <td
-                  style="
-                    padding: 0 24px;
-                    font-family: 'Inter', Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  "
-                >
-                  <!-- last paragraph (different padding) -->
-
-                  <p style="padding: 12px 0; margin: 0">
-                    If this message was received Mon to Fri before 4pm then you
-                    must contact the customer today.
-                  </p>
-
-                  <p style="padding: 12px 0; margin: 0">
-                    If this Message was received after 4pm or over the weekend
-                    you must contact the customer on the next working day:
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td height="12"></td>
-              </tr>
-
-              <!--Bulleted list-->
-              <tr>
-                <td style="padding: 0 18px">
-                  <table cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                      <td style="padding: 0 18px">
-                        <ul style="padding: 0; margin: 0; text-align: left">
-                          <li style="margin: 0; padding: 0 0 12px 0">
-                            Confirm that the business owner has made this
-                            request, by checking delivery address and other
-                            relevant information
-                          </li>
-                          <li style="margin: 0; padding: 12px 0">
-                            If you are accepting online orders from the customer
-                            then set the SAP web flag (See Booker Customer
-                            Equipment tab in SAP):-
-                          </li>
-                          <li style="margin: 0; padding: 12px 0">
-                            To 'C' if you wish the customer to only pay by
-                            credit / debit card
-                          </li>
-                          <li style="margin: 0; padding: 12px 0">
-                            To 'O' if you wish the customer to pay via branch
-                            account or credit/debit card
-                          </li>
-                          <li style="margin: 0; padding: 12px 0">
-                            Check the SOP flag value (See Booker Delivery
-                            Details tab in SAP)
-                          </li>
-                          <li style="margin: 0; padding: 12px 0">
-                            If the SOP flag is set to 3 then leave as 3
-                            otherwise set it to 2.
-                          </li>
-                          <li style="margin: 0; padding: 12px 0 0 0">
-                            Once all of the above has been completed the
-                            customer will be able to place order's after
-                            approximately 1 hour of the changes being made
-                            within SAP
-                          </li>
-                        </ul>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-
-              <tr>
-                <td height="48"></td>
-              </tr>
-
+                <!--body end-->
               <tr>
                 <td style="padding: 0 18px">
                   <table
@@ -656,7 +303,7 @@
                     style="
                       background-color: #f5f4f0;
                       border-radius: 20px;
-                      font-family: 'Inter', Arial, sans-serif;
+                      font-family: \'Inter\', Arial, sans-serif;
                       margin: 0;
                       font-size: 14px;
                       line-height: 19.6px;
@@ -688,7 +335,7 @@
                                 Any views or opinions presented are solely those
                                 of the author and do not necessarily represent
                                 those of Booker Group Limited and its subsidiary
-                                companies, unless otherwise specifically state
+                                companies, unless otherwise specifically state.
                               </p>
                               <p style="margin: 0; padding: 12px 0">
                                 This e mail is issued by Booker Group Limited
@@ -760,7 +407,7 @@
                       <td>
                         <p
                           style="
-                            font-family: 'Inter', Arial, sans-serif;
+                            font-family: \'Inter\', Arial, sans-serif;
                             margin: 0;
                             font-size: 16px;
                             line-height: 22.4px;
@@ -779,7 +426,7 @@
                         </p>
                         <p
                           style="
-                            font-family: 'Inter', Arial, sans-serif;
+                            font-family: \'Inter\', Arial, sans-serif;
                             margin: 0;
                             font-size: 16px;
                             line-height: 22.4px;
@@ -795,7 +442,7 @@
                         </p>
                         <p
                           style="
-                            font-family: 'Inter', Arial, sans-serif;
+                            font-family: \'Inter\', Arial, sans-serif;
                             margin: 0;
                             font-size: 16px;
                             line-height: 22.4px;
@@ -811,7 +458,7 @@
                         </p>
                         <p
                           style="
-                            font-family: 'Inter', Arial, sans-serif;
+                            font-family: \'Inter\', Arial, sans-serif;
                             margin: 0;
                             font-size: 16px;
                             line-height: 22.4px;
@@ -821,7 +468,7 @@
                             padding: 12px 0;
                           "
                         >
-                          <strong>General Enquiries</strong><br />01933 371000.
+                          <strong>General Enquiries</strong><br />01933 371000
                         </p>
                       </td>
                       <td width="18"></td>
@@ -875,7 +522,7 @@
                       <td>
                         <p
                           style="
-                            font-family: 'Inter', Arial, sans-serif;
+                            font-family: \'Inter\', Arial, sans-serif;
                             margin: 0;
                             font-size: 11px;
                             line-height: 11px;
@@ -912,7 +559,7 @@
                       <td width="18"></td>
                       <td>
                         <a
-                          href="https://x.com/i/flow/login?redirect_after_login=%2FBookerCatering"
+                          href="https://x.com/"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/4d777a7e-d674-4946-987a-6d256d985bcc.jpg?parcelPath=/images/x.jpg"
                             height="24"
@@ -924,7 +571,7 @@
                               mso-padding-right-alt: 10px;
                             "
                         /></a>
-                        <a href="link"
+                        <a href="https://facebook.com/"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/314f872f-dd71-4019-9858-e28ea460c756.jpg?parcelPath=/images/facebook.jpg"
                             height="24"
@@ -938,23 +585,9 @@
                               mso-padding-left-alt: 10px;
                             "
                         /></a>
-                        <a href="link"
+                        <a href="https://instagram.com/"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/cfe685f4-50d9-4d91-abac-566850469e12.jpg?parcelPath=/images/instagram.jpg"
-                            height="24"
-                            width="24"
-                            style="
-                              display: inline-block;
-                              vertical-align: middle;
-                              margin-right: 10px;
-                              margin-left: 10px;
-                              mso-padding-right-alt: 10px;
-                              mso-padding-left-alt: 10px;
-                            "
-                        /></a>
-                        <a href="link"
-                          ><img
-                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/e9eea126-4e02-4722-8e8f-090084b9a6e3.jpg?parcelPath=/images/whatsapp.jpg"
                             height="24"
                             width="24"
                             style="
