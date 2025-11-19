@@ -229,71 +229,10 @@
           </td>
         </tr>
         <!-- Email Header : END -->
-        <!-- Email Body : START -->
-        <tr>
-          <td align="center" valign="top">
-            <table
-              class="email-container"
-              bgcolor="#ffffff"
-              cellpadding="0"
-              cellspacing="0"
-              border="0"
-              role="presentation"
-              style="
-                width: 650px;
-                background-color: #ffffff;
-                border-radius: 20px;
-              "
-            >
-              <tr>
-                <td height="24"></td>
-              </tr>
 
-              <tr>
-                <td>
-                  <p
-                    style="
-                      font-size: 14px;
-                      line-height: 1.4;
-                      font-weight: 400;
-                      background-color: #f5f4f0;
-                      border-radius: 20px;
-                      padding: 12px 16px;
-                      margin: 0 18px;
-                    "
-                  >
-                    <img
-                      height="16"
-                      width="16"
-                      style="
-                        display: inline-block;
-                        vertical-align: middle;
-                        margin-right: 8px;
-                      "
-                      src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/93b91843-6827-47e9-90f6-85b2ffb22f35.jpg?parcelPath=/images/alert.jpg"
-                    />This is an automated email. Do not reply.
-                  </p>
-                </td>
-              </tr>
+          <?= $output ?>
 
-              <tr>
-                <td height="12"></td>
-              </tr>
-              <tr>
-                <td
-                  style="
-                    padding: 0 24px;
-                    font-family: \'Inter\', Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  "
-                >
-                  <!-- last paragraph (different padding) -->
-
-                <?= $output ?>
-
-                <!--body end-->
+        <!--body end-->
               <tr>
                 <td style="padding: 0 18px">
                   <table
