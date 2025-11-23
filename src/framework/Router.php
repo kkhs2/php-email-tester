@@ -1,6 +1,6 @@
 <?php
 
-namespace framework;
+namespace App\Framework;
 
 class Router {
   protected $routes = [];
@@ -25,14 +25,15 @@ class Router {
   }
 
   public function route($uri, $method) {
+
     foreach ($this->routes as $route) {
       if ($route['uri'] === $uri && $route['method'] === strtoupper($method)) {
-        Middleware::resolve($route['middleware']);
+        //Middleware::resolve($route['middleware']);
 
-        return require BASE('src/controllers/' . $route['controller']);
+        return require BASE . 'src/Controllers/' . $route['controller'];
       }
     }
-    $this->abort();
+    //$this->abort();
   }
 
   public function previousUrl() {

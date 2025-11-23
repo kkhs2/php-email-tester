@@ -1,15 +1,14 @@
 <?php
 
+/*const BASE = __DIR__ . '/../';
 
+require __DIR__ . '/../vendor/autoload.php';
+require BASE . '/Functions.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-/*use framework\Router;
+use App\Framework\Router;
 
-const BASE = __DIR__ . '/../';
-
-session_start();
-
-require BASE . 'vendor/autoload.php';
-require BASE . 'src/framework/functions.php';
 
 $router = new Router();
 
@@ -20,14 +19,12 @@ $method = $_POST['_method'] ?? $_SERVER['REQUEST_METHOD'];
 
 try {
   $router->route($uri, $method);
+  
 } catch (ValidationException $exception) {
-  Session::flash('errors', $exception->errors);
-  Session::flash('old', $exception->old);
+ 
 
-  return redirect($router->previousUrl());
-}
-
-Session::unflash();*/
+ // return redirect($router->previousUrl());
+}*/
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -35,14 +32,15 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader (created by composer, not included with PHPMailer)
 require '../vendor/autoload.php';
-
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
 try {
-    //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-    $mail->isSMTP();                                            //Send using SMTP
+    $dir = __DIR__ . '/../templates/emails/delivery';
+    $emails = scandir($dir);
+    foreach ($emails as $email) {
+      if (substr($email, 0, 1) == 'E') {
+        $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'kshumbooker@gmail.com';                     //SMTP username
@@ -51,8 +49,9 @@ try {
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('noreply@bookertest.co.uk', 'Mailer');
-    $mail->addAddress('kenneth.shum@booker.co.uk', 'Joe User');     //Add a recipient
+    $mail->setFrom('noreply@bookertest.co.uk', 'Booker UAT');
+    $mail->addAddress('websiteuat@booker.co.uk');     //Add a recipient
+   // $mail->addAddress('websiteuat@booker.co.uk');     //Add a recipient
     $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
@@ -63,12 +62,12 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
+    $mail->Subject = $email;
+    $mail->Body = file_get_contents($dir . '/' . $email); 
     $mail->send();
-    echo 'Message has been sent';
+    echo 'Message has been sent';    
+      }
+    }
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }

@@ -2,7 +2,7 @@
     "name": "codespace/php-email-tester",
     "autoload": {
         "psr-4": {
-            "Codespace\\PhpEmailTester\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
