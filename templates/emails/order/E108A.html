@@ -261,6 +261,19 @@
 
               <tr>
                 <td>
+                   <!--[if mso]> ><!-- -->
+                     <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" 
+  href="https://example.com" 
+  style="height:40px;v-text-anchor:middle;width:200px;" 
+  arcsize="15%" 
+  fillcolor="#007BFF">
+  <w:anchorlock/>
+  <center style="color:#ffffff;font-family:sans-serif;font-size:16px;">
+    Button
+  </center>
+</v:roundrect>
+                   <!--[endif]-->
+                   <!--[if !mso]> <!-- -->
                   <p
                     style="
                       font-size: 14px;
@@ -282,7 +295,7 @@
                       "
                       src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/93b91843-6827-47e9-90f6-85b2ffb22f35.jpg?parcelPath=/images/alert.jpg"
                     />This is an automated email. Do not reply.
-                  </p>
+                  </p> <!--<![endif]-->
                 </td>
               </tr>
 
@@ -301,10 +314,15 @@
                 >
                   <!-- last paragraph (different padding) -->
 
-                    Dear <strong>[customer name]</strong>,<br />
-                    <br />
-                    Thank you for placing an order with Booker.<br />
-                  <br />
+                  <p style="padding: 12px 0; margin: 0">
+                    Dear <strong>[customer name]</strong>,
+                  </p>
+
+                  <p style="padding: 12px 0; margin: 0">
+                    Thank you for placing an order with Booker.
+                  </p>
+
+                  <p style="padding: 12px 0; margin: 0">
                     Please note that acceptance of your order will take place on
                     despatch of the products you have ordered. At that point the
                     purchase contract will be made and we will supply the goods
@@ -317,10 +335,13 @@
                         color: #000;
                       "
                       >terms & conditions</a
-                    >.<br />
-                  <br />
+                    >.
+                  </p>
+
+                  <p style="padding: 12px 0; margin: 0">
                     This e-mail is confirmation of the receipt of your order
                     received which was received [date] at [time].
+                  </p>
                 </td>
               </tr>
               <tr>
@@ -418,7 +439,7 @@
                               style="padding: 18px 0 18px 18px; font-size: 18px"
                             >
                               <strong style="font-weight: 500"
-                                ><b>The estimated value of your order is:</b>
+                                >The estimated value of your order is:
                               </strong>
                             </td>
                             <td
@@ -445,7 +466,7 @@
                               style="padding: 18px 0 18px 18px; font-size: 18px"
                             >
                               <strong style="font-weight: 500"
-                                ><b>The estimated value of your order is:</b>
+                                >The estimated value of your order is:
                               </strong>
                             </td>
                             <td
@@ -480,6 +501,7 @@
                 >
                   <!-- last paragraph (different padding) -->
 
+                  <p style="padding: 12px 0; margin: 0">
                     Please note that the shown estimate values are based on
                     guide prices only. Your final invoice will be the cost of
                     the products at the time of picking and processing your
@@ -493,11 +515,14 @@
                       "
                       >terms & conditions</a
                     >
-                    on the website for more information.<br />
-                  <br />
+                    on the website for more information.
+                  </p>
+
+                  <p style="padding: 12px 0; margin: 0">
                     Standard delivery charges may be applicable for this order.
                     Where appropriate these will be added at the time of
                     invoice.
+                  </p>
                 </td>
               </tr>
               <tr>
