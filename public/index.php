@@ -36,22 +36,23 @@ require '../vendor/autoload.php';
 $mail = new PHPMailer(true);
 
 try {
-    $dir = __DIR__ . '/../templates/emails/delivery';
+    $dir = __DIR__ . '/../templates/emails/order';
     $emails = scandir($dir);
     foreach ($emails as $email) {
-      if (substr($email, 0, 1) == 'E') {
+      //if (substr($email, 0, 1) == 'E') {
+      if ($email == 'E108A.html') {
         $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'kshumbooker@gmail.com';                     //SMTP username
-    $mail->Password   = 'bxwp ulbn urjt fbpq';                               //SMTP password
+    $mail->Password   = 'lbwk cend spaz ojtw';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
     $mail->setFrom('noreply@bookertest.co.uk', 'Booker UAT');
     $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-   // $mail->addAddress('websiteuat@booker.co.uk');     //Add a recipient
+    $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
     $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
