@@ -261,19 +261,6 @@
 
               <tr>
                 <td>
-                   <!--[if mso]> ><!-- -->
-                     <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" 
-  href="https://example.com" 
-  style="height:40px;v-text-anchor:middle;width:200px;" 
-  arcsize="15%" 
-  fillcolor="#007BFF">
-  <w:anchorlock/>
-  <center style="color:#ffffff;font-family:sans-serif;font-size:16px;">
-    Button
-  </center>
-</v:roundrect>
-                   <!--[endif]-->
-                   <!--[if !mso]> <!-- -->
                   <p
                     style="
                       font-size: 14px;
@@ -318,9 +305,17 @@
                     Dear <strong>[customer name]</strong>,
                   </p>
 
+                  <!--[if mso]> 
+                   <br /><br />
+                   <![endif]-->
+
                   <p style="padding: 12px 0; margin: 0">
                     Thank you for placing an order with Booker.
                   </p>
+
+                  <!--[if mso]> 
+                   <br /><br />
+                   <![endif]-->
 
                   <p style="padding: 12px 0; margin: 0">
                     Please note that acceptance of your order will take place on
@@ -337,6 +332,10 @@
                       >terms & conditions</a
                     >.
                   </p>
+
+                  <!--[if mso]> 
+                   <br /><br />
+                   <![endif]-->
 
                   <p style="padding: 12px 0; margin: 0">
                     This e-mail is confirmation of the receipt of your order
