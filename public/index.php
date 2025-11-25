@@ -40,7 +40,7 @@ try {
     $emails = scandir($dir);
     foreach ($emails as $email) {
       //if (substr($email, 0, 1) == 'E') {
-      if ($email == 'E108A.html') {
+      if (in_array($email, ['E108A.html','E108AA.html'])) {
         $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
