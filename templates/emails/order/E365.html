@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html
   lang="en"
   xmlns:v="urn:schemas-microsoft-com:vml"
@@ -31,19 +31,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <!--[if mso]>
-      <style>
-        /* Outlook fallback */
-        body,
-        table,
-        td,
-        h1,
-        h2,
-        h3 {
-          font-family: Arial, Helvetica, sans-serif;
-        }
-      </style>
-    <![endif]-->
+
     <style>
       :root {
         color-scheme: light light;
@@ -52,7 +40,7 @@
 
       .body,
       .email-container {
-        font-family: 'Inter', Arial, sans-serif;
+        font-family: "Inter", Arial, sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
         font-weight: 400;
@@ -87,7 +75,7 @@
         display: block;
       }
 
-      div[style*='margin:16px 0'] {
+      div[style*="margin:16px 0"] {
         margin: 0 !important;
       }
 
@@ -96,12 +84,16 @@
         margin: 0 0 20px 0;
       }
 
-      p,
       h1,
       h2,
       h3 {
         padding: 10px 0;
         margin: 10px 0;
+      }
+
+      p {
+        padding: 5px 0;
+        margin: 5px 0;
       }
 
       .link:hover {
@@ -226,15 +218,14 @@
                             border="0"
                         /></a>
                       </td>
-                      
+
                       <td width="18"></td>
                     </tr>
-                   
                   </table>
                 </td>
               </tr>
               <tr>
-                <td height="24"></td>
+                <td height="24" style="height: 24px; line-height: 24px"></td>
               </tr>
             </table>
           </td>
@@ -257,12 +248,12 @@
               "
             >
               <tr>
-                <td height="24"></td>
+                <td height="24" style="height: 24px; line-height: 24px"></td>
               </tr>
 
               <tr>
                 <td>
-                  <p
+                  <div
                     style="
                       font-size: 14px;
                       line-height: 1.4;
@@ -273,7 +264,8 @@
                       margin: 0 18px;
                     "
                   >
-                    <img
+                    <!--[if !mso
+                    ]><!--><img
                       height="16"
                       width="16"
                       style="
@@ -282,13 +274,16 @@
                         margin-right: 8px;
                       "
                       src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/93b91843-6827-47e9-90f6-85b2ffb22f35.jpg?parcelPath=/images/alert.jpg"
-                    />This is an automated email. Do not reply.
-                  </p>
+                    /><!--<!
+                    [endif]--><span
+                      >This is an automated email. Do not reply.</span
+                    >
+                  </div>
                 </td>
               </tr>
 
               <tr>
-                <td height="12"></td>
+                <td height="12" style="height: 12px; line-height: 12px"></td>
               </tr>
               <tr>
                 <td
@@ -300,21 +295,43 @@
                     line-height: 22.4px;
                   "
                 >
-                  <!-- last paragraph (different padding) -->
-
-                  <p style="padding: 12px 0; margin: 0">
-                    Dear <strong>[supplier name]</strong>,
-                  </p>
-                  <p style="padding: 12px 0; margin: 0">
-                    Customer number [customer number] has requested a delivery from you through Booker.co.uk.
-                  </p>
-                  
-                  <p style="padding: 12px 0; margin: 0">
+                 <p>Dear <strong>[supplier name]</strong>,</p>
+                </td>
+              </tr>
+                  <tr>
+                    <td
+                      height="12"
+                      style="
+                        padding: 0 24px;
+                        font-family: 'Inter', Arial, sans-serif;
+                        margin: 0;
+                        font-size: 16px;
+                        line-height: 22.4px;
+                      "
+                    >
+                      <p>
+                        Customer number [customer number] has requested a delivery from you through Booker.co.uk.
+                      </p>
+                    </td>
+                  </tr>
+              <tr>
+                <td
+                  height="12"
+                  style="
+                    padding: 0 24px;
+                    font-family: 'Inter', Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  "
+                >
+                  <p>
                     Please find customer and order details in the attachment below:-
                   </p>
                 </td>
-              </tr>              
-               <!-- table invoice -->
+              </tr>
+
+              <!-- table invoice -->
               <tr>
                 <td style="padding: 12px 18px 12px 18px">
                   <table
@@ -572,6 +589,25 @@
                   </table>
                 </td>
               </tr>
+              
+              <tr>
+                <td height="12"></td>
+              </tr>
+              <tr>
+                <td
+                  style="
+                    padding: 0 24px;
+                    font-family: 'Inter', Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  "
+                >
+                  <p>
+                   Should you require further assistance, please contact us on 0345 850 5051.
+                  </p>
+                </td>
+              </tr>
 
               <tr>
                 <td
@@ -583,23 +619,17 @@
                     line-height: 22.4px;
                   "
                 >
-                  <!-- last paragraph (different padding) -->
-
-                  <p style="padding: 12px 0; margin: 0">
-                    Should you require further assistance, please contact us on 0345 850 5051.
-                  </p>
-                  <!-- last paragraph (different padding) -->
-                  <p style="padding: 12px 0; margin: 0">
-                    You can also contact us by email at <a style="
-                        text-decoration: none;
-                        border-bottom: 1px dotted #000;
-                        color: #000;
-                      " href="mailto:centralbilling@booker.co.uk">centralbilling@booker.co.uk</a>
+                  <p>
+                   You can also contact us by email at <a href="mailto:centralbilling@booker.co.uk" style="
+                                                  text-decoration: underline;
+                                                  color: #000000;
+                                                "><strong style="font-weight: 700">centralbilling@booker.co.uk</strong></a>.
                   </p>
                 </td>
               </tr>
+
               <tr>
-                <td height="12"></td>
+                <td height="12" style="height: 12px; line-height: 12px"></td>
               </tr>
               <tr>
                 <td style="padding: 0 18px">
@@ -622,13 +652,15 @@
                         <table width="100%" cellpadding="0" cellspacing="0">
                           <tr>
                             <td style="padding: 16px 18px">
-                              <p style="margin: 0; padding: 0 0">
-                                This email is intended solely for the person or
-                                organisation to which it is addressed. It may
-                                contain privileged or confidential information.
-                              </p>
+                              <div style="margin: 0; padding: 0 0">
+                                <span
+                                  >This email is intended solely for the person
+                                  or organisation to which it is addressed. It
+                                  may contain privileged or confidential
+                                  information.</span
+                                >
+                              </div>
                             </td>
-                            
                           </tr>
                         </table>
                       </td>
@@ -638,16 +670,16 @@
               </tr>
 
               <tr>
-                <td height="24"></td>
+                <td height="24" style="height: 24px; line-height: 24px"></td>
               </tr>
             </table>
           </td>
         </tr>
         <tr>
-          <td height="24"></td>
+          <td height="24" style="height: 24px; line-height: 24px"></td>
         </tr>
-
         <!-- Email Body : END -->
+
         <tr>
           <td align="center" valign="top">
             <table
@@ -680,79 +712,80 @@
                     <tr>
                       <td width="18"></td>
                       <td>
-                        <p
-                          style="
-                            font-family: 'Inter', Arial, sans-serif;
-                            margin: 0;
-                            font-size: 16px;
-                            line-height: 22.4px;
-                            color: #ffffff;
-                            font-weight: normal;
-                            text-align: left;
-                            padding: 12px 0;
-                          "
-                        >
-                          If you have any further questions, please visit our
-                          help section. If you are experiencing any difficulty,
-                          or need assistance with our account you can call our
-                          Website Support Desk on
-                          <strong>0345 602 3108</strong>. Lines are open from
-                          Monday - Sunday 7am to 7pm.
-                        </p>
-                        <p
-                          style="
-                            font-family: 'Inter', Arial, sans-serif;
-                            margin: 0;
-                            font-size: 16px;
-                            line-height: 22.4px;
-                            color: #ffffff;
-                            font-weight: normal;
-                            text-align: left;
-                            padding: 12px 0;
-                          "
-                        >
-                          <strong>Send us a message</strong><br />If we can help
-                          or if you think we could be doing something better we
-                          always want to hear from you.
-                        </p>
-                        <p
-                          style="
-                            font-family: 'Inter', Arial, sans-serif;
-                            margin: 0;
-                            font-size: 16px;
-                            line-height: 22.4px;
-                            color: #ffffff;
-                            font-weight: normal;
-                            text-align: left;
-                            padding: 12px 0;
-                          "
-                        >
-                          <strong>Postal Address</strong><br />Booker Ltd,
-                          Irthlingborough Road, Wellingborough<br />Northants,
-                          NN8 1LT
-                        </p>
-                        <p
-                          style="
-                            font-family: 'Inter', Arial, sans-serif;
-                            margin: 0;
-                            font-size: 16px;
-                            line-height: 22.4px;
-                            color: #ffffff;
-                            font-weight: normal;
-                            text-align: left;
-                            padding: 12px 0;
-                          "
-                        >
-                          <strong>General Enquiries</strong><br />01933 371000
-                        </p>
+                        <div style="padding: 3px 0">
+                          <p
+                            style="
+                              font-family: 'Inter', Arial, sans-serif;
+                              margin: 0;
+                              font-size: 16px;
+                              line-height: 22.4px;
+                              color: #ffffff;
+                              font-weight: normal;
+                              text-align: left;
+                            "
+                          >
+                            If you have any further questions, please visit our
+                            help section. If you are experiencing any
+                            difficulty, or need assistance with our account you
+                            can call our Website Support Desk on
+                            <strong>0345 602 3108</strong>. Lines are open from
+                            Monday - Sunday 7am to 7pm.
+                          </p>
+                        </div>
+                        <div style="padding: 3px 0">
+                          <p
+                            style="
+                              font-family: 'Inter', Arial, sans-serif;
+                              margin: 0;
+                              font-size: 16px;
+                              line-height: 22.4px;
+                              color: #ffffff;
+                              font-weight: normal;
+                              text-align: left;
+                            "
+                          >
+                            <strong>Send us a message</strong><br />If we can
+                            help or if you think we could be doing something
+                            better we always want to hear from you.
+                          </p>
+                        </div>
+                        <div style="padding: 3px 0">
+                          <p
+                            style="
+                              font-family: 'Inter', Arial, sans-serif;
+                              margin: 0;
+                              font-size: 16px;
+                              line-height: 22.4px;
+                              color: #ffffff;
+                              font-weight: normal;
+                              text-align: left;
+                            "
+                          >
+                            <strong>Postal Address</strong><br />Booker Ltd,
+                            Irthlingborough Road, Wellingborough<br />Northants,
+                            NN8 1LT
+                          </p>
+                        </div>
+                        <div style="padding: 3px 0">
+                          <p
+                            style="
+                              font-family: 'Inter', Arial, sans-serif;
+                              margin: 0;
+                              font-size: 16px;
+                              line-height: 22.4px;
+                              color: #ffffff;
+                              font-weight: normal;
+                              text-align: left;
+                            "
+                          >
+                            <strong>General Enquiries</strong><br />01933 371000
+                          </p>
+                        </div>
                       </td>
                       <td width="18"></td>
                     </tr>
                   </table>
                 </td>
-              </tr>
-              <tr>
-                <td height="20"></td>
               </tr>
               <tr>
                 <td>
@@ -833,8 +866,7 @@
                     <tr>
                       <td width="18"></td>
                       <td>
-                        <a
-                          href="https://x.com"
+                        <a href="https://x.com"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/4d777a7e-d674-4946-987a-6d256d985bcc.jpg?parcelPath=/images/x.jpg"
                             height="24"
@@ -842,10 +874,8 @@
                             style="
                               display: inline-block;
                               vertical-align: middle;
-                              margin-right: 10px;
-                              mso-padding-right-alt: 10px;
-                            "
-                        /></a>
+                            " /></a
+                        >&nbsp;&nbsp;&nbsp;
                         <a href="https://facebook.com"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/314f872f-dd71-4019-9858-e28ea460c756.jpg?parcelPath=/images/facebook.jpg"
@@ -854,12 +884,8 @@
                             style="
                               display: inline-block;
                               vertical-align: middle;
-                              margin-right: 10px;
-                              margin-left: 10px;
-                              mso-padding-right-alt: 10px;
-                              mso-padding-left-alt: 10px;
-                            "
-                        /></a>
+                            " /></a
+                        >&nbsp;&nbsp;&nbsp;
                         <a href="https://instagram.com"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/cfe685f4-50d9-4d91-abac-566850469e12.jpg?parcelPath=/images/instagram.jpg"
@@ -868,10 +894,6 @@
                             style="
                               display: inline-block;
                               vertical-align: middle;
-                              margin-right: 10px;
-                              margin-left: 10px;
-                              mso-padding-right-alt: 10px;
-                              mso-padding-left-alt: 10px;
                             "
                         /></a>
                       </td>
