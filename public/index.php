@@ -51,8 +51,8 @@ try {
 
     //Recipients
     $mail->setFrom('noreply@bookertest.co.uk', 'Booker UAT');
-    $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-    $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
+    //$mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
+    $mail->addAddress('shumkhk@gmail.com');     //Add a recipient
     $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');

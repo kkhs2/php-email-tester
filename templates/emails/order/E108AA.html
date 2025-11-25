@@ -31,19 +31,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <!--[if mso]>
-      <style>
-        /* Outlook fallback */
-        body,
-        table,
-        td,
-        h1,
-        h2,
-        h3 {
-          font-family: Arial, Helvetica, sans-serif;
-        }
-      </style>
-    <![endif]-->
+
     <style>
       :root {
         color-scheme: light light;
@@ -96,12 +84,16 @@
         margin: 0 0 20px 0;
       }
 
-      p,
       h1,
       h2,
       h3 {
         padding: 10px 0;
         margin: 10px 0;
+      }
+
+      p {
+        padding: 5px 0;
+        margin: 5px 0;
       }
 
       .link:hover {
@@ -233,7 +225,7 @@
                 </td>
               </tr>
               <tr>
-                <td height="24"></td>
+                <td height="24" style="height: 24px; line-height: 24px"></td>
               </tr>
             </table>
           </td>
@@ -256,12 +248,12 @@
               "
             >
               <tr>
-                <td height="24"></td>
+                <td height="24" style="height: 24px; line-height: 24px"></td>
               </tr>
 
               <tr>
                 <td>
-                  <p
+                  <div
                     style="
                       font-size: 14px;
                       line-height: 1.4;
@@ -281,13 +273,13 @@
                         margin-right: 8px;
                       "
                       src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/93b91843-6827-47e9-90f6-85b2ffb22f35.jpg?parcelPath=/images/alert.jpg"
-                    />This is an automated email. Do not reply.
-                  </p>
+                    /><span>This is an automated email. Do not reply.</span>
+                  </div>
                 </td>
               </tr>
 
               <tr>
-                <td height="12"></td>
+                <td height="24" style="height: 24px; line-height: 24px"></td>
               </tr>
               <tr>
                 <td
@@ -301,17 +293,40 @@
                 >
                   <!-- last paragraph (different padding) -->
 
-                  <p style="padding: 12px 0; margin: 0">
-                    Dear <strong>[customer name]</strong>,
-                  </p>
+                    <p>Dear <strong>[customer name]</strong>,</p>
 
-                  <p style="padding: 12px 0; margin: 0">
-                    Thank you for placing an order with Booker.co.uk which was received on [date] at [time]. 
-                  </p>
+                    <p>Thank you for placing an order with Booker.</p>
+
+                    <p>Please note that acceptance of your order will take place
+                      on despatch of the products you have ordered. At that
+                      point the purchase contract will be made and we will
+                      supply the goods in accordance with our Website
+                      <!--[if mso]>
+                        <a
+                          href="https://www.booker.co.uk/help/website-terms-of-use"
+                          style="text-decoration: underline; color: #000"
+                          >terms & conditions</a
+                        >.
+                      <![endif]-->
+                      <!--[if !mso]> <!-- -->
+                      <a
+                        href="https://www.booker.co.uk/help/website-terms-of-use"
+                        style="
+                          text-decoration: none;
+                          border-bottom: 1px dotted #000;
+                          color: #000;
+                        "
+                        >terms & conditions</a
+                      >.
+                      <!--<![endif]-->
+                    </p>
+
+                    <p>This e-mail is confirmation of the receipt of your order
+                      received which was received [date] at [time].</p>
                 </td>
               </tr>
               <tr>
-                <td height="12"></td>
+                <td height="12" style="height: 12px; line-height: 12px"></td>
               </tr>
 
               <tr>
@@ -377,7 +392,7 @@
               </tr>
 
               <tr>
-                <td height="24"></td>
+                <td height="24" style="height: 24px; line-height: 24px"></td>
               </tr>
 
               <tr>
@@ -405,7 +420,7 @@
                               style="padding: 18px 0 18px 18px; font-size: 18px"
                             >
                               <strong style="font-weight: 500"
-                                >The estimated value of your order is:
+                                ><b>The estimated value of your order is:</b>
                               </strong>
                             </td>
                             <td
@@ -432,7 +447,7 @@
                               style="padding: 18px 0 18px 18px; font-size: 18px"
                             >
                               <strong style="font-weight: 500"
-                                >The estimated value of your order is:
+                                ><b>The estimated value of your order is:</b>
                               </strong>
                             </td>
                             <td
@@ -453,7 +468,7 @@
               </tr>
 
               <tr>
-                <td height="12"></td>
+                <td height="12" style="height: 12px; line-height: 12px"></td>
               </tr>
               <tr>
                 <td
@@ -467,27 +482,38 @@
                 >
                   <!-- last paragraph (different padding) -->
 
-                  <p style="padding: 12px 0; margin: 0">
-                   Please note that estimates are a guide only. Your final invoice will be the cost of the products when we pick and process your order.
-                  </p>
-
-                  <p style="padding: 12px 0; margin: 0">
-                    <u>Payment Delivery Enquiries</u>
-                  </p>
-                  <p style="padding: 12px 0; margin: 0">If you have any enquiries about payment or delivery please contact Customer Services on 0800 298 0758, open 6am-9pm, Monday to Saturday, and Sunday 6am-2pm. Alternatively e-mail us at <a href="mailto:enquiries@bookerretail.co.uk">enquiries@bookerretail.co.uk</a></p>
-                  <p style="padding: 12px 0; margin: 0">Please note that goods will be supplied to you in accordance with our website <a
-                      href="https://www.booker.co.uk/help/website-terms-of-use"
-                      style="
-                        text-decoration: none;
-                        border-bottom: 1px dotted #000;
-                        color: #000;
-                      "
-                      >terms & conditions</a
-                    >.</p>
+                    <p>Please note that the shown estimate values are based on
+                      guide prices only. Your final invoice will be the cost of
+                      the products at the time of picking and processing your
+                      order. Please refer to the
+                      <!--[if mso]>
+                        <a
+                          href="https://www.booker.co.uk/help/website-terms-of-use"
+                          style="text-decoration: underline; color: #000"
+                          >terms & conditions</a
+                        >
+                      <![endif]-->
+                      <!--[if !mso]> <!-- -->
+                      <a
+                        href="https://www.booker.co.uk/help/website-terms-of-use"
+                        style="
+                          text-decoration: none;
+                          border-bottom: 1px dotted #000;
+                          color: #000;
+                        "
+                        >terms & conditions</a
+                      >
+                      <!--<![endif]-->
+                      on the website for more information.
+                    </p>
+       
+                    <p>Standard delivery charges may be applicable for this
+                      order. Where appropriate these will be added at the time
+                      of invoice.</p>
                 </td>
               </tr>
               <tr>
-                <td height="12"></td>
+                <td height="12" style="height: 12px; line-height: 12px"></td>
               </tr>
 
               <tr>
@@ -500,7 +526,7 @@
                     style="
                       background-color: #ff480c;
                       border-radius: 12px;
-                      font-family: 'Inter', Arial, sans-serif;
+                      font-family: Arial, sans-serif;
                       margin: 0;
                       color: #ffffff;
                     "
@@ -513,7 +539,7 @@
                       >
                         <p
                           style="
-                            font-family: 'Inter', Arial, sans-serif;
+                            font-family: Arial, sans-serif;
                             margin: 0;
                             padding: 0;
                             font-size: 14px;
@@ -543,14 +569,15 @@
                             >This is your unique Tracking QR Code</span
                           >
                         </p>
-                        <!--CTA-->
-                        <!-- left icon -->
+                        <!--[if mso]>
+                        <br />
+                        <![endif]-->
                         <a
                           class="cta"
                           style="
                             background-color: #1fceb5;
                             font-size: 14px;
-                            font-family: 'Inter', Arial, sans-serif;
+                            font-family: Arial, sans-serif;
                             font-weight: 500;
                             text-decoration: none;
                             padding: 10.5px 18px 10.5px 16px;
@@ -563,56 +590,30 @@
                           "
                           href="https://www.booker.co.uk/"
                         >
-                          <!--[if mso
-                            ]><i
+                          <span class="gmail-screen">
+                            <img
+                              height="12"
+                              width="12"
+                              alt
                               style="
-                                letter-spacing: 25px;
-                                mso-font-width: -100%;
-                                mso-text-raise: 30pt;
+                                display: inline-block;
+                                vertical-align: middle;
+                                margin-right: 8px;
                               "
-                              >&nbsp;</i
-                            ><!
-                          [endif]-->
-                          <span style="mso-text-raise: 15pt">
-                            <span class="gmail-screen">
-                              <img
-                                height="12"
-                                width="12"
-                                alt
-                                style="
-                                  display: inline-block;
-                                  vertical-align: middle;
-                                  margin-right: 8px;
-                                "
-                                src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/b9924bc1-e750-4740-a198-c5900534e02b.png?parcelPath=/images/link-left.png"
-                              />
-                              <span
-                                class="gmail-difference"
-                                style="vertical-align: middle"
-                                >Your unique link</span
-                              >
-                            </span>
+                              src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/b9924bc1-e750-4740-a198-c5900534e02b.png?parcelPath=/images/link-left.png"
+                            />
+                            <span>Your unique link</span>
                           </span>
-                          <!--[if mso
-                            ]><i
-                              style="
-                                letter-spacing: 25px;
-                                mso-font-width: -100%;
-                              "
-                              >&nbsp;</i
-                            ><!
-                          [endif]-->
                         </a>
-
-                        <!-- right icon -->
                       </td>
                       <td align="right" valign="top" style="padding: 16px 16px">
-                        <a href="[hashed delivery tracker url]"><img
-                          src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/bdf0469b-dc0d-44db-81de-79e9f1455231.png?parcelPath=/images/QR.png"
-                          alt="bookmark"
-                          width="107"
-                          height="108"
-                          style="display: block"
+                        <a href="[hashed delivery tracker url]"
+                          ><img
+                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/bdf0469b-dc0d-44db-81de-79e9f1455231.png?parcelPath=/images/QR.png"
+                            alt="bookmark"
+                            width="107"
+                            height="108"
+                            style="display: block"
                         /></a>
                       </td>
                     </tr>
@@ -621,7 +622,7 @@
               </tr>
 
               <tr>
-                <td height="12"></td>
+                <td height="12" style="height: 12px; line-height: 12px"></td>
               </tr>
               <tr>
                 <td
@@ -635,22 +636,176 @@
                 >
                   <!-- last paragraph (different padding) -->
 
-                 <p style="padding: 12px 0; margin: 0">
-                    Scan this code, unique to your account, to see real-time delivery statuses and estimated delivery times without the need to log into Booker.co.uk.
-                  </p>
-
-                  <p style="padding: 12px 0; margin: 0">
-                    You can also download a poster which includes this code by logging into Booker.co.uk and visiting the My Account page.
-                  </p>
-
-                  <p style="padding: 12px 0; margin: 0">
-                    This poster could be displayed in your store, giving colleagues easy access to the Delivery Tracker.
-                  </p>
-
+                    <p>Scan this code, unique to your account, to see real-time
+                      delivery statuses and estimated delivery times without the
+                      need to log into Booker.co.uk.</p>
+       
+                    <p>You can also download a poster which includes this code
+                      by logging into Booker.co.uk and visiting the My Account
+                      page.</p>
+       
+                    <p>This poster could be displayed in your store, giving
+                      colleagues easy access to the Delivery Tracker.</p>
+       
+                    <p><u>Payment Delivery Enquiries</u></p>
+       
+                    <p>If you have any queries about your payment or delivery
+                      then please contact your local store manager at:</p>
                 </td>
               </tr>
+
               <tr>
                 <td height="12"></td>
+              </tr>
+              <!-- table -->
+              <tr>
+                <td style="padding: 0 18px">
+                  <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    width="100%"
+                    bgcolor="#faf9f5"
+                    style="
+                      background-color: #f5f4f0;
+                      border-radius: 20px;
+                      font-family: 'Inter', Arial, sans-serif;
+                      margin: 0;
+                      font-size: 14px;
+                      color: #000000;
+                    "
+                  >
+                    <tr>
+                      <td style="padding: 8px 8px">
+                        <table
+                          role="presentation"
+                          border="0"
+                          cellpadding="0"
+                          cellspacing="0"
+                          width="100%"
+                        >
+                          <tr>
+                            <td align="center">
+                              <table
+                                role="presentation"
+                                border="0"
+                                cellpadding="0"
+                                cellspacing="0"
+                                width="570"
+                                style="width: 100%; max-width: 570px"
+                              >
+                                <tr>
+                                  <td style="font-size: 0; padding: 0">
+                                    <div
+                                      style="
+                                        display: inline-block;
+                                        vertical-align: top;
+                                        width: 100%;
+                                        max-width: 285px;
+                                        font-size: 14px;
+                                      "
+                                    >
+                                      <table
+                                        role="presentation"
+                                        border="0"
+                                        cellpadding="0"
+                                        cellspacing="0"
+                                        width="100%"
+                                      >
+                                        <tr>
+                                          <td
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 14px;
+                                              line-height: 2;
+                                            "
+                                          >
+                                          
+                                            <p><strong>[branch name]</strong></p>
+                                            <p>[address1]</p>
+                                            <p>[address2]</p>
+                                            <p>[address3]</p>
+                                            <p>[address4]</p>
+                                            <p>[address5]</p>
+                                            <p>[postcode]</p>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 14px;
+                                              line-height: 2;
+                                            "
+                                          >
+                                            <p>
+                                              <img
+                                                src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/0194b7c1-1426-42ff-934e-d6c9c180ada5.jpg?parcelPath=/images/mail.jpg"
+                                                height="16"
+                                                width="16"
+                                                alt="mail"
+                                                style="
+                                                  display: inline-block;
+                                                  vertical-align: middle;
+                                                  margin-right: 8px;
+                                                "
+                                              />
+                                              <strong style="font-weight: 700"
+                                                >[branch phone number]</strong
+                                              >
+                                            </p>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td
+                                            style="
+                                              font-family: Arial, sans-serif;
+                                              font-size: 14px;
+                                              line-height: 20px;
+                                            "
+                                          >
+                                            <p>
+                                              <img
+                                                src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/0194b7c1-1426-42ff-934e-d6c9c180ada5.jpg?parcelPath=/images/mail.jpg"
+                                                height="16"
+                                                width="16"
+                                                alt="mail"
+                                                style="
+                                                  display: inline-block;
+                                                  vertical-align: middle;
+                                                  margin-right: 8px;
+                                                "
+                                              />
+                                              <a
+                                                href="mailto:[manager email address]"
+                                                style="
+                                                  text-decoration: underline;
+                                                  color: #000000;
+                                                "
+                                                ><strong
+                                                  style="font-weight: 700"
+                                                  >[manager email
+                                                  address]</strong
+                                                ></a
+                                              >
+                                            </p>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td height="24" style="height: 24px; line-height: 24px"></td>
               </tr>
 
               <tr>
@@ -674,11 +829,14 @@
                         <table width="100%" cellpadding="0" cellspacing="0">
                           <tr>
                             <td style="padding: 16px 18px">
-                              <p style="margin: 0; padding: 0 0">
-                                This email is intended solely for the person or
-                                organisation to which it is addressed. It may
-                                contain privileged or confidential information.
-                              </p>
+                              <div style="margin: 0; padding: 0 0">
+                                <span
+                                  >This email is intended solely for the person
+                                  or organisation to which it is addressed. It
+                                  may contain privileged or confidential
+                                  information.</span
+                                >
+                              </div>
                             </td>
                           </tr>
                         </table>
@@ -689,15 +847,16 @@
               </tr>
 
               <tr>
-                <td height="24"></td>
+                <td height="24" style="height: 24px; line-height: 24px"></td>
               </tr>
             </table>
           </td>
         </tr>
         <tr>
-          <td height="24"></td>
+          <td height="24" style="height: 24px; line-height: 24px"></td>
         </tr>
         <!-- Email Body : END -->
+
         <tr>
           <td align="center" valign="top">
             <table
@@ -730,17 +889,14 @@
                     <tr>
                       <td width="18"></td>
                       <td>
-                        <p
-                          style="
-                            font-family: 'Inter', Arial, sans-serif;
+                          <p style="font-family: 'Inter', Arial, sans-serif;
                             margin: 0;
                             font-size: 16px;
                             line-height: 22.4px;
                             color: #ffffff;
                             font-weight: normal;
                             text-align: left;
-                            padding: 12px 0;
-                          "
+                            padding: 12px 0;"
                         >
                           If you have any further questions, please visit our
                           help section. If you are experiencing any difficulty,
@@ -749,60 +905,50 @@
                           <strong>0345 602 3108</strong>. Lines are open from
                           Monday - Sunday 7am to 7pm.
                         </p>
-                        <p
-                          style="
-                            font-family: 'Inter', Arial, sans-serif;
+                        <p style="font-family: 'Inter', Arial, sans-serif;
                             margin: 0;
                             font-size: 16px;
                             line-height: 22.4px;
                             color: #ffffff;
                             font-weight: normal;
                             text-align: left;
-                            padding: 12px 0;
-                          "
+                            padding: 12px 0;"
                         >
                           <strong>Send us a message</strong><br />If we can help
                           or if you think we could be doing something better we
                           always want to hear from you.
+                        
                         </p>
-                        <p
-                          style="
-                            font-family: 'Inter', Arial, sans-serif;
+                        <p style="font-family: 'Inter', Arial, sans-serif;
                             margin: 0;
                             font-size: 16px;
                             line-height: 22.4px;
                             color: #ffffff;
                             font-weight: normal;
                             text-align: left;
-                            padding: 12px 0;
-                          "
-                        >
-                          <strong>Postal Address</strong><br />Booker Ltd,
+                            padding: 12px 0;"
+                        ><strong>Postal Address</strong><br />Booker Ltd,
                           Irthlingborough Road, Wellingborough<br />Northants,
                           NN8 1LT
-                        </p>
-                        <p
-                          style="
-                            font-family: 'Inter', Arial, sans-serif;
+                          
+                      </p>
+                          <p style="font-family: 'Inter', Arial, sans-serif;
                             margin: 0;
                             font-size: 16px;
                             line-height: 22.4px;
                             color: #ffffff;
                             font-weight: normal;
                             text-align: left;
-                            padding: 12px 0;
-                          "
-                        >
+                            padding: 12px 0;"
+                          >
                           <strong>General Enquiries</strong><br />01933 371000
                         </p>
+                        
                       </td>
                       <td width="18"></td>
                     </tr>
                   </table>
                 </td>
-              </tr>
-              <tr>
-                <td height="20"></td>
               </tr>
               <tr>
                 <td>
@@ -891,10 +1037,8 @@
                             style="
                               display: inline-block;
                               vertical-align: middle;
-                              margin-right: 10px;
-                              mso-padding-right-alt: 10px;
                             "
-                        /></a>
+                        /></a>&nbsp;&nbsp;&nbsp;
                         <a href="https://facebook.com"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/314f872f-dd71-4019-9858-e28ea460c756.jpg?parcelPath=/images/facebook.jpg"
@@ -903,12 +1047,8 @@
                             style="
                               display: inline-block;
                               vertical-align: middle;
-                              margin-right: 10px;
-                              margin-left: 10px;
-                              mso-padding-right-alt: 10px;
-                              mso-padding-left-alt: 10px;
                             "
-                        /></a>
+                        /></a>&nbsp;&nbsp;&nbsp;
                         <a href="https://instagram.com"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/cfe685f4-50d9-4d91-abac-566850469e12.jpg?parcelPath=/images/instagram.jpg"
@@ -917,10 +1057,6 @@
                             style="
                               display: inline-block;
                               vertical-align: middle;
-                              margin-right: 10px;
-                              margin-left: 10px;
-                              mso-padding-right-alt: 10px;
-                              mso-padding-left-alt: 10px;
                             "
                         /></a>
                       </td>
