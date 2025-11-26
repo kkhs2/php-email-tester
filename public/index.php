@@ -36,7 +36,7 @@ require '../vendor/autoload.php';
 $mail = new PHPMailer(true);
 
 try {
-    $dir = __DIR__ . '/../templates/emails/delivery';
+    $dir = __DIR__ . '/../templates/emails/order';
     $emails = scandir($dir);
     foreach ($emails as $email) {
       if (substr($email, -5) == '.html') {
@@ -54,6 +54,7 @@ try {
     //$mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
     $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
     $mail->addAddress('kenneth.shum@booker.co.uk');
+    $mail->addAddress('websiteuat@booker.co.uk');
     $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
