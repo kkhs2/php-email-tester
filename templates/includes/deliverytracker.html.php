@@ -1,7 +1,7 @@
 <tr>
         <td style="padding: 0 18px">
-          <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ff480c" style="
-                      background-color: #ff480c;
+          <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#E94FA2" style="
+                      background-color: #E94FA2;
                       border-radius: 12px;
                       font-family: 'Inter', Arial, sans-serif;
                       margin: 0;

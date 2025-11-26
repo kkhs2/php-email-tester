@@ -5,5 +5,11 @@ class Email {
 
   }
 
+  public function setSubject() {
+
+  }
+
+  
+
   
 }
