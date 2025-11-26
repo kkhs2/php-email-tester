@@ -36,7 +36,7 @@ require '../vendor/autoload.php';
 $mail = new PHPMailer(true);
 
 try {
-    $dir = __DIR__ . '/../templates/emails/order';
+    $dir = __DIR__ . '/../templates/emails/registration';
     $emails = scandir($dir);
     foreach ($emails as $email) {
       if (substr($email, -5) == '.html') {
