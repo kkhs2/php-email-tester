@@ -40,7 +40,7 @@ try {
     $emails = scandir($dir);
     foreach ($emails as $email) {
       if (substr($email, -5) == '.html') {
-       {
+       
         $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
@@ -53,7 +53,7 @@ try {
     //Recipients
     $mail->setFrom('noreply@bookertest.co.uk', 'Booker UAT');
     //$mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-    $mail->addAddress('shumkhk@gmail.com');     //Add a recipient
+    $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
     $mail->addAddress('kenneth.shum@booker.co.uk');
     $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
     //$mail->addCC('cc@example.com');
