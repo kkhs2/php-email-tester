@@ -39,12 +39,13 @@ try {
     $dir = __DIR__ . '/../templates/emails/order';
     $emails = scandir($dir);
     foreach ($emails as $email) {
-      //if (substr($email, 0, 1) == 'E') {
-      if (in_array($email, ['E310.html', 'E320.html', 'E315.html'])) {
+      if (substr($email, -5) == '.html') {
+       {
         $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'kshumbooker@gmail.com';                     //SMTP username
+    $mail->Username   = 'kshumbooker@gmail.com';
+    $mail->Username   = 'kenneth.shum@booker.co.uk';                     //SMTP username
     $mail->Password   = 'lbwk cend spaz ojtw';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
