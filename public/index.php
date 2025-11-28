@@ -54,6 +54,7 @@ try {
     //$mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
     $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
     $mail->addAddress('kenneth.shum@booker.co.uk');
+    $mail->addAddress('websiteuat@booker.co.uk');
     $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
