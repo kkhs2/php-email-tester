@@ -39,7 +39,9 @@ try {
     $dir = __DIR__ . '/../templates/emails/venus/order';
     $emails = scandir($dir);
     foreach ($emails as $email) {
-      if (substr($email, -5) == '.html') {
+      //if (substr($email, -5) == '.html') {
+
+      if ($email == 'E108A.html') {
        
         $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
@@ -52,9 +54,9 @@ try {
     //Recipients
     $mail->setFrom('noreply@bookertest.co.uk', 'Venus UAT');
     //$mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-    $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
+    //$mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
     $mail->addAddress('kenneth.shum@booker.co.uk');
-    $mail->addAddress('websiteuat@booker.co.uk');
+    //$mail->addAddress('websiteuat@booker.co.uk');
     $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
