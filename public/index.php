@@ -36,7 +36,7 @@ require '../vendor/autoload.php';
 $mail = new PHPMailer(true);
 
 try {
-    $dir = __DIR__ . '/../templates/emails/booker/payment';
+    $dir = __DIR__ . '/../templates/emails/booker/registration';
     
     
     $emails = scandir($dir);
