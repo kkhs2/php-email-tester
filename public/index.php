@@ -37,7 +37,10 @@ $mail = new PHPMailer(true);
 
 try {
     $dir = __DIR__ . '/../templates/emails/booker/payment';
+    
+    
     $emails = scandir($dir);
+
     foreach ($emails as $email) {
       if (substr($email, -5) == '.html') {
        
