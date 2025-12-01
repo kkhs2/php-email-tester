@@ -67,7 +67,7 @@ try {
     $mail->Subject = $email;
     $mail->Body = file_get_contents($dir . '/' . $email); 
     $mail->send();
-    echo $mail . " has been sent";    
+    echo $email . " has been sent";    
       }
     }
 } catch (Exception $e) {
