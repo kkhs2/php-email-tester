@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html
   lang="en"
   xmlns:v="urn:schemas-microsoft-com:vml"
@@ -31,7 +31,19 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-
+    <!--[if mso]>
+      <style>
+        /* Outlook fallback */
+        body,
+        table,
+        td,
+        h1,
+        h2,
+        h3 {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      </style>
+    <![endif]-->
     <style>
       :root {
         color-scheme: light light;
@@ -40,7 +52,7 @@
 
       .body,
       .email-container {
-        font-family: "Inter", Arial, sans-serif;
+        font-family: 'Inter', Arial, sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
         font-weight: 400;
@@ -75,7 +87,7 @@
         display: block;
       }
 
-      div[style*="margin:16px 0"] {
+      div[style*='margin:16px 0'] {
         margin: 0 !important;
       }
 
@@ -84,16 +96,12 @@
         margin: 0 0 20px 0;
       }
 
+      p,
       h1,
       h2,
       h3 {
         padding: 10px 0;
         margin: 10px 0;
-      }
-
-      p {
-        padding: 5px 0;
-        margin: 5px 0;
       }
 
       .link:hover {
@@ -127,29 +135,14 @@
         line-height: inherit;
       }
     </style>
-    <style>
-      .rBorder {
-        width: 100%;
-        max-width: 600px;
-        margin: 20px auto;
-        border-radius: 20px;
-        border: 1px solid #000000;
-        overflow: hidden;
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-      }
-
-      .rBorder td {
-        padding: 15px;
-        border: 1px solid #dddddd;
-      }
-    </style>
     <!--mobile styles-->
     <style>
       @media screen and (max-width: 600px) {
         .email-container {
           width: 100% !important;
         }
+
+        /*modules*/
       }
     </style>
   </head>
@@ -179,7 +172,7 @@
         cellspacing="0"
         border="0"
         role="presentation"
-        style="width: 100%; background-color: #faf9f5"
+        style="width: 100%"
       >
         <!--start of email content body -->
         <!-- Email Header : BEGIN -->
@@ -211,27 +204,25 @@
                       <td>
                         <a href="https://www.booker.co.uk/"
                           ><img
-                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/c1feaadf-1c26-44b5-82e3-7b6eb2e4dd7b.png?parcelPath=/images/Booker-logo.png"
+                            src="https://raw.githubusercontent.com/kkhs2/php-email-tester/main/public/assets/venus-logo.png"
                             alt="Booker"
-                            height="23"
-                            width="138"
+                            width="165"
                             border="0"
                         /></a>
                       </td>
-
                       <td width="18"></td>
+                    </tr>
+                    <tr>
+                      <td height="24" colspan="4"></td>
                     </tr>
                   </table>
                 </td>
-              </tr>
-              <tr>
-                <td height="16" style="height: 16px; line-height: 16px"></td>
               </tr>
             </table>
           </td>
         </tr>
         <!-- Email Header : END -->
-
+        <!-- Email Body : START -->
         <tr>
           <td align="center" valign="top">
             <table
@@ -248,12 +239,12 @@
               "
             >
               <tr>
-                <td height="24" style="height: 24px; line-height: 24px"></td>
+                <td height="24"></td>
               </tr>
 
               <tr>
                 <td>
-                  <div
+                  <p
                     style="
                       font-size: 14px;
                       line-height: 1.4;
@@ -264,8 +255,7 @@
                       margin: 0 18px;
                     "
                   >
-                    <!--[if !mso
-                    ]><!--><img
+                    <img
                       height="16"
                       width="16"
                       style="
@@ -274,117 +264,16 @@
                         margin-right: 8px;
                       "
                       src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/93b91843-6827-47e9-90f6-85b2ffb22f35.jpg?parcelPath=/images/alert.jpg"
-                    /><!--<!
-                    [endif]--><span
-                      >This is an automated email. Do not reply.</span
-                    >
-                  </div>
-                </td>
-              </tr>
-
-              <tr>
-                <td height="12" style="height: 12px; line-height: 12px"></td>
-              </tr>
-              <tr>
-                <td
-                  style="
-                    padding: 0 24px;
-                    font-family: 'Inter', Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  "
-                >
-                 <p>Dear <strong>[customer name]</strong>,</p>
-                </td>
-              </tr>
-                  <tr>
-                    <td
-                      height="12"
-                      style="
-                        padding: 0 24px;
-                        font-family: 'Inter', Arial, sans-serif;
-                        margin: 0;
-                        font-size: 16px;
-                        line-height: 22.4px;
-                      "
-                    >
-                      <p>
-                        Your payment attempt has been rejected by your card provider.
-                      </p>
-                    </td>
-                  </tr>
-              <tr>
-                <td
-                  height="12"
-                  style="
-                    padding: 0 24px;
-                    font-family: 'Inter', Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  "
-                >
-                  <p>
-                    Customer Number : [customer number]
-                  </p>
-                </td>
-              </tr>
-              
-              <tr>
-                <td
-                  height="12"
-                  style="
-                    padding: 0 24px;
-                    font-family: 'Inter', Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  "
-                >
-                  <p>
-                    Order Number : [P.O. Number]
+                    />This is an automated email. Do not reply.
                   </p>
                 </td>
               </tr>
 
               <tr>
-                <td
-                  height="12"
-                  style="
-                    padding: 0 24px;
-                    font-family: 'Inter', Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  "
-                >
-                  <p>
-                    Amount : - [£nnnnnn.nn]
-                  </p>
-                </td>
+                <td height="12"></td>
               </tr>
-
-               <tr>
-                <td
-                  height="12"
-                  style="
-                    padding: 0 24px;
-                    font-family: 'Inter', Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  "
-                >
-                  <p>
-                    Please contact your local branch to discuss payment for your order and re-arrange delivery where necessary : -
-                  </p>
-                </td>
-              </tr>
-
               <tr>
                 <td
-                  height="12"
                   style="
                     padding: 0 24px;
                     font-family: 'Inter', Arial, sans-serif;
@@ -393,32 +282,33 @@
                     line-height: 22.4px;
                   "
                 >
-                  <p>
-                    [branch name]
-                  </p>
-                </td>
-              </tr>
+                  <!-- last paragraph (different padding) -->
 
-               <tr>
-                <td
-                  height="12"
-                  style="
-                    padding: 0 24px;
-                    font-family: 'Inter', Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  "
-                >
-                  <p>
-                    [branch telephone number]
+                  <p style="padding: 12px 0; margin: 0">Dear <strong>[Display Name]</strong>,</p>
+
+                  <p style="padding: 12px 0; margin: 0">
+                    You have recently requested to reset your password.  In order to complete this action please click the following link: 
                   </p>
+
+                  <p style="padding: 12px 0; margin: 0">
+                    <a style="
+                        text-decoration: none;
+                        border-bottom: 1px dotted #000;
+                        color: #000;
+                      " href="[link]">link</a>
+                  </p>
+
+                  <p style="padding: 12px 0; margin: 0">
+                    The reset password link will only be valid for one day. Your existing password will continue to work until you reset the password through the link above.
+                  </p>
+
+                  <p style="padding: 12px 0; margin: 0">Should you need any further assistance please contact the Service Desk on 03700 117 357.</p>
                 </td>
               </tr>
-              
               <tr>
-                <td height="12" style="height: 12px; line-height: 12px"></td>
+                <td height="12"></td>
               </tr>
+              <!--body end-->
               <tr>
                 <td style="padding: 0 18px">
                   <table
@@ -439,19 +329,20 @@
                       <td>
                         <table width="100%" cellpadding="0" cellspacing="0">
                           <tr>
-                            <td style="padding: 16px 18px">
-                              <div style="margin: 0; padding: 0 0">
-                                <span>
-                          This email is intended solely for the person or
+                            <td style="padding: 4px 18px">
+                              <p style="margin: 0; padding: 12px 0">
+                                This email is intended solely for the person or
                                 organisation to which it is addressed. It may
-                                contain privileged and confidential information.<br />
-                                <br />        
+                                contain privileged and confidential information.
+                              </p>
+                              <p style="margin: 0; padding: 12px 0">
                                 If you are not the intended recipient of the
                                 message, please notify the sender immediately
                                 and do not disclose the contents to any other
                                 person, use it for any purpose, or store or copy
-                                the information in any medium.<br />
-                                <br />
+                                the information in any medium.
+                              </p>
+                              <p style="margin: 0; padding: 12px 0">
                                 Internet communications are not secure and
                                 therefore Booker Group Limited and its
                                 subsidiary companies, do not accept legal
@@ -459,8 +350,9 @@
                                 Any views or opinions presented are solely those
                                 of the author and do not necessarily represent
                                 those of Booker Group Limited and its subsidiary
-                                companies, unless otherwise specifically state.<br />
-                                <br />
+                                companies, unless otherwise specifically state.
+                              </p>
+                              <p style="margin: 0; padding: 12px 0">
                                 This e mail is issued by Booker Group Limited
                                 registered number 05145685 (England and Wales)
                                 on behalf of itself and Booker Limited
@@ -470,14 +362,11 @@
                                 4004640 (England and Wales)), all of whose
                                 registered offices are situated at Equity House,
                                 Irthlingborough Road, Wellingborough, Northants,
-                                NN8 1LT.<br />
-                                <br />
-                                If the content of this email is to
+                                NN8 1LT.<br />If the content of this email is to
                                 become contractually binding, it must be made in
                                 writing &amp; signed by a duly authorised
                                 representative of Booker Group Limited.
-                        </span>
-                              </div>
+                              </p>
                             </td>
                           </tr>
                         </table>
@@ -488,16 +377,17 @@
               </tr>
 
               <tr>
-                <td height="24" style="height: 24px; line-height: 24px"></td>
+                <td height="24"></td>
               </tr>
             </table>
           </td>
         </tr>
-        <tr>
-          <td height="24" style="height: 24px; line-height: 24px"></td>
-        </tr>
-        <!-- Email Body : END -->
 
+        <tr>
+          <td height="24"></td>
+        </tr>
+
+        <!-- Email Body : END -->
         <tr>
           <td align="center" valign="top">
             <table
@@ -530,80 +420,79 @@
                     <tr>
                       <td width="18"></td>
                       <td>
-                        <div style="padding: 3px 0">
-                          <p
-                            style="
-                              font-family: 'Inter', Arial, sans-serif;
-                              margin: 0;
-                              font-size: 16px;
-                              line-height: 22.4px;
-                              color: #ffffff;
-                              font-weight: normal;
-                              text-align: left;
-                            "
-                          >
-                            If you have any further questions, please visit our
-                            help section. If you are experiencing any
-                            difficulty, or need assistance with our account you
-                            can call our Website Support Desk on
-                            <strong>0345 602 3108</strong>. Lines are open from
-                            Monday - Sunday 7am to 7pm.
-                          </p>
-                        </div>
-                        <div style="padding: 3px 0">
-                          <p
-                            style="
-                              font-family: 'Inter', Arial, sans-serif;
-                              margin: 0;
-                              font-size: 16px;
-                              line-height: 22.4px;
-                              color: #ffffff;
-                              font-weight: normal;
-                              text-align: left;
-                            "
-                          >
-                            <strong>Send us a message</strong><br />If we can
-                            help or if you think we could be doing something
-                            better we always want to hear from you.
-                          </p>
-                        </div>
-                        <div style="padding: 3px 0">
-                          <p
-                            style="
-                              font-family: 'Inter', Arial, sans-serif;
-                              margin: 0;
-                              font-size: 16px;
-                              line-height: 22.4px;
-                              color: #ffffff;
-                              font-weight: normal;
-                              text-align: left;
-                            "
-                          >
-                            <strong>Postal Address</strong><br />Booker Ltd,
-                            Irthlingborough Road, Wellingborough<br />Northants,
-                            NN8 1LT
-                          </p>
-                        </div>
-                        <div style="padding: 3px 0">
-                          <p
-                            style="
-                              font-family: 'Inter', Arial, sans-serif;
-                              margin: 0;
-                              font-size: 16px;
-                              line-height: 22.4px;
-                              color: #ffffff;
-                              font-weight: normal;
-                              text-align: left;
-                            "
-                          >
-                            <strong>General Enquiries</strong><br />01933 371000
-                          </p>
-                        </div>
+                        <p
+                          style="
+                            font-family: 'Inter', Arial, sans-serif;
+                            margin: 0;
+                            font-size: 16px;
+                            line-height: 22.4px;
+                            color: #ffffff;
+                            font-weight: normal;
+                            text-align: left;
+                            padding: 12px 0;
+                          "
+                        >
+                          If you have any further questions, please visit our
+                          help section. If you are experiencing any difficulty,
+                          or need assistance with our account you can call our
+                          Website Support Desk on
+                          <strong>[venus support number]</strong>. Lines are open from
+                          [venus support lines opening times].
+                        </p>
+                        <p
+                          style="
+                            font-family: 'Inter', Arial, sans-serif;
+                            margin: 0;
+                            font-size: 16px;
+                            line-height: 22.4px;
+                            color: #ffffff;
+                            font-weight: normal;
+                            text-align: left;
+                            padding: 12px 0;
+                          "
+                        >
+                          <strong>Send us a message</strong><br />If we can help
+                          or if you think we could be doing something better we
+                          always want to hear from you.
+                        </p>
+                        <p
+                          style="
+                            font-family: 'Inter', Arial, sans-serif;
+                            margin: 0;
+                            font-size: 16px;
+                            line-height: 22.4px;
+                            color: #ffffff;
+                            font-weight: normal;
+                            text-align: left;
+                            padding: 12px 0;
+                          "
+                        >
+                          <strong>Postal Address</strong><br />Booker Ltd,
+                          Irthlingborough Road, Wellingborough<br />Northants,
+                          NN8 1LT
+                        </p>
+                        <p
+                          style="
+                            font-family: 'Inter', Arial, sans-serif;
+                            margin: 0;
+                            font-size: 16px;
+                            line-height: 22.4px;
+                            color: #ffffff;
+                            font-weight: normal;
+                            text-align: left;
+                            padding: 12px 0;
+                          "
+                        >
+                          <strong>General Enquiries</strong><br />[venus general enquires number]
+                        </p>
                       </td>
                       <td width="18"></td>
                     </tr>
                   </table>
                 </td>
+              </tr>
+              <tr>
+                <td height="20"></td>
               </tr>
               <tr>
                 <td>
@@ -660,7 +549,7 @@
                             padding: 0;
                           "
                         >
-                          &copy; Booker 2025
+                          &copy; Venus 2025
                         </p>
                       </td>
                       <td width="18"></td>
@@ -684,7 +573,8 @@
                     <tr>
                       <td width="18"></td>
                       <td>
-                        <a href="https://x.com"
+                        <a
+                          href="https://x.com"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/4d777a7e-d674-4946-987a-6d256d985bcc.jpg?parcelPath=/images/x.jpg"
                             height="24"
@@ -692,9 +582,11 @@
                             style="
                               display: inline-block;
                               vertical-align: middle;
-                            " /></a
-                        >&nbsp;&nbsp;&nbsp;
-                        <a href="https://facebook.com"
+                              margin-right: 10px;
+                              mso-padding-right-alt: 10px;
+                            "
+                        /></a>
+                        <a href="https://facebook.com/"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/314f872f-dd71-4019-9858-e28ea460c756.jpg?parcelPath=/images/facebook.jpg"
                             height="24"
@@ -702,8 +594,12 @@
                             style="
                               display: inline-block;
                               vertical-align: middle;
-                            " /></a
-                        >&nbsp;&nbsp;&nbsp;
+                              margin-right: 10px;
+                              margin-left: 10px;
+                              mso-padding-right-alt: 10px;
+                              mso-padding-left-alt: 10px;
+                            "
+                        /></a>
                         <a href="https://instagram.com"
                           ><img
                             src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/cfe685f4-50d9-4d91-abac-566850469e12.jpg?parcelPath=/images/instagram.jpg"
@@ -712,15 +608,19 @@
                             style="
                               display: inline-block;
                               vertical-align: middle;
+                              margin-right: 10px;
+                              margin-left: 10px;
+                              mso-padding-right-alt: 10px;
+                              mso-padding-left-alt: 10px;
                             "
                         /></a>
+                        
                       </td>
                       <td align="right">
                         <a href="https://www.booker.co.uk/"
                           ><img
-                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/f4e1728d-f0c8-4ae7-872a-02e25b992dfb.jpg?parcelPath=/images/Logo-footer.jpg"
-                            height="20"
-                            width="120"
+                            src="https://raw.githubusercontent.com/kkhs2/php-email-tester/main/public/assets/venus-logo.png"
+                            
                             border="0"
                         /></a>
                       </td>
