@@ -36,12 +36,10 @@ require '../vendor/autoload.php';
 $mail = new PHPMailer(true);
 
 try {
-    $dir = __DIR__ . '/../templates/emails/venus/order';
+    $dir = __DIR__ . '/../templates/emails';
     $emails = scandir($dir);
     foreach ($emails as $email) {
-      //if (substr($email, -5) == '.html') {
-
-      if ($email == 'E108A.html') {
+      if (substr($email, -5) == '.html') {
        
         $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
