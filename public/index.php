@@ -52,10 +52,9 @@ try {
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('noreply@bookertest.co.uk', 'Venus UAT');
-    //$mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-    //$mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
-    $mail->addAddress('kenneth.shum@booker.co.uk');
+    $mail->setFrom('noreply@bookertest.co.uk', 'Booker UAT');
+    $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
+    $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
     //$mail->addAddress('websiteuat@booker.co.uk');
     $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
     //$mail->addCC('cc@example.com');
