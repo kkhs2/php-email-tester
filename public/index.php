@@ -70,7 +70,7 @@ function sendEmail($path, $type)
   }
 }
 
-$emailDirectory = new RecursiveDirectoryIterator(__DIR__ . '/../templates/emails/venus');
+$emailDirectory = new RecursiveDirectoryIterator(__DIR__ . '/../templates/emails/booker');
 
 foreach (new RecursiveIteratorIterator($emailDirectory) as $file) {
   if ($file->getExtension() == 'html') {
