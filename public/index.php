@@ -36,6 +36,7 @@ require '../vendor/autoload.php';
 function sendEmail($path, $type)
 {
   try {
+    print_r($type); die();
     $fileName = pathinfo($path)['basename'];
     $mail = new PHPMailer(true);
     $mail->isSMTP();
