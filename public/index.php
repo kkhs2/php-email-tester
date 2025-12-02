@@ -82,9 +82,9 @@ foreach (new RecursiveIteratorIterator($emailDirectory) as $file) {
       $type = 'venus';
     }
 
-    //if ($type !== '') {
-    if (pathinfo($file)['basename'] == 'E108A.html.php') {  
-      //sendEmail($file, $type);
+    if ($type !== '') {
+    //if (pathinfo($file)['basename'] == 'E108A.html') {  
+      sendEmail($file, $type);
     }
   }
 }
