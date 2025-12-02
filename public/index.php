@@ -78,11 +78,11 @@ foreach (new RecursiveIteratorIterator($emailDirectory) as $file) {
     if (str_contains($path, "booker")) {
       $type = 'booker';
     } 
-    elseif (str_contains($path, "venus")) {
+    if (str_contains($path, "venus")) {
       $type = 'venus';
     }
 
-    if (type !== '') {  
+    if ($type !== '') {  
       sendEmail($file, $type);
     }
   }
