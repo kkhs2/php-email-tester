@@ -78,7 +78,7 @@ foreach (new RecursiveIteratorIterator($emailDirectory) as $file) {
     if (str_contains($path, "booker")) {
       $type = 'booker';
     } 
-    if (str_contains($path, "venus")) {
+    elseif (str_contains($path, "venus")) {
       $type = 'venus';
     }
 
