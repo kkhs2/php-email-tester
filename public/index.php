@@ -82,10 +82,11 @@ foreach (new RecursiveIteratorIterator($emailDirectory) as $file) {
       $type = 'venus';
     }
 
-    print_r($type); die();
+    print_r($type . ' - ' . $file);
+    
 
     if ($type !== '') {  
-      sendEmail($file, $type);
+     // sendEmail($file, $type);
     }
   }
 }
