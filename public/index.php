@@ -60,7 +60,7 @@ function sendEmail($path, $type)
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = $fileName;
+    $mail->Subject = $type . ' - ' . $fileName;
     $mail->Body = file_get_contents($path);
     $mail->send();
     echo $type . " " . $fileName . " has been sent <br />";
