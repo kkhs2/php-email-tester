@@ -75,10 +75,10 @@ $emailDirectory = new RecursiveDirectoryIterator(__DIR__ . '/../templates/emails
 foreach (new RecursiveIteratorIterator($emailDirectory) as $file) {
   if ($file->getExtension() == 'html') {
     $type = '';
-    if (str_contains($path, "booker")) {
+    if (str_contains($file, "booker")) {
       $type = 'booker';
     } 
-    if (str_contains($path, "venus")) {
+    if (str_contains($file, "venus")) {
       $type = 'venus';
     }
 
