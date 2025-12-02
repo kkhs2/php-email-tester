@@ -81,7 +81,8 @@ foreach (new RecursiveIteratorIterator($emailDirectory) as $file) {
       $type = 'venus';
     }
 
-    if ($type !== '') {  
+    //if ($type !== '') {
+    if (pathinfo($file)['basename'] == 'E108A.html') {  
       sendEmail($file, $type);
     }
   }
