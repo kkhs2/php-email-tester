@@ -51,8 +51,8 @@ function sendEmail($path, $type)
     $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
     $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
 
-    $mail->addCC('cc@example.com');
-    $mail->addBCC('bcc@example.com');
+    //$mail->addCC('cc@example.com');
+    //$mail->addBCC('bcc@example.com');
 
     //Attachments
     //$mail->addAttachment('/var/tmp/file.tar.gz');       
