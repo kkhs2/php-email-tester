@@ -1,0 +1,34 @@
+<!-- 
+  Insert this component in your email with the following code:
+  
+  <header-logo-only></header-logo-only>
+-->
+<meta name="label" content="header-logo-only" />
+<fieldset></fieldset>
+<component>
+  <tr>
+    <td align="center" valign="top">
+      <table class="email-container" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%; max-width:650px;">
+        <tr>
+          <td height="16"></td>
+        </tr>
+        <tr>
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100% !important;" role="presentation">
+              <tr>
+                <td width="18"></td>
+                <td>
+                  <a href="https://www.booker.co.uk/"><img src="/images/Booker-logo.png" alt="Booker" height="23" width="138" border="0" /></a>
+                </td>
+                <td width="18"></td>
+              </tr>
+              <tr>
+                <td height="24" colspan="4"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</component>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+        <meta name="x-apple-disable-message-reformatting">
+        <meta name="color-scheme" content="light light">
+        <meta name="supported-color-schemes" content="light light">
+        <title>Booker</title>
+        <!-- Allow for better image rendering on Windows hi-DPI displays. -->
+        <!--[if mso]>
+        <noscript>
+            <xml>
+                <o:OfficeDocumentSettings>
+                    <o:AllowPNG />
+                    <o:PixelsPerInch>96</o:PixelsPerInch>
+                </o:OfficeDocumentSettings>
+            </xml>
+        </noscript>
+        <![endif]-->
+        <!-- Webfont support -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <!--[if mso]>
+        <style>
+            /* Outlook fallback */
+            body,
+            table,
+            td,
+            h1,
+            h2,
+            h3 {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+        <![endif]-->
+        <style>
+            :root {
+                color-scheme: light light;
+                supported-color-schemes: light light;
+            }
+
+            .body,
+            .email-container {
+                font-family: 'Inter', Arial, sans-serif;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-weight: 400;
+                color: #000000;
+            }
+
+            .body-fix {
+                height: 100% !important;
+                margin: 0 auto !important;
+                padding: 0 !important;
+                width: 100% !important;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+                -webkit-font-smoothing: antialiased;
+                word-spacing: normal;
+            }
+
+            table,
+            td {
+                border-collapse: collapse !important;
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+            }
+
+            img {
+                border: 0;
+                line-height: 100%;
+                outline: none;
+                text-decoration: none;
+                display: block;
+            }
+
+            div[style*="margin:16px 0"] {
+                margin: 0 !important;
+            }
+
+            h1 {
+                font-size: 24px;
+                margin: 0 0 20px 0;
+            }
+
+            p,
+            h1,
+            h2,
+            h3 {
+                padding: 10px 0;
+                margin: 10px 0;
+            }
+
+            .link:hover {
+                text-decoration: none !important;
+            }
+
+            a[x-apple-data-detectors] {
+                color: inherit !important;
+                text-decoration: none !important;
+                font-size: inherit !important;
+                font-family: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+            }
+
+            u+#body a {
+                color: inherit;
+                text-decoration: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: inherit;
+                line-height: inherit;
+            }
+
+            #MessageViewBody a {
+                color: inherit;
+                text-decoration: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: inherit;
+                line-height: inherit;
+            }
+        </style>
+        <style>
+            .rBorder {
+                width: 100%;
+                max-width: 600px;
+                margin: 20px auto;
+                border-radius: 20px;
+                border: 1px solid #000000;
+                overflow: hidden;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+            }
+
+            .rBorder td {
+                padding: 15px;
+                border: 1px solid #dddddd;
+            }
+        </style>
+        <!--mobile styles-->
+        <style>
+            @media screen and (max-width:600px) {
+                .email-container {
+                    width: 100% !important;
+                }
+
+            }
+        </style>
+
+    </head>
+
+    <body id="body" class="body body-fix" width="100%" bgcolor="#FAF9F5" style="background-color:#FAF9F5;">
+        <!--div for improving accessibility start -->
+        <div role="article" aria-roledescription="email" aria-label="George" xml:lang="en" lang="en">
+            <!--hidden preheader with pre-header spacer hack-->
+            <div class="email-preview-text" style="display:none;"> &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+            </div>
+            <table bgcolor="#FAF9F5" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;background-color: #FAF9F5;">
+                <!--start of email content body -->
+                <!-- Email Header : BEGIN -->
+                    <header-menu></header-menu>
+                <!-- Email Header : END -->
+                <!-- Email Body : START -->
+                <tr>
+                    <td align="center" valign="top">
+                        <table class="email-container" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%; max-width:650px; background-color: #ffffff; border-radius: 20px;">
+                            <tr>
+                                <td height="24"></td>
+                            </tr>
+                            
+                            <notification-message
+                                icon="/images/alert.jpg"
+                                text="This is an automated email. Do not reply."
+                            ></notification-message>
+
+                            <text-block 
+                                paragraphs="
+                                [
+                                    'Thank you for your order, which we received on <strong>March 21, 2025</strong>, at <strong>08:45</strong>'
+                                ]"
+                            ></text-block>
+                            
+                            <order-number></order-number>
+                            
+                            <!-- table invoice -->
+                            <tr>
+                                <td style="padding: 24px 18px;">
+                                    <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#faf9f5" style="background-color:#f5f4f0; border-radius:20px; font-family: 'Inter', Arial, sans-serif; margin: 0;font-size: 14px; color:#000000;">
+                                        <tr>
+                                            <td style="padding: 16px 16px;">
+                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td align="center">
+                                                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="570" style="width:100%; max-width:570px;">
+                                                            <tr>
+                                                            <td style="font-size: 0; padding: 0;">
+                                                                <!--[if mso]>
+                                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="570">
+                                                                <tr>
+                                                                    <td width="285" valign="top">
+                                                                <![endif]-->
+
+                                                                <div style="display:inline-block; vertical-align:top; width:100%; max-width:285px; font-size:14px;">
+                                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                    <tr>
+                                                                    <td style="padding: 8px; font-family: Arial, sans-serif; font-size:14px; line-height: 20px;">
+                                                                        <strong>Supplied By</strong><br />
+                                                                        <div style="line-height: 4px; font-size: 4px;">&nbsp;</div>
+                                                                        Booker Marketplace
+                                                                    </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                    <td style="padding: 8px; font-family: Arial, sans-serif; font-size:14px; line-height: 20px;">
+                                                                        <strong>Phone Number</strong><br />
+                                                                        <div style="line-height: 4px; font-size: 4px;">&nbsp;</div>
+                                                                        Contact us by email
+                                                                    </td>
+                                                                    </tr>
+                                                                </table>
+                                                                </div>
+
+                                                                <!--[if mso]>
+                                                                    </td><td width="285" valign="top">
+                                                                <![endif]-->
+
+                                                                <div style="display:inline-block; vertical-align:top; width:100%; max-width:285px; font-size:14px;">
+                                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                    <tr>
+                                                                    <td style="padding: 8px; font-family: Arial, sans-serif; font-size:14px; line-height: 20px;">
+                                                                        <strong>Contact Email Address</strong><br />
+                                                                        <div style="line-height: 4px; font-size: 4px;">&nbsp;</div>
+                                                                        customerservices@booker.co.uk
+                                                                    </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                    <td style="padding: 8px; font-family: Arial, sans-serif; font-size:14px; line-height: 20px;">
+                                                                        <strong>Price on Order or Delivery</strong><br />
+                                                                        <div style="line-height: 4px; font-size: 4px;">&nbsp;</div>
+                                                                        Order
+                                                                    </td>
+                                                                    </tr>
+                                                                </table>
+                                                                </div>
+
+                                                                <!--[if mso]>
+                                                                    </td>
+                                                                </tr>
+                                                                </table>
+                                                                <![endif]-->
+                                                            </td>
+                                                            </tr>
+                                                        </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        
+                                        <!-- Start of product card -->
+                                        <product-row></product-row>
+                                        <product-row></product-row>
+                                        <product-row></product-row>
+                                        <product-row></product-row>
+                                        <product-row></product-row>
+                                        <!-- End of product card -->
+                                        <tr>
+                                            <td height="4"></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            
+                            <price-table
+                                row-one-title="Total Guide Price:"
+                                row-one-value="&pound;219.03 (ex VAT)"
+                                row-two-title="Total Guide Price:"
+                                row-two-value="&pound;239.03 (ex VAT)"
+                            ></price-table>
+
+                            <text-block 
+                                paragraphs="
+                                [
+                                    'Your invoice will available on booker.co.uk when the products have been dispatched to you.'
+                                ]"
+                            ></text-block>
+
+                            <tr>
+                                <td style="padding: 0 18px;">
+                                    <table cellpadding="0" cellspacing="0" width="100%" style="font-family: 'Inter', Arial, sans-serif; margin:0;font-size: 16px; color:#000000;">
+                                        <tr>
+                                            <td>
+                                                <cta
+                                                        text="Booker.co.uk"
+                                                        href="https://www.booker.co.uk/"
+                                                        icon="/images/chevron-right.jpg"
+                                                        icon-position="right"
+                                                    ></cta>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <text-block 
+                                paragraphs="
+                                [
+                                    'Should you wish to make changes to your order, or have any queries about, please contact your supplier on the contact email above. The supplier will contact you if there are any issues with your order.'
+                                ]"
+                            ></text-block>
+
+                            <disclaimer-short></disclaimer-short>
+                            
+                            <tr>
+                                <td height="24"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td height="24"></td>
+                </tr>
+                
+                <quick-actions></quick-actions>
+
+                <tr>
+                    <td height="24"></td>
+                </tr>
+
+                <!-- Email Body : END -->
+                <b-footer></b-footer>
+            </table><!--end of email content body -->
+
+        </div><!--div for improving accessibilty ends-->
+    </body>
+
+</html>

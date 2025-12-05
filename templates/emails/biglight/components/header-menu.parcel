@@ -1,0 +1,53 @@
+<!-- 
+  Insert this component in your email with the following code:
+  
+  <header-menu></header-menu>
+-->
+<meta name="label" content="header-menu" />
+<fieldset></fieldset>
+<component>
+  <tr>
+    <td align="center" valign="top">
+      <table class="email-container" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%; max-width:650px;">
+        <tr>
+          <td height="16"></td>
+        </tr>
+        <tr>
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="width: 100% !important;" role="presentation">
+              <tr>
+                <td width="18"></td>
+                <td>
+                  <a href="https://www.booker.co.uk/"><img src="/images/Booker-logo.png" alt="Booker" height="23" width="138" border="0" /></a>
+                </td>
+                <td align="right">
+                  <!--CTA-->
+                  <cta
+                    text="My Account"
+                    href="https://www.booker.co.uk/"
+                    icon="/images/Icon-left.jpg"
+                    icon-position="left"
+                  ></cta>
+                </td>
+                <td width="18"></td>
+              </tr>
+              <tr>
+                <td height="28" colspan="4"></td>
+              </tr>
+              <tr>
+                <td colspan="4">
+                  <a href="#" style="font-family: 'Inter', Arial, sans-serif; margin: 0;font-size: 16px; line-height: 22.4px; color: #000000; text-decoration: none; font-weight: 500; display: inline-block; padding-right:10px; padding-left:18px;">What's new</a>
+                  <a href="#" style="font-family: 'Inter', Arial, sans-serif; margin: 0;font-size: 16px; line-height: 22.4px; color: #000000; text-decoration: none; font-weight: 500;padding: 0 10px;">Offers</a>
+                  <a href="#" style="font-family: 'Inter', Arial, sans-serif; margin: 0;font-size: 16px; line-height: 22.4px; color: #000000; text-decoration: none; font-weight: 500;padding: 0 10px;">Help &amp; Support</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td height="24"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</component>

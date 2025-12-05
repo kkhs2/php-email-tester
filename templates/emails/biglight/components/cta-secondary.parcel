@@ -1,0 +1,37 @@
+<!-- 
+  Insert this component in your email with the following code:
+  
+  <cta-secondary></cta-secondary>
+-->
+<meta name="label" content="cta-secondary" />
+<fieldset>
+  <input type="text" name="text"/>
+  <input type="text" name="href"/>
+  <input type="text" name="icon"/>
+  <input type="text" name="icon-position"/>
+</fieldset>
+<component>
+  <!-- left icon -->
+  <a if="iconPosition === 'left'" set:href class="cta" style="background-color: #1FCEB5; font-size: 14px; font-family: 'Inter', Arial, sans-serif; font-weight:500; text-decoration: none; padding: 10.5px 18px 10.5px 16px; color: #000000; display:inline-block; mso-padding-alt:0; border-radius: 120px; border: 1.5px solid #1FCEB5; line-height: 1;">
+      <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]-->
+      <span style="mso-text-raise:15pt;">
+          <span class="gmail-screen">
+            <img if="iconPosition === 'left'" set:src="icon" height="12" width="12" alt="" style="display: inline-block; vertical-align: middle; margin-right: 8px;" />
+            <span class="gmail-difference" style="vertical-align: middle;">${text}</span>
+          </span>
+      </span>
+      <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]-->
+  </a>
+
+  <!-- right icon -->
+  <a if="iconPosition === 'right'" set:href class="cta" style="background-color: #1FCEB5; font-size: 14px; font-family: 'Inter', Arial, sans-serif; font-weight:500; text-decoration: none; padding: 10.5px 16px 10.5px 18px; color: #000000; display:inline-block; mso-padding-alt:0; border-radius: 120px; border: 1.5px solid #1FCEB5; line-height: 1;">
+      <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%;mso-text-raise:30pt">&nbsp;</i><![endif]-->
+      <span style="mso-text-raise:15pt;">
+          <span class="gmail-screen">
+            <span class="gmail-difference" style="vertical-align: middle;">${text}</span>
+            <img if="iconPosition === 'right'" set:src="icon" height="12" width="12" alt="" style="display: inline-block; vertical-align: middle; margin-left: 8px;" />
+          </span>
+      </span>
+      <!--[if mso]><i style="letter-spacing: 25px;mso-font-width:-100%">&nbsp;</i><![endif]-->
+  </a>
+</component>

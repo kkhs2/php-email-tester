@@ -1,0 +1,64 @@
+<!-- 
+  Insert this component in your email with the following code:
+  
+  <quick-actions></quick-actions>
+-->
+<meta name="label" content="quick-actions" />
+<fieldset></fieldset>
+<component>
+  <tr>
+    <td align="center" valign="top">
+      <table class="email-container" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%; max-width:650px; background-color: #FAF9F5;">
+        <tr>
+          <td style="padding: 0 18px;">
+            <table role="presentation" cellpadding="0" cellspacing="0" width="100%" align="center">
+              <tr>
+                <!-- Box 1 -->
+                <td align="center" valign="top" style="width: 33.33%; padding: 0 5px;">
+                  <a href="https://www.booker.co.uk/" target="_blank" style="text-decoration: none; display: block;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background-color: #FF480C; border-radius: 12px;max-height: 84px;">
+                      <tr>
+                        <td align="left" style="padding: 12px;">
+                          <img src="/images/smartphone.png" alt="App Icon" width="24" height="24" style="display: block; margin-bottom: 8px;">
+                          <span style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;">Download our app</span>
+                        </td>
+                      </tr>
+                    </table>
+                  </a>
+                </td>
+
+                <!-- Box 2 -->
+                <td align="center" valign="top" style="width: 33.33%; padding: 0 5px;">
+                  <a href="https://www.booker.co.uk/" target="_blank" style="text-decoration: none; display: block;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background-color: #FF480C; border-radius: 12px;max-height: 84px;">
+                      <tr>
+                        <td align="left" style="padding: 12px;">
+                          <img src="/images/Map-icon.png" alt="Location Icon" width="24" height="24" style="display: block; margin-bottom: 8px;">
+                          <span style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;">My local branch</span>
+                        </td>
+                      </tr>
+                    </table>
+                  </a>
+                </td>
+
+                <!-- Box 3 -->
+                <td align="center" valign="top" style="width: 33.33%; padding: 0 5px;">
+                  <a href="https://www.booker.co.uk/" target="_blank" style="text-decoration: none; display: block;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background-color: #FF480C; border-radius: 12px; max-height: 84px;">
+                      <tr>
+                        <td align="left" style="padding: 12px;">
+                          <img src="//images/message-icon.png" alt="Feedback Icon" width="24" height="24" style="display: block; margin-bottom: 8px;">
+                          <span style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;">Send us feedback</span>
+                        </td>
+                      </tr>
+                    </table>
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+</tr>
+</component>

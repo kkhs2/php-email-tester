@@ -1,0 +1,17 @@
+<!-- 
+  Insert this component in your email with the following code:
+  
+  <notification-message></notification-message>
+-->
+<meta name="label" content="notification-message" />
+<fieldset>
+  <input type="text" name="icon"/>
+  <input type="text" name="text"/>
+</fieldset>
+<component>
+  <tr>
+    <td>
+      <p style="font-size:14px; line-height: 1.4; font-weight: 400; background-color: #f5f4f0;border-radius: 20px; padding: 12px 16px; margin:0 18px;"><img if="icon" set:src="icon" height="16" width="16" style="display: inline-block; vertical-align: middle; margin-right: 8px;" />${text}</p>
+    </td>
+  </tr>
+</component>
