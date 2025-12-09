@@ -38,17 +38,16 @@
 
     <p>
       If you have any enquiries about payment or delivery please contact Customer Services on <?php if ($type == 'venus'): ?> {customer services number} {customer services opening times}<?php else: ?>0800 298 0758, open 6am - 9pm, Monday to Saturday, and Sunday 6am - 2pm<?php endif ?>.  Alternatively e-mail us at <!--[if mso]>
-                        <a
-                          href="mailto:<?php if ($type == 'venus'): ?>{venus enquiries email}<?php else: ?>enquiries@bookerretail.co.uk<?php endif ?> style="text-decoration: underline; color: #000"
+                        <a style="text-decoration: underline; color: #000000; font-weight: 700;"
+                          href="mailto:<?php if ($type == 'venus'): ?>{venus enquiries email}<?php else: ?>enquiries@bookerretail.co.uk<?php endif ?> 
                           ><?php if ($type == 'venus'): ?>{venus enquiries email}<?php else: ?>enquiries@bookerretail.co.uk<?php endif ?></a
                         >.
                       <![endif]-->
 					  <!--[if !mso> <!-->
-					  <a href="mailto:<?php if ($type == 'venus'): ?>{venus enquiries email}<?php else: ?>enquiries@bookerretail.co.uk<?php endif ?>" style="
-                          text-decoration: none;
-                          border-bottom: 1px dotted #000;
-                          color: #000;
-                        "><?php if ($type == 'venus'): ?>{venus enquiries email}<?php else: ?>enquiries@bookerretail.co.uk<?php endif ?></a>.
+					  <a style="text-decoration: underline; font-weight: 700;
+                          border-bottom: 1px dotted #000000;
+                          color: #000000;
+                        " href="mailto:<?php if ($type == 'venus'): ?>{venus enquiries email}<?php else: ?>enquiries@bookerretail.co.uk<?php endif ?>"><?php if ($type == 'venus'): ?>{venus enquiries email}<?php else: ?>enquiries@bookerretail.co.uk<?php endif ?></a>.
 						<!--<![endif]-->
     </p>
   </td>
