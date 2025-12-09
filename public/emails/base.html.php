@@ -232,7 +232,7 @@
                       <?php if ($type == 'venus'): ?>
                         <a href="https://www.venusltd.co.uk/"
                           ><img
-                            src="https://raw.githubusercontent.com/kkhs2/php-email-tester/main/public/assets/venus-logo.png"
+                            src="https://www.booker.co.uk/content/emails/icon/email-venus-logo.png"
                             alt="Venus"
                             
                             width="165"
@@ -310,7 +310,7 @@
                               vertical-align: middle;
                               margin-right: 8px;
                             "
-                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/93b91843-6827-47e9-90f6-85b2ffb22f35.jpg?parcelPath=/images/alert.jpg"
+                            src="https://www.booker.co.uk/content/emails/icon/email-alert.jpg"
                           /><!--<!
                           [endif]--><span
                             >This is an automated email. Please do not reply.</span
@@ -568,7 +568,7 @@ London N17 0UT<?php else: ?>Booker Ltd,
                         <a
                           href="https://x.com/i/flow/login?redirect_after_login=%2FBookerCatering"
                           ><img
-                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/4d777a7e-d674-4946-987a-6d256d985bcc.jpg?parcelPath=/images/x.jpg"
+                            src="https://www.booker.co.uk/content/emails/icon/email-x.jpg"
                             height="24"
                             width="24"
                             style="
@@ -580,7 +580,7 @@ London N17 0UT<?php else: ?>Booker Ltd,
                         /></a><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->
                         <a href="link"
                           ><img
-                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/314f872f-dd71-4019-9858-e28ea460c756.jpg?parcelPath=/images/facebook.jpg"
+                            src="https://www.booker.co.uk/content/emails/icon/email-facebook.jpg"
                             height="24"
                             width="24"
                             style="
@@ -594,7 +594,7 @@ London N17 0UT<?php else: ?>Booker Ltd,
                         /></a><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->
                         <a href="link"
                           ><img
-                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/cfe685f4-50d9-4d91-abac-566850469e12.jpg?parcelPath=/images/instagram.jpg"
+                            src="https://www.booker.co.uk/content/emails/icon/email-instagram.jpg"
                             height="24"
                             width="24"
                             style="
@@ -611,7 +611,7 @@ London N17 0UT<?php else: ?>Booker Ltd,
                         <?php if ($type == 'venus'): ?>
                           <a href="https://www.venusltd.co.uk/"
                           ><img
-                            src="https://raw.githubusercontent.com/kkhs2/php-email-tester/main/public/assets/venus-logo.png"
+                            src="https://www.booker.co.uk/content/emails/icon/email-venus-logo.png"
                             width="165"
                             border="0"
                         /></a>

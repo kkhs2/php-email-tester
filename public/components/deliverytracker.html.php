@@ -84,7 +84,7 @@
                       vertical-align: middle;
                       margin-right: 8px;
                     "
-                    src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/b9924bc1-e750-4740-a198-c5900534e02b.png?parcelPath=/images/link-left.png"
+                    src="https://www.booker.co.uk/content/emails/icon/email-left.png"
                   />
                   <span class="gmail-difference" style="vertical-align: middle"
                     >Your unique link</span
@@ -122,7 +122,7 @@
           </td>
           <td align="right" valign="top" style="padding: 16px 16px">
             <img
-              src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/bdf0469b-dc0d-44db-81de-79e9f1455231.png?parcelPath=/images/QR.png"
+              src="https://www.booker.co.uk/content/emails/icon/email-qrcode.png"
               alt="bookmark"
               width="107"
               height="108"

@@ -33,7 +33,7 @@
           </td>
           <td align="right" valign="top" style="padding: 12px 12px 0 0">
             <img
-              src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/82bd3d45-18ac-4835-8aeb-7e8e70f67cb3.png?parcelPath=/images/profile.png"
+              src="https://www.booker.co.uk/content/emails/icon/decoration.png"
               alt="bookmark" width="65" height="65" style="display: block">
           </td>
         </tr>
