@@ -2,14 +2,7 @@
 
 <?php include '../components/dearcustomer.html.php' ?>
 <tr>
-  <td
-    style="
-                    padding: 0 24px;
-                    font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
+  <?php include '../components/tdstyle.html.php' ?>
 
     <p>
       Thank you for placing an order on <?php include '../components/mainlink.html.php' ?>, which was received on <strong>{ORDERDATE}</strong> at <strong>{ORDERTIME}</strong>.
@@ -20,16 +13,8 @@
 <?php include '../components/ordernumber.html.php' ?>
 <?php include '../components/smallheight.html.php' ?>
 <tr>
-  <td
-    style="
-                    padding: 0 24px;
-                    font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
-
-    <p style="padding: 12px 0; margin: 0">
+  <?php include '../components/tdstyle.html.php' ?>
+    <p>
       <b><u>Marketplace</u></b>
     </p>
   </td>
