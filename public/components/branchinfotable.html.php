@@ -60,7 +60,7 @@
                                     <td
                                       style="
                                         padding: 8px;
-                                        font-family: Arial, sans-serif;
+                                        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">
@@ -79,11 +79,17 @@
                                     <td
                                       style="
                                         padding: 8px;
-                                        font-family: Arial, sans-serif;
+                                        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">
+                                      <!--[if mso]>
                                       <span>
+                                        <strong style="font-weight: 700">{ branch phone number }</strong>
+                                      </span>
+                                      <![endif]-->
+                                      <!--[if !mso><!-->
+                                         <span>
                                         <img
                                           src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/0194b7c1-1426-42ff-934e-d6c9c180ada5.jpg?parcelPath=/images/mail.jpg"
                                           height="16"
@@ -96,16 +102,29 @@
                                           " />
                                         <strong style="font-weight: 700">{ branch phone number }</strong>
                                       </span>
+                                      <!--<![endif]-->
                                     </td>
                                   </tr>
                                   <tr>
                                     <td
                                       style="
                                         padding: 8px;
-                                        font-family: Arial, sans-serif;
+                                        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">
+                                      <!--[if mso]>
+                                        <span>
+                                        
+                                        <a
+                                          href="mailto:[manager email address]"
+                                          style="
+                                            text-decoration: underline;
+                                            color: #000000;
+                                          "><strong style="font-weight: 700">{ manager email address }</strong></a>
+                                      </span>
+                                      <![endif]-->
+                                      <!--[if !mso><!-->
                                       <span>
                                         <img
                                           src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/0194b7c1-1426-42ff-934e-d6c9c180ada5.jpg?parcelPath=/images/mail.jpg"
@@ -124,6 +143,7 @@
                                             color: #000000;
                                           "><strong style="font-weight: 700">{ manager email address }</strong></a>
                                       </span>
+                                      <!--<![endif]-->
                                     </td>
                                   </tr>
                                 </tbody>

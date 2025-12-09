@@ -56,7 +56,7 @@
                             <td
                               style="
                                 padding: 8px;
-                                font-family: Arial, sans-serif;
+                                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
                                 font-size: 14px;
                                 line-height: 20px;
                               ">
@@ -71,7 +71,7 @@
                             <td
                               style="
                                 padding: 8px;
-                                font-family: Arial, sans-serif;
+                                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
                                 font-size: 14px;
                                 line-height: 20px;
                               ">
@@ -107,7 +107,7 @@
                             <td
                               style="
                                 padding: 8px;
-                                font-family: Arial, sans-serif;
+                                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
                                 font-size: 14px;
                                 line-height: 20px;
                               ">
@@ -122,7 +122,7 @@
                             <td
                               style="
                                 padding: 8px;
-                                font-family: Arial, sans-serif;
+                                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
                                 font-size: 14px;
                                 line-height: 20px;
                               ">

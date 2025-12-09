@@ -26,7 +26,7 @@
                             line-height: 21px;
                           ">
             <tr>
-              <td style="padding: 16px">
+              <td style="padding: 16px; font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;">
                 <table cellpadding="0" cellspacing="0" width="100%" style="font-size: 14px; line-height: 21px">
                   <tr>
                     <td colspan="4" style="padding-bottom: 12px">
@@ -45,13 +45,13 @@
                   <tr>
                     <td height="12"></td>
                   </tr>
-                  <tr style="font-weight: bold">
+                  <tr style="font-weight: bold; font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;">
                     <td><strong>Code</strong></td>
                     <td><strong>Pack Size</strong></td>
                     <td><strong>Size</strong></td>
                     <td><strong>Quantity</strong></td>
                   </tr>
-                  <tr>
+                  <tr style="font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;">
                     <td>[product code]</td>
                     <td>[pack size]</td>
                     <td>[size]</td>

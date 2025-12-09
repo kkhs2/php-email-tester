@@ -61,7 +61,7 @@
 
       .body,
       .email-container {
-        font-family: <?php if ($type == 'venus'): ?> <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?> <?php else: ?> Open Sans' <?php endif ?>, Arial, sans-serif;
+        font-family: <?php if ($type == 'venus'): ?> <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?> <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
         font-weight: 400;
@@ -300,7 +300,7 @@
                   >
                     <tbody>
                       <tr>
-                        <td style="padding: 12px 18px">
+                        <td style="padding: 12px 18px; font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;">
                           <!--[if !mso
                           ]><!--><img
                             height="16"
@@ -353,8 +353,7 @@
                       <td>
                         <table width="100%" cellpadding="0" cellspacing="0">
                           <tr>
-                            <td style="padding: 16px 18px">
-                              <div style="margin: 0; padding: 0 0">
+                            <td style="padding: 16px 18px; font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;">
                                 <span>
                                   This email is intended solely for the person
                                   or organisation to which it is addressed. It
@@ -393,7 +392,7 @@
                                   writing &amp; signed by a duly authorised
                                   representative of Booker Group Limited.
                                 </span>
-                              </div>
+                       
                             </td>
                           </tr>
                         </table>

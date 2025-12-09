@@ -108,8 +108,8 @@
               "
               href="{hashed customer number and tracktag URL}"
             >
-              
-              <span style="mso-text-raise: 15pt">
+              <br />
+              <span style="mso-text-raise: 15pt;margin-top:18px;font-weight:bold;text-decoration:underline;">
                 <span class="gmail-screen">
                   <span class="gmail-difference" style="vertical-align: middle"
                     >Your unique link</span
@@ -136,13 +136,7 @@
 </tr>
 <?php include "../components/smallheight.html.php" ?>
 <tr>
-  <td style="
-                    padding: 0 24px;
-                    font-family: Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
+  <?php include '../components/tdstyle.html.php' ?>
 
     <p>Scan this code, unique to your account, to see real-time
       delivery statuses and estimated delivery times without the
@@ -150,26 +144,14 @@
   </td>
 </tr>
 <tr>
-  <td style="
-                    padding: 0 24px;
-                    font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
+  <?php include '../components/tdstyle.html.php' ?>
     <p>You can also download a poster which includes this code
       by logging into venusltd.co.uk and visiting the My Account
       page.</p>
   </td>
 </tr>
 <tr>
-  <td style="
-                    padding: 0 24px;
-                    font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
+  <?php include '../components/tdstyle.html.php' ?>
     <p>This poster could be displayed in your store, giving
       colleagues easy access to the Delivery Tracker.</p>
   </td>
