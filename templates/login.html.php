@@ -1,3 +1,6 @@
+<?php
+ob_start();
+?>
 
 <form class="max-w-sm mx-auto">
   <div class="mb-5">
@@ -10,3 +13,8 @@
   </div>
   <button type="submit" class="text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Submit</button>
 </form>
+
+
+<?php
+$content = ob_get_clean();
+include './base.html.php';
