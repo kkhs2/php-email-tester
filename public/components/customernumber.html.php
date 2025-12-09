@@ -33,7 +33,7 @@
           </td>
           <td align="right" valign="top" style="padding: 12px 12px 0 0">
             <img
-              src="https://www.booker.co.uk/content/emails/icon/decoration.png"
+              src="https://www.booker.co.uk/content/emails/icons/decoration.png"
               alt="bookmark" width="65" height="65" style="display: block">
           </td>
         </tr>

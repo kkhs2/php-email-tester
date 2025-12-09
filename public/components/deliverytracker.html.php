@@ -84,7 +84,7 @@
                       vertical-align: middle;
                       margin-right: 8px;
                     "
-                    src="https://www.booker.co.uk/content/emails/icon/email-left.png"
+                    src="https://www.booker.co.uk/content/emails/icons/email-left.png"
                   />
                   <span class="gmail-difference" style="vertical-align: middle"
                     >Your unique link</span
@@ -122,7 +122,7 @@
           </td>
           <td align="right" valign="top" style="padding: 16px 16px">
             <img
-              src="https://www.booker.co.uk/content/emails/icon/email-qrcode.png"
+              src="https://www.booker.co.uk/content/emails/icons/email-qrcode.png"
               alt="bookmark"
               width="107"
               height="108"
