@@ -3,7 +3,7 @@
   <td
     style="
       padding: 12px 24px;
-      font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+      font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
       margin: 0;
       font-size: 16px;
       line-height: 22.4px;
@@ -14,7 +14,7 @@
     <td
     style="
       padding: 0 24px;
-      font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+      font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
       margin: 0;
       font-size: 16px;
       line-height: 22.4px;

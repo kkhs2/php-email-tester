@@ -8,7 +8,7 @@
       style="
         background-color: #f5f4f0;
         border-radius: 20px;
-        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
         margin: 0;
         font-size: 14px;
         color: #000000;
@@ -60,7 +60,7 @@
                                     <td
                                       style="
                                         padding: 8px;
-                                        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                                        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">
@@ -79,7 +79,7 @@
                                     <td
                                       style="
                                         padding: 8px;
-                                        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                                        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">
@@ -93,7 +93,7 @@
                                     <td
                                       style="
                                         padding: 8px;
-                                        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                                        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">

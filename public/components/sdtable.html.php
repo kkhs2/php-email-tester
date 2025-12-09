@@ -3,7 +3,7 @@
     <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#faf9f5" style="
                       background-color: #f5f4f0;
                       border-radius: 12px;
-                      font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                      font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                       margin: 0 0 0 0;
                       font-size: 14px;
                       color: #000000;
@@ -147,7 +147,7 @@
         <tr>
           <td style="padding: 0 16px">
             <table cellpadding="0" cellspacing="0" width="100%" style="
-                            font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                            font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                             margin: 0;
                             background-color: #ffffff;
                             border-radius: 12px;

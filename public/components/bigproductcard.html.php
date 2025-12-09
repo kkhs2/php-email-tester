@@ -8,7 +8,7 @@
       style="
         background-color: #f5f4f0;
         border-radius: 20px;
-        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
         margin: 0;
         font-size: 14px;
         color: #000000;
@@ -56,7 +56,7 @@
                             <td
                               style="
                                 padding: 8px;
-                                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                                font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                                 font-size: 14px;
                                 line-height: 20px;
                               ">
@@ -71,7 +71,7 @@
                             <td
                               style="
                                 padding: 8px;
-                                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                                font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                                 font-size: 14px;
                                 line-height: 20px;
                               ">
@@ -107,7 +107,7 @@
                             <td
                               style="
                                 padding: 8px;
-                                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                                font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                                 font-size: 14px;
                                 line-height: 20px;
                               ">
@@ -122,7 +122,7 @@
                             <td
                               style="
                                 padding: 8px;
-                                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                                font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                                 font-size: 14px;
                                 line-height: 20px;
                               ">
@@ -158,7 +158,7 @@
             cellspacing="0"
             width="100%"
             style="
-              font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+              font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
               margin: 0;
               background-color: #ffffff;
               border-radius: 12px;
@@ -175,7 +175,7 @@
                   width="100%"
                   style="font-size: 14px; line-height: 21px">
                   <tr>
-                    <td colspan="4" style="padding-bottom: 12px">
+                    <td colspan="4" style="padding-bottom: 12px; font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;">
                       {Product Description}
                     </td>
                   </tr>
@@ -193,16 +193,16 @@
                     <td height="12"></td>
                   </tr>
                   <tr style="font-weight: bold">
-                    <td><strong>Code</strong></td>
-                    <td><strong>Pack Size</strong></td>
-                    <td><strong>Price</strong></td>
-                    <td><strong>Qty</strong></td>
+                    <td style="font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;"><strong>Code</strong></td>
+                    <td style="font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;"><strong>Pack Size</strong></td>
+                    <td style="font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;"><strong>Price</strong></td>
+                    <td style="font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;"><strong>Qty</strong></td>
                   </tr>
                   <tr>
-                    <td>{ product code }</td>
-                    <td>{ pack size }</td>
-                    <td>{ price }</td>
-                    <td>{ quantity }</td>
+                    <td style="font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;">{ product code }</td>
+                    <td style="font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;">{ pack size }</td>
+                    <td style="font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;">{ price }</td>
+                    <td style="font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;">{ quantity }</td>
                   </tr>
                 </table>
               </td>

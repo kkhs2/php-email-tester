@@ -12,7 +12,7 @@
       style="
         background-color: <?php if ($type == 'venus'): ?>#901438 <?php else: ?> #ff480c <?php endif ?>;
         border-radius: 12px;
-        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
         margin: 0;
         color: #ffffff;
       "
@@ -22,7 +22,7 @@
           <td align="left" valign="top" style="padding: 16px 0 16px 24px">
             <p
               style="
-                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                 margin: 0;
                 padding: 0;
                 font-size: 14px;
@@ -60,7 +60,7 @@
               style="
                 background-color: <?php if ($type == 'venus'): ?> #E94FA2 <?php else: ?> #1fceb5 <?php endif ?>;
                 font-size: 14px;
-                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                 font-weight: 500;
                 text-decoration: none;
                 padding: 10.5px 18px 10.5px 16px;
@@ -96,7 +96,7 @@
               class="cta"
               style="
                 font-size: 14px;
-                font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                 font-weight: 500;
                 text-decoration: none;
                 padding: 10.5px 18px 10.5px 16px;

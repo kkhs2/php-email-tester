@@ -5,7 +5,7 @@
                     cellspacing="0"
                     width="100%"
                     style="
-                      font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                      font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                       margin: 0;
                       font-size: 18px;
                       color: #000000;

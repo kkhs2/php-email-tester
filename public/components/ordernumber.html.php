@@ -12,7 +12,7 @@
       style="background-color:
         <?php if ($type == 'venus'): ?>#901438 <?php else: ?> #ff480c <?php endif ?>;
         border-radius: 20px;
-        font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
         margin: 0;
         color: #ffffff;
       "

@@ -3,7 +3,7 @@
     <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ff480c" style="
                       background-color: #ff480c;
                       border-radius: 20px;
-                      font-family: <?php if ($type == 'venus'): ?> Inter <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+                      font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                       margin: 0;
                       color: #ffffff;
                     ">
