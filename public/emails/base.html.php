@@ -61,7 +61,7 @@
 
       .body,
       .email-container {
-        font-family: <?php if ($type == 'venus'): ?> <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?> <?php else: ?> Open Sans <?php endif ?>, Arial, sans-serif;
+        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
         font-weight: 400;
@@ -292,7 +292,7 @@
                     style="
                       background-color: #f5f4f0;
                       border-radius: 20px;
-                      font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
+                      font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                       margin: 0;
                       font-size: 14px;
                       color: #000000;
@@ -300,7 +300,7 @@
                   >
                     <tbody>
                       <tr>
-                        <td style="padding: 12px 18px; font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;">
+                        <td style="padding: 12px 18px; font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;">
                           <!--[if !mso
                           ]><!--><img
                             height="16"
@@ -342,7 +342,7 @@
                     style="
                       background-color: #f5f4f0;
                       border-radius: 20px;
-                      font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
+                      font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                       margin: 0;
                       font-size: 14px;
                       line-height: 19.6px;
@@ -353,7 +353,7 @@
                       <td>
                         <table width="100%" cellpadding="0" cellspacing="0">
                           <tr>
-                            <td style="padding: 16px 18px; font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;">
+                            <td style="padding: 16px 18px; font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;">
                                 <span>
                                   This email is intended solely for the person
                                   or organisation to which it is addressed. It
@@ -448,7 +448,7 @@
                       <td>
                         <p
                           style="
-                            font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
+                            font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                             margin: 0;
                             font-size: 16px;
                             line-height: 22.4px;
@@ -529,7 +529,7 @@ London N17 0UT<?php else: ?>Booker Ltd,
                       <td>
                         <p
                           style="
-                            font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
+                            font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
                             margin: 0;
                             font-size: 11px;
                             line-height: 11px;

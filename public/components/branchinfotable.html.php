@@ -83,26 +83,10 @@
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">
-                                      <!--[if mso]>
+                                      
                                       <span>
                                         <strong style="font-weight: 700">{ branch phone number }</strong>
                                       </span>
-                                      <![endif]-->
-                                      <!--[if !mso><!-->
-                                         <span>
-                                        <img
-                                          src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/0194b7c1-1426-42ff-934e-d6c9c180ada5.jpg?parcelPath=/images/mail.jpg"
-                                          height="16"
-                                          width="16"
-                                          alt="mail"
-                                          style="
-                                            display: inline-block;
-                                            vertical-align: middle;
-                                            margin-right: 8px;
-                                          " />
-                                        <strong style="font-weight: 700">{ branch phone number }</strong>
-                                      </span>
-                                      <!--<![endif]-->
                                     </td>
                                   </tr>
                                   <tr>
@@ -113,7 +97,6 @@
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">
-                                      <!--[if mso]>
                                         <span>
                                         
                                         <a
@@ -123,27 +106,6 @@
                                             color: #000000;
                                           "><strong style="font-weight: 700">{ manager email address }</strong></a>
                                       </span>
-                                      <![endif]-->
-                                      <!--[if !mso><!-->
-                                      <span>
-                                        <img
-                                          src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/0194b7c1-1426-42ff-934e-d6c9c180ada5.jpg?parcelPath=/images/mail.jpg"
-                                          height="16"
-                                          width="16"
-                                          alt="mail"
-                                          style="
-                                            display: inline-block;
-                                            vertical-align: middle;
-                                            margin-right: 8px;
-                                          " />
-                                        <a
-                                          href="mailto:[manager email address]"
-                                          style="
-                                            text-decoration: underline;
-                                            color: #000000;
-                                          "><strong style="font-weight: 700">{ manager email address }</strong></a>
-                                      </span>
-                                      <!--<![endif]-->
                                     </td>
                                   </tr>
                                 </tbody>

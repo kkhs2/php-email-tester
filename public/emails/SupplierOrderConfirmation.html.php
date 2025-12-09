@@ -1,44 +1,20 @@
 <?php include '../components/type.html.php' ?>
 <tr>
-  <td
-    style="
-      padding: 0 24px;
-      font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
-      margin: 0;
-      font-size: 16px;
-      line-height: 22.4px;
-    "
-  >
+  <?php include '../components/tdstyle.html.php' ?>
     <p style="padding: 12px 0; margin: 0">
       Dear <strong>{SUPPLIERNAME}</strong>,
     </p>
   </td>
 </tr>
 <tr>
-  <td
-    style="
-                    padding: 0 24px;
-                    font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
-
+  <?php include '../components/tdstyle.html.php' ?>
     <p>
       Customer number {CUSTOMERNUMBER} has requested a delivery from you through <?php include '../components/mainlink.html.php' ?>.
     </p>
   </td>
 </tr>
 <tr>
-  <td
-    style="
-                    padding: 0 24px;
-                    font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
-
+  <?php include '../components/tdstyle.html.php' ?>
     <p>
       Please find customer and order details in the attachment below :-
     </p>
@@ -46,15 +22,7 @@
 </tr>
 <?php include '../components/sdtable.html.php' ?>
 <tr>
-  <td
-    style="
-                    padding: 0 24px;
-                    font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
-
+  <?php include '../components/tdstyle.html.php' ?>
     <p>
       Should you require further assistance, please contact us on 0345 850 5051.
     </p>
@@ -62,15 +30,7 @@
 </tr>
 
 <tr>
-  <td
-    style="
-                    padding: 0 24px;
-                    font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
-
+  <?php include '../components/tdstyle.html.php' ?>
     <p>
       You can also contact us by email at <!--[if mso]>
                         <a
