@@ -57,14 +57,7 @@
   </td>
 </tr>
 <tr>
-  <td
-    style="
-                    padding: 0 24px;
-                    font-family: <?php if ($type == 'venus'): ?> Inter<?php else: ?>Open Sans<?php endif ?>, Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
+  <?php include '../components/tdstyle.html.php' ?>
 
     <p>
       Should you want to make any changes to this part of the order, or you have any queries about it, please contact the relevant supplier on their contact email address (listed above). The supplier will contact you directly if there are any issues with your order.
