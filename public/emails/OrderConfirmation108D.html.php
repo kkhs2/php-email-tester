@@ -65,7 +65,6 @@
                     line-height: 22.4px;
                   ">
     <p>If you have any enquiries about this order please contact your local branch manager at:</p>
-
   </td>
 </tr>
 <?php include '../components/branchinfotable.html.php' ?>
