@@ -9,7 +9,7 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
     <p>
-      Customer number {CUSTOMERNUMBER} has requested a delivery from you through <?php include '../components/mainlink.html.php' ?>.
+      Customer number <strong>{CUSTOMERNUMBER}</strong> has requested a delivery from you through <?php include '../components/mainlink.html.php' ?>.
     </p>
   </td>
 </tr>
@@ -24,7 +24,7 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
     <p>
-      Should you require further assistance, please contact us on 0345 850 5051.
+      Should you require further assistance, please contact us on <?php if ($type == 'venus'): ?>{venus contact number}<?php else: ?>0345 850 5051<?php endif ?>.
     </p>
   </td>
 </tr>
