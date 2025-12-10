@@ -51,7 +51,7 @@ try {
   $emails = scandir(__DIR__ . '/emails');
   foreach ($emails as $email) {
     //sendEmail('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename']);
-    if (str_contains(pathinfo($email)['basename'], '.html.php') && pathinfo($email)['basename'] == 'OrderConfirmationColBSSD.html.php') {
+    if (str_contains(pathinfo($email)['basename'], '.html.php') && pathinfo($email)['basename'] == 'OrderConfirmationColBSSDOEC.html.php') {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
