@@ -51,10 +51,9 @@ function createHtmlFile($email)
 {
   $fileName = pathinfo($email)['filename'];
   if (substr($fileName, -5)) {
-    file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/' . pathinfo($email)['filename'], 'https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker');
+    file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/' . pathinfo($email)['filename'], generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker'));
   }
 }
-
 
 try {
   $emails = scandir(__DIR__ . '/emails');
