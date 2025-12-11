@@ -47,28 +47,37 @@ function generateHtml($path)
   return $html;
 }
 
+function createHtmlFile($email)
+{
+  $fileName = pathinfo($email)['filename'];
+  if (substr($fileName, -5)) {
+    file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/' . pathinfo($email)['basename'], 'https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker');
+  }
+}
+
+
 try {
   $emails = scandir(__DIR__ . '/emails');
   foreach ($emails as $email) {
-    //sendEmail('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename']);
-    if (str_contains(pathinfo($email)['basename'], '.html.php') && pathinfo($email)['basename'] == 'SupplierOrderConfirmation.html.php') {
-    $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
-    $mail->SMTPAuth = true;
-    $mail->Username = 'kshumbooker@gmail.com';
-    $mail->Password = 'lbwk cend spaz ojtw';
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port = 587;
-    $mail->setFrom('noreply@bookertest.co.uk', ' UAT');
-    $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-        $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
-    $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
-    $mail->isHTML(true);
-    $mail->Subject = pathinfo($email)['basename'];
-    $mail->Body = generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=venus');
-    $mail->send();
-    //echo $type . " " . $fileName . " has been sent <br />";
-    echo pathinfo($email)['basename'] . " has been sent <br />";
+    if (str_contains(pathinfo($email)['basename'], '.html.php')) {
+
+      $mail->isSMTP();
+      $mail->Host = 'smtp.gmail.com';
+      $mail->SMTPAuth = true;
+      $mail->Username = 'kshumbooker@gmail.com';
+      $mail->Password = 'lbwk cend spaz ojtw';
+      $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+      $mail->Port = 587;
+      $mail->setFrom('noreply@bookertest.co.uk', ' UAT');
+    // $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
+     // $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
+      $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
+      $mail->isHTML(true);
+      $mail->Subject = pathinfo($email)['basename'];
+      $mail->Body = generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker');
+      $mail->send();
+      createHtmlFile($email);
+      echo pathinfo($email)['basename'] . " has been sent <br />";
     }
   }
 } catch (Exception $e) {

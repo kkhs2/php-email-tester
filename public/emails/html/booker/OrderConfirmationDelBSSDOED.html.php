@@ -1,0 +1,1 @@
+https://email-tester.local/emails/OrderConfirmationDelBSSDOED.html.php?type=booker

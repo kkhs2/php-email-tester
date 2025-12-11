@@ -241,7 +241,7 @@
                       <?php else: ?>
                         <a href="https://www.booker.co.uk/"
                           ><img
-                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/c1feaadf-1c26-44b5-82e3-7b6eb2e4dd7b.png?parcelPath=/images/Booker-logo.png"
+                            src="https://www.booker.co.uk/content/emails/icons/email-booker-logo.png"
                             alt="Booker"
                             height="23"
                             width="138"
@@ -618,7 +618,7 @@ London N17 0UT<?php else: ?>Booker Ltd,
                           <?php else: ?>
                         <a href="https://www.booker.co.uk/"
                           ><img
-                            src="https://assets.parceldns.com/assets/f80f6c12-4a49-41b9-8325-873f8cfab05e/f4e1728d-f0c8-4ae7-872a-02e25b992dfb.jpg?parcelPath=/images/Logo-footer.jpg"
+                            src="https://www.booker.co.uk/content/emails/icons/email-booker-logo.png"
                             height="20"
                             width="120"
                             border="0"
