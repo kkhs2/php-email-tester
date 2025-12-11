@@ -69,8 +69,8 @@ try {
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
       $mail->Port = 587;
       $mail->setFrom('noreply@bookertest.co.uk', ' UAT');
-    // $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-     // $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
+      $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
+      $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
       $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
       $mail->isHTML(true);
       $mail->Subject = pathinfo($email)['basename'];
