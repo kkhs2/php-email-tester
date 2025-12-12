@@ -1,3 +1,4 @@
+Thank you for registering with Booker
 <?php include '../components/type.html.php' ?>
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
@@ -67,7 +68,7 @@
 <![endif]--><!--[if !mso> <!--><a style="text-decoration: none;
                           border-bottom: 1px dotted #000;
                           font-weight: 700;
-                          color: #000;" href="https://www.booker.co.uk">booker.co.uk</a><!--<![endif]--> with your login details
+                          color: #000;" href="https://www.booker.co.uk">booker.co.uk</a><!--<![endif]--> with your login details.
     </p>
   </td>
 </tr>
