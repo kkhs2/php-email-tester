@@ -309,35 +309,7 @@
               </tr>
               
               <!-- child template -->
-              
-<tr>
-  <!--[if mso]>
-  <td
-    style="
-      padding: 12px 24px;
-      font-family:  Inter , Arial, sans-serif;
-      margin: 0;
-      font-size: 16px;
-      line-height: 22.4px;
-    "
-  >
-  <![endif]-->
-  <!--[if !mso><!-->
-    <td
-    style="
-      padding: 0 24px;
-      font-family:  Inter , Arial, sans-serif;
-      margin: 0;
-      font-size: 16px;
-      line-height: 22.4px;
-    "
-  >
-  <!--<![endif]-->
-    <p>
-      Dear <strong>{CUSTOMERNAME}</strong>,
-    </p>
-  </td>
-</tr><tr>
+              <tr>
   <!--[if mso]>
 <td style="
       padding: 12px 24px;
@@ -356,9 +328,9 @@
                     line-height: 22.4px;
                   ">                      
   <!--<![endif]-->
-    <p>
-      Thank you for placing an order  with Booker. We will have this ready for you to collect from <strong>{BRANCHNAME}</strong> branch, on <strong>{ORDERCOLLECTDATE}</strong> after <strong>{ORDERCOLLECTTIME}</strong>.
-    </p>
+  <p>
+    <strong>Identity Verification</strong>
+  </p>
   </td>
 </tr>
 <tr>
@@ -380,159 +352,18 @@
                     line-height: 22.4px;
                   ">                      
   <!--<![endif]-->
-    <p>
-      Please note that acceptance of your order will take place upon collection of the products you have ordered. At that point the purchase contract will be made and we will supply the goods to you in accordance with our website 
-<!--[if mso]>
-                        <a
-                          href="https://www.booker.co.uk/help/website-terms-of-use"
-                          style="text-decoration: underline; color: #000; font-weight: bold;"
-                          >terms & conditions</a
-                        ><![endif]-->
-<!--[if !mso><!-->
-<a href="https://www.booker.co.uk/help/website-terms-of-use" style="
-                          text-decoration: none;
+  <p>
+    E-mail to <!--[if mso]>
+<a style="text-decoration: underline; color: #000; font-weight: 700" href="mailto:{EMAIL}">{EMAIL}</a>
+<![endif]--><!--[if !mso> <!--><a style="text-decoration: none;
                           border-bottom: 1px dotted #000;
-                          color: #000;
-                          font-weight: bold;
-                        ">terms & conditions</a><!--<![endif]-->.
-    </p>
+                          font-weight: 700;
+                          color: #000;" href="mailto:{EMAIL}">{EMAIL}</a><!--<![endif]-->
+  </p>
   </td>
 </tr>
 <tr>
-  <td height="12"></td>
-</tr>
-<tr>
-  <td style="padding: 0 18px">
-    <table
-      cellpadding="0"
-      cellspacing="0"
-      width="100%"
-      bgcolor=" #ff480c"
-      style="background-color:
-         #ff480c ;
-        border-radius: 20px;
-        font-family:  Inter , Arial, sans-serif;
-        margin: 0;
-        color: #ffffff;
-      "
-    >
-      <tr>
-        <td align="left" valign="top" style="padding: 5px 0 5px 12px">
-          <p>
-        <!--[if mso]>
-          <span
-              style="
-                border-radius: 40px;
-                padding: 8px 20px;
-                font-size: 12px;
-                display: inline-block;
-                margin-bottom: 8px;
-                font-weight: bold;
-              "
-              >YOUR ORDER NUMBER IS:</span
-            >
-          <![endif]-->
-          <!--[if !mso><!-->
-            <span
-              style="
-                background-color:  #d30 ;
-                border-radius: 40px;
-                padding: 8px 20px;
-                font-size: 12px;
-                display: inline-block;
-                margin-bottom: 8px;
-                font-weight: bold;
-              "
-              >YOUR ORDER NUMBER IS:</span
-            >
-          <!--<![endif]-->
-            <br />
-            <span
-              style="
-                margin: 0;
-                font-size: 40px;
-                font-weight: 500;
-                line-height: 1;
-                color: #ffffff;
-                padding-left: 8px;
-              "
-              >{TRACKINGNUMBER}</span
-            >
-          </p>
-        </td>
-        <td align="right" valign="top" style="padding: 0 12px 0 0">
-          <img
-            src="https://www.booker.co.uk/content/emails/icons/decoration.png"
-            alt="bookmark"
-            width="34"
-            height="50"
-            style="display: block; padding-right: 10px"
-          />
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
-<tr>
-  <td height="24"></td>
-</tr><tr>
-  <td style="padding: 0 18px">
-
-    <table cellpadding="0" cellspacing="0" width="100%" 
-      style="
-        font-family:  Inter , Arial, sans-serif;
-        margin: 0;
-        font-size: 18px;
-        color: #000000;
-        border-collapse: separate !important;
-        border: 1.5px solid #000000;
-        border-radius: 20px;
-      ">
-      <tr>
-        <td>
-          <table width="100%" cellpadding="0" cellspacing="0">
-            <tr>
-              <td align="left" style="padding: 18px 0 18px 18px; font-size: 18px">
-                <strong style="font-weight: 500">
-                  <b>The estimated value of your order is:</b>
-                </strong>
-              </td>
-              <td align="right" style="padding: 18px 18px 18px 0; font-size: 16px">
-                &pound;{PRICE_BS_STRING_EX_VAT} (ex VAT)
-              </td>
-            </tr>
-
-            <tr>
-              <td colspan="2">
-                <hr style="
-                  border: none;
-                  border-top: 1px dotted #000000;
-                  margin: 0;
-                " />
-              </td>
-            </tr>
-
-            <tr>
-              <td align="left" style="padding: 18px 0 18px 18px; font-size: 18px">
-                <strong style="font-weight: 500">
-                  <b>The estimated value of your order is:</b>
-                </strong>
-              </td>
-              <td align="right" style="padding: 18px 18px 18px 0; font-size: 16px">
-                &pound;{PRICE_BS_STRING_INC_VAT} (inc VAT)
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-
-  </td>
-</tr>
-<tr>
-  <td height="12"></td>
-</tr>
-<!--[if mso]>
+  <!--[if mso]>
 <td style="
       padding: 12px 24px;
                     font-family:  Inter , Arial, sans-serif;
@@ -550,203 +381,65 @@
                     line-height: 22.4px;
                   ">                      
   <!--<![endif]-->
-    <p>
-      Please note that the shown estimated values are based on guide prices only. Your final invoice will be the cost of the products you have ordered at the time of picking and processing your order. Please refer to the 
-<!--[if mso]>
-                        <a
-                          href="https://www.booker.co.uk/help/website-terms-of-use"
-                          style="text-decoration: underline; color: #000; font-weight: bold;"
-                          >terms & conditions</a
-                        ><![endif]-->
-<!--[if !mso><!-->
-<a href="https://www.booker.co.uk/help/website-terms-of-use" style="
-                          text-decoration: none;
+  <p>
+    We have recently received a request to proceed with your credit application.
+  </p>
+  </td>
+</tr>
+<tr>
+  <!--[if mso]>
+<td style="
+      padding: 12px 24px;
+                    font-family:  Inter , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">
+  <![endif]-->
+  <!--[if !mso><!-->
+    <td style="
+      padding: 0px 24px;
+                    font-family:  Inter , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">                      
+  <!--<![endif]-->
+  <p>
+   In order to complete this action, please click the following link or click the "Begin Identity Verification".
+  </p>
+  </td>
+</tr>
+<tr>
+  <!--[if mso]>
+<td style="
+      padding: 12px 24px;
+                    font-family:  Inter , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">
+  <![endif]-->
+  <!--[if !mso><!-->
+    <td style="
+      padding: 0px 24px;
+                    font-family:  Inter , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">                      
+  <!--<![endif]-->
+  <p>
+    <!--[if mso]>
+<a style="text-decoration: underline; color: #000; font-weight: 700" href="{LINK}">{LINK}</a>
+<![endif]--><!--[if !mso> <!--><a style="text-decoration: none;
                           border-bottom: 1px dotted #000;
-                          color: #000;
-                          font-weight: bold;
-                        ">terms & conditions</a><!--<![endif]--> on the website for more information.
-    </p>
+                          font-weight: 700;
+                          color: #000;" href="{LINK}">{LINK}</a><!--<![endif]-->
+  </p>
   </td>
 </tr>
-<tr>
-  <!--[if mso]>
-<td style="
-      padding: 12px 24px;
-                    font-family:  Inter , Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
-  <![endif]-->
-  <!--[if !mso><!-->
-    <td style="
-      padding: 0px 24px;
-                    font-family:  Inter , Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">                      
-  <!--<![endif]-->
-    <p><b><u>Enquiries</u></b></p>
-  </td>
-</tr>
-<tr>
-  <!--[if mso]>
-<td style="
-      padding: 12px 24px;
-                    font-family:  Inter , Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
-  <![endif]-->
-  <!--[if !mso><!-->
-    <td style="
-      padding: 0px 24px;
-                    font-family:  Inter , Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">                      
-  <!--<![endif]-->
-    <p>If you have any enquiries about this order please contact your local branch manager at:</p>
-  </td>
-</tr>
-<tr>
-  <td style="padding: 0 18px">
-    <table
-      cellpadding="0"
-      cellspacing="0"
-      width="100%"
-      bgcolor="#faf9f5"
-      style="
-        background-color: #f5f4f0;
-        border-radius: 20px;
-        font-family:  Inter , Arial, sans-serif;
-        margin: 0;
-        font-size: 14px;
-        color: #000000;
-      ">
-      <tbody>
-        <tr>
-          <td style="padding: 16px 8px">
-            <table
-              role="presentation"
-              border="0"
-              cellpadding="0"
-              cellspacing="0"
-              width="100%">
-              <tbody>
-                <tr>
-                  <td align="center">
-                    <table
-                      role="presentation"
-                      border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      width="570"
-                      style="width: 100%; max-width: 570px">
-                      <tbody>
-                        <tr>
-                          <td style="font-size: 0; padding: 0">
-                            <!--[if mso]>
-                                                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="570">
-                                                                <tr>
-                                                                    <td width="570" valign="top">
-                                                                <![endif]-->
 
-                            <div
-                              style="
-                                display: inline-block;
-                                vertical-align: top;
-                                width: 100%;
-                                max-width: 285px;
-                                font-size: 14px;
-                              ">
-                              <table
-                                role="presentation"
-                                border="0"
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%">
-                                <tbody>
-                                  <tr>
-                                    <td
-                                      style="
-                                        padding: 8px;
-                                        font-family:  Inter , Arial, sans-serif;
-                                        font-size: 14px;
-                                        line-height: 20px;
-                                      ">
-                                      <strong>{ branch name }</strong><br />
-                                      <div
-                                        style="line-height: 4px; font-size: 4px">
-                                        &nbsp;
-                                      </div>
-                                      { address1 }<br />{ address2 }<br />{
-                                      address3 }<br />{ address4 }<br />{
-                                      address5 }<br />{ post code }<br />{ phone
-                                      number }
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td
-                                      style="
-                                        padding: 8px;
-                                        font-family:  Inter , Arial, sans-serif;
-                                        font-size: 14px;
-                                        line-height: 20px;
-                                      ">
-                                      
-                                      <span>
-                                        <strong style="font-weight: 700">{ branch phone number }</strong>
-                                      </span>
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td
-                                      style="
-                                        padding: 8px;
-                                        font-family:  Inter , Arial, sans-serif;
-                                        font-size: 14px;
-                                        line-height: 20px;
-                                      ">
-                                        <span>
-                                        
-                                        <a
-                                          href="mailto:[manager email address]"
-                                          style="
-                                            text-decoration: underline;
-                                            color: #000000;
-                                          "><strong style="font-weight: 700">{ manager email address }</strong></a>
-                                      </span>
-                                    </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            </div>
-
-                            <!--[if mso]>
-                                                                    </td>
-                                                                </tr>
-                                                                </table>
-                                                                <![endif]-->
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </td>
-</tr><tr>
-  <td height="12"></td>
-</tr>
               
               <tr>
                 <td height="12"></td>
