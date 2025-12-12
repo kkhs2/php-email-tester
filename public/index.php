@@ -60,7 +60,7 @@ try {
   foreach ($emails as $email) {
     if (str_contains(pathinfo($email)['basename'], '.html.php')) {
 
-      $mail->isSMTP();
+      /*$mail->isSMTP();
       $mail->Host = 'smtp.gmail.com';
       $mail->SMTPAuth = true;
       $mail->Username = 'kshumbooker@gmail.com';
@@ -68,15 +68,15 @@ try {
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
       $mail->Port = 587;
       $mail->setFrom('noreply@bookertest.co.uk', ' UAT');
-      $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-      $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
+      //$mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
+      //$mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
       $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
       $mail->isHTML(true);
       $mail->Subject = pathinfo($email)['basename'];
       $mail->Body = generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker');
       $mail->send();
       createHtmlFile($email);
-      echo pathinfo($email)['basename'] . " has been sent <br />";
+      echo pathinfo($email)['basename'] . " has been sent <br />";*/
     }
   }
 } catch (Exception $e) {
