@@ -58,8 +58,8 @@ function createHtmlFile($email)
 try {
   $emails = scandir(__DIR__ . '/emails');
   foreach ($emails as $email) {
-    //if (str_contains(pathinfo($email)['basename'], '.html.php')) {
-    if ($email == 'BookerRegisteredThankYou_noPdf.html.php') {
+    if (str_contains(pathinfo($email)['basename'], '.html.php')) {
+    
       $mail->isSMTP();
       $mail->Host = 'smtp.gmail.com';
       $mail->SMTPAuth = true;

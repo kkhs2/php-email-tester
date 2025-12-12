@@ -155,15 +155,7 @@
                                       {CUSTOMERTELEPHONENUMBER}
                                     </td>
                                   </tr>
-                                  <tr>
-                                    <td colspan="4">
-                                      <hr style="
-                                                border: none;
-                                                border-top: 1px dotted #cccccc;
-                                                margin: 0 8px;
-                                              ">
-                                    </td>
-                                  </tr>
+                                  
                                 </tbody>
                               </table>
                             </div>
