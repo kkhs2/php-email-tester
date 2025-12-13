@@ -58,8 +58,8 @@ function createHtmlFile($email)
 try {
   $emails = scandir(__DIR__ . '/emails');
   foreach ($emails as $email) {
-    //if (str_contains(pathinfo($email)['basename'], '.html.php')) {
-    if ($email == 'WebAccountDeleted.html.php') {
+    if (str_contains(pathinfo($email)['basename'], '.html.php')) {
+    //if ($email == 'WebAccountDeleted.html.php') {
       $mail->isSMTP();
       $mail->Host = 'smtp.gmail.com';
       $mail->SMTPAuth = true;
@@ -75,7 +75,7 @@ try {
       $mail->isHTML(true);
       $mail->Subject = pathinfo($email)['basename'];
       $mail->Body = generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker');
-      $mail->send();
+      //$mail->send();
       createHtmlFile($email);
       echo pathinfo($email)['basename'] . " has been sent <br />";
     }
