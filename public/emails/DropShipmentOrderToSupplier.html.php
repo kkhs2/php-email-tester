@@ -9,7 +9,7 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
   <p>
-    Customer <strong>{CUSTOMER_NAME}</strong> has requested a delivery from you through the Central Billing area of booker.co.uk..
+    Customer <strong>{CUSTOMER_NAME}</strong> has requested a delivery from you through the Central Billing area of booker.co.uk.
   </p>
   </td>
 </tr>
@@ -23,7 +23,7 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
   <p>
-   {SUPPLIER_REFERENCE}
+    {SUPPLIER_REFERENCE}
   </p>
   </td>
 </tr>
@@ -56,7 +56,7 @@
 <![endif]--><!--[if !mso> <!--><a style="text-decoration: none;
                           border-bottom: 1px dotted #000;
                           font-weight: 700;
-                          color: #000;" href="mailto:centralbilling@booker.co.uk">centralbilling@booker.co.uk</a><!--<![endif]-->
+                          color: #000;" href="mailto:centralbilling@booker.co.uk">centralbilling@booker.co.uk</a>.<!--<![endif]-->
   </p>
   </td>
 </tr>

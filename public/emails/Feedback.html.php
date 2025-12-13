@@ -2,7 +2,7 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
   <p>
-    The following customer has completed an Export Enquiry form.
+    The following customer has completed an customer feed back form.
   </p>
   </td>
 </tr>
@@ -162,16 +162,6 @@
                                         &nbsp;
                                       </div>
                                       {TELEPHONENUMBER}
-                                    </td>
-                                  </tr>
-                                  
-                                  <tr>
-                                    <td colspan="4">
-                                      <hr style="
-                                                border: none;
-                                                border-top: 1px dotted #cccccc;
-                                                margin: 0 8px;
-                                              ">
                                     </td>
                                   </tr>
                                 </tbody>

@@ -13,10 +13,13 @@
   </p>
   </td>
 </tr>
+<?php include '../components/smallheight.html.php' ?>
+<?php include '../components/ordernumber.html.php' ?>
+<?php include '../components/smallheight.html.php' ?>
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
   <p>
-    Your order number is <strong>{ORDER_NUMBER}</strong>. A summary of your order is attached below:-
+    A summary of your order is attached below:-
   </p>
   </td>
 </tr>

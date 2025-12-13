@@ -16,6 +16,13 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
   <p>
+    To access the service please click on the link below:
+  </p>
+  </td>
+</tr>
+<tr>
+  <?php include '../components/tdstyle.html.php' ?>
+  <p>
     <!--[if mso]>
 <a style="text-decoration: underline; color: #000; font-weight: 700" href="{WEBSITE_LINK}">{WEBSITE_LINK}</a>
 <![endif]--><!--[if !mso> <!--><a style="text-decoration: none;

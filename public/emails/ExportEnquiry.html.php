@@ -251,13 +251,6 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
   <p>
-    To avoid problems with customers being unable to register online please ensure that a new batch of dummy customers is made available to the website as soon as possible.
-  </p>
-  </td>
-</tr>
-<tr>
-  <?php include '../components/tdstyle.html.php' ?>
-  <p>
     Types of Products Required : -
   </p>
   </td>

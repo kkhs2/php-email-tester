@@ -19,7 +19,7 @@
 <?php include '../components/smallheight.html.php' ?>
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
-  <p>If this Message was received after 4pm or over the weekend you must contact the customer on the next working day:</p>
+  <p>If this message was received after 4pm or over the weekend you must contact the customer on the next working day:</p>
   </td>
 </tr>
 <?php include '../components/smallheight.html.php' ?>

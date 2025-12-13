@@ -158,6 +158,15 @@
                                     </td>
                                   </tr>
                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
+                                    </td>
+                                  </tr>
+                                  <tr>
                                     <td style="
                                               padding: 16px 8px;
                                               font-family: Arial, sans-serif;
@@ -172,6 +181,15 @@
                                         &nbsp;
                                       </div>
                                       {COUNTY}
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
                                     </td>
                                   </tr>
                                   <tr>
@@ -192,6 +210,15 @@
                                     </td>
                                   </tr>
                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
+                                    </td>
+                                  </tr>
+                                  <tr>
                                     <td style="
                                               padding: 16px 8px;
                                               font-family: Arial, sans-serif;
@@ -206,6 +233,15 @@
                                         &nbsp;
                                       </div>
                                       {SYMBOLPARTNER}
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
                                     </td>
                                   </tr>
                                    <tr>
@@ -223,6 +259,15 @@
                                         &nbsp;
                                       </div>
                                       {NUMBEROFSTORES}
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
                                     </td>
                                   </tr>
                                    <tr>
@@ -243,6 +288,15 @@
                                     </td>
                                   </tr>
                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
+                                    </td>
+                                  </tr>
+                                  <tr>
                                     <td style="
                                               padding: 16px 8px;
                                               font-family: Arial, sans-serif;
@@ -257,6 +311,15 @@
                                         &nbsp;
                                       </div>
                                       {LOCATION}
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
                                     </td>
                                   </tr>
                                   <tr>
@@ -277,6 +340,15 @@
                                     </td>
                                   </tr>
                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
+                                    </td>
+                                  </tr>
+                                  <tr>
                                     <td style="
                                               padding: 16px 8px;
                                               font-family: Arial, sans-serif;
@@ -291,6 +363,15 @@
                                         &nbsp;
                                       </div>
                                       {TURNOVER}
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
                                     </td>
                                   </tr>
                                   <tr>
@@ -311,6 +392,15 @@
                                     </td>
                                   </tr>
                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
+                                    </td>
+                                  </tr>
+                                  <tr>
                                     <td style="
                                               padding: 16px 8px;
                                               font-family: Arial, sans-serif;
@@ -325,6 +415,15 @@
                                         &nbsp;
                                       </div>
                                       {FOUNDUS}
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
                                     </td>
                                   </tr>
                                   <tr>
@@ -345,6 +444,15 @@
                                     </td>
                                   </tr>
                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
+                                    </td>
+                                  </tr>
+                                  <tr>
                                     <td style="
                                               padding: 16px 8px;
                                               font-family: Arial, sans-serif;
@@ -362,6 +470,15 @@
                                     </td>
                                   </tr>
                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
+                                    </td>
+                                  </tr>
+                                  <tr>
                                     <td style="
                                               padding: 16px 8px;
                                               font-family: Arial, sans-serif;
@@ -376,15 +493,6 @@
                                         &nbsp;
                                       </div>
                                       {COMMENTS}
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td colspan="4">
-                                      <hr style="
-                                                border: none;
-                                                border-top: 1px dotted #cccccc;
-                                                margin: 0 8px;
-                                              ">
                                     </td>
                                   </tr>
                                 </tbody>

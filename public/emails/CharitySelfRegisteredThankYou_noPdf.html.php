@@ -34,7 +34,7 @@
                           border-bottom: 1px dotted #000;
                           font-weight: 700;
                           color: #000;
-                        " href="https://www.booker.co.uk">Booker.co.uk</a><!--<![endif]--> with your login details</p>
+                        " href="https://www.booker.co.uk">Booker.co.uk</a><!--<![endif]--> with your login details.</p>
   </td>
 </tr>
 <?php

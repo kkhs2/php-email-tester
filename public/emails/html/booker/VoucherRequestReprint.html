@@ -329,7 +329,7 @@
                   ">                      
   <!--<![endif]-->
   <p>
-    <strong>Credit Application Submission - Council / Local Authority</strong>
+    A customer has requested permission to reprint a voucher.
   </p>
   </td>
 </tr>
@@ -353,7 +353,13 @@
                   ">                      
   <!--<![endif]-->
   <p>
-    To Better Credit Team (KYC),
+    Customer Details:
+      <ul>
+        <li>Customer Number: {CUSTOMERNUMBER}</li>
+        <li>Name: {NAME}</li>
+        <li>Email Address: {EMAIL}</li>
+        <li>Phone Number: {PHONE}</li>
+      </ul>
   </p>
   </td>
 </tr>
@@ -377,7 +383,7 @@
                   ">                      
   <!--<![endif]-->
   <p>
-    Customer <strong>{CustomerNumber}</strong> has successfully completed all stages of the online credit application as a <strong>Council / Local Authority</strong> trading style (Application signing only).
+    The customer has printed this voucher <strong>{PRINTCOUNT}</strong> time{PRINTCOUNTPLURAL} already.
   </p>
   </td>
 </tr>
@@ -401,7 +407,12 @@
                   ">                      
   <!--<![endif]-->
   <p>
-    You should have already received an email from Docusign, confirming the signing of the Application by the customer.
+    To enable the customer to re-print the voucher, please <!--[if mso]>
+<a style="text-decoration: underline; color: #000; font-weight: 700" href="{REPRINTURL}">click this link</a>
+<![endif]--><!--[if !mso> <!--><a style="text-decoration: none;
+                          border-bottom: 1px dotted #000;
+                          font-weight: 700;
+                          color: #000;" href="{REPRINTURL}">click this link</a><!--<![endif]-->.
   </p>
   </td>
 </tr>
@@ -425,11 +436,10 @@
                   ">                      
   <!--<![endif]-->
   <p>
-    Please note, if you have not received the Signed Credit Application from the applicant, this can be viewed within the Docusign Portal with the current status of the application and any outstanding signatures.
+    If you do not wish the re-enable the voucher please contact the customer to explain why.
   </p>
   </td>
 </tr>
-
               
               <tr>
                 <td height="12"></td>

@@ -44,6 +44,13 @@
   </p>
   </td>
 </tr>
+<tr>
+  <?php include '../components/tdstyle.html.php' ?>
+  <p>
+    <a style="background-color: #ff480c;color: white;width: 14em;text-align: center;vertical-align: middle;border: 1px solid transparent;padding: .375rem 0.75rem;line-height: 1.5;border-radius: 0.25rem;" href="{LINK}">Begin Identity Verification</a>
+  </p>
+  </td>
+</tr>
 
 <?php
 $content = ob_get_clean();

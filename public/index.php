@@ -58,8 +58,8 @@ function createHtmlFile($email)
 try {
   $emails = scandir(__DIR__ . '/emails');
   foreach ($emails as $email) {
-    if (str_contains(pathinfo($email)['basename'], '.html.php')) {
-    
+    //if (str_contains(pathinfo($email)['basename'], '.html.php')) {
+    if ($email == 'WebAccountDeleted.html.php') {
       $mail->isSMTP();
       $mail->Host = 'smtp.gmail.com';
       $mail->SMTPAuth = true;
@@ -67,9 +67,10 @@ try {
       $mail->Password = 'lbwk cend spaz ojtw';
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
       $mail->Port = 587;
-      $mail->setFrom('noreply@bookertest.co.uk', ' UAT');
-      $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-      $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
+      $mail->setFrom('kshumbooker@gmail.com', ' UAT');
+      //$mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
+      //$mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
+      $mail->addAddress('shumkhk@gmail.com');
       $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
       $mail->isHTML(true);
       $mail->Subject = pathinfo($email)['basename'];

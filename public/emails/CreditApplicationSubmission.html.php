@@ -2,6 +2,13 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
   <p>
+    <strong>Credit Application Submission</strong>
+  </p>
+  </td>
+</tr>
+<tr>
+  <?php include '../components/tdstyle.html.php' ?>
+  <p>
     To Better Credit Team (KYC),
   </p>
   </td>
