@@ -56,7 +56,7 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
     <p>
-      Should you want to make any changes to this order, or you have any queries about it, please contact the relevant supplier on their contact e-mail address (listed above). The supplier will contact you directly if there are any issues with your order.
+      Should you want to make any changes to this part of the order, or you have any queries about it, please contact the relevant supplier on their contact e-mail address (listed above). The supplier will contact you directly if there are any issues with your order.
     </p>
   </td>
 </tr>
