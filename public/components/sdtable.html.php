@@ -162,12 +162,12 @@
                     <table cellpadding="0" cellspacing="0" width="100%" style="font-size: 14px; line-height: 21px">
                       <tbody>
                         <tr>
-                          <td colspan="4" style="padding-bottom: 12px">
+                          <td colspan="5" style="padding-bottom: 12px">
                             {PRODUCT DESCRIPTION}
                           </td>
                         </tr>
                         <tr>
-                          <td colspan="4">
+                          <td colspan="5">
                             <hr style="
                                         border: none;
                                         border-top: 1px dotted #000000;
@@ -181,12 +181,14 @@
                         <tr style="font-weight: bold">
                           <td><strong>Code</strong></td>
                           <td><strong>Pack Size</strong></td>
+                          <td><strong>Items in Sell Unit</strong></td>
                           <td><strong>Price</strong></td>
                           <td><strong>Quantity</strong></td>
                         </tr>
                         <tr>
                           <td>{CODE}</td>
                           <td>{PACK SIZE}</td>
+                          <td>{ITEMS IN SELL UNIT}</td>
                           <td>{PRICE}</td>
                           <td>{QUANTITY}</td>
                         </tr>
