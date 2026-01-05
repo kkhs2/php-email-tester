@@ -89,25 +89,6 @@
                                       </span>
                                     </td>
                                   </tr>
-                                  <tr>
-                                    <td
-                                      style="
-                                        padding: 8px;
-                                        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
-                                        font-size: 14px;
-                                        line-height: 20px;
-                                      ">
-                                        <span>
-                                        
-                                        <a
-                                          href="mailto:[manager email address]"
-                                          style="
-                                            text-decoration: underline;
-                                            color: #000000;
-                                          "><strong style="font-weight: 700">{ manager email address }</strong></a>
-                                      </span>
-                                    </td>
-                                  </tr>
                                 </tbody>
                               </table>
                             </div>

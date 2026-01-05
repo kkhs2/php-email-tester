@@ -63,7 +63,7 @@
   <?php include '../components/tdstyle.html.php' ?>
 
     <p>
-      If you have any enquiries about payment or delivery then please contact your local store manager at:
+      If you have any enquiries about payment or delivery then please contact your local branch manager at:
     </p>
   </td>
 </tr>
