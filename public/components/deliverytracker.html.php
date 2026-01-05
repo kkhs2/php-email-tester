@@ -146,7 +146,7 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
     <p>You can also download a poster which includes this code
-      by logging into venusltd.co.uk and visiting the My Account
+      by logging into <?php if ($type == 'venus'): ?> venusltd.co.uk<?php else: ?> booker.co.uk<?php endif ?> and visiting the My Account
       page.</p>
   </td>
 </tr>
