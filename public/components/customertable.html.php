@@ -118,7 +118,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Contact Telephone Number</strong> {CUSTOMERTELEPHONENUMBER}
+                                      <strong>Contact Telephone Number:</strong> {CUSTOMERTELEPHONENUMBER}
                                     </td>
                                   </tr>
                                   <tr>
