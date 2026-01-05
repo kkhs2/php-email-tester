@@ -57,14 +57,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Customer Name:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {CUSTOMERTITLE} {CUSTOMERFIRSTNAME} {CUSTOMERLASTNAME}
+                                      <strong>Customer Name:</strong> {CUSTOMERTITLE} {CUSTOMERFIRSTNAME} {CUSTOMERLASTNAME}
                                     </td>
                                   </tr>
                                   <tr>
@@ -83,14 +76,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Customer Number:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {CUSTOMERNUMBER}
+                                      <strong>Customer Number:</strong> {CUSTOMERNUMBER}
                                     </td>
                                   </tr>
                                   <tr>
@@ -109,14 +95,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Trading Name:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {TRADINGNAME}
+                                      <strong>Trading Name:</strong> {TRADINGNAME}
                                     </td>
                                   </tr>
                                   <tr>
@@ -135,14 +114,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Contact Number:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {TELEPHONENUMBER}
+                                      <strong>Contact Number:</strong> {TELEPHONENUMBER}
                                     </td>
                                   </tr>
                                   <tr>
@@ -161,14 +133,16 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Contact Mobile Number:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
+                                      <strong>Contact Mobile Number:</strong> {MOBILETELEPHONENUMBER}
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
                                               ">
-                                        &nbsp;
-                                      </div>
-                                      {MOBILETELEPHONENUMBER}
                                     </td>
                                   </tr>
                                   <tr>
@@ -178,14 +152,16 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Contact E-mail:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
+                                      <strong>Contact E-mail:</strong> {EMAILADDRESS}
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
                                               ">
-                                        &nbsp;
-                                      </div>
-                                      {EMAILADDRESS}
                                     </td>
                                   </tr>
                                 </tbody>

@@ -41,14 +41,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Customer Name:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {TITLE} {FIRSTNAME} {LASTNAME}
+                                      <strong>Customer Name:</strong> {TITLE} {FIRSTNAME} {LASTNAME}
                                     </td>
                                   </tr>
                                   <tr>
@@ -67,14 +60,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Trading Name:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {TRADINGNAME}
+                                      <strong>Trading Name:</strong> {TRADINGNAME}
                                     </td>
                                   </tr>
                                   <tr>
@@ -93,14 +79,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Business Type:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {SECTORDISPLAYNAME}
+                                      <strong>Business Type:</strong> {SECTORDISPLAYNAME}
                                     </td>
                                   </tr>
                                   <tr>
@@ -119,14 +98,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Contact Telephone Number:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {TELEPHONENUMBER}
+                                      <strong>Contact Telephone Number:</strong> {TELEPHONENUMBER}
                                     </td>
                                   </tr>
                                   <tr>
@@ -145,17 +117,10 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Contact Mobile Number</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {MOBILETELEPHONENUMBER}
+                                      <strong>Contact Mobile Number:</strong> {MOBILETELEPHONENUMBER}
                                     </td>
                                   </tr>
-                                    <tr>
+                                  <tr>
                                     <td colspan="4">
                                       <hr style="
                                                 border: none;
@@ -171,17 +136,18 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Contact E-mail</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {EMAILADDRESS}
+                                      <strong>Contact E-mail:</strong> {EMAILADDRESS}
                                     </td>
                                   </tr>
-                                 
+                                  <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
+                                              ">
+                                    </td>
+                                  </tr>
                                 </tbody>
                               </table>
                             </div>
