@@ -50,14 +50,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Customer Name:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {CUSTOMERNAME}
+                                      <strong>Customer Name:</strong> {CUSTOMERNAME}
                                     </td>
                                   </tr>
                                   <tr>
@@ -76,14 +69,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Customer Number:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {CUSTOMERNUMBER}
+                                      <strong>Customer Number:</strong> {CUSTOMERNUMBER}
                                     </td>
                                   </tr>
                                   <tr>
@@ -102,14 +88,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Customer E-mail Address:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {CUSTOMEREMAILADDRESS}
+                                      <strong>Customer E-mail Address:</strong> {CUSTOMEREMAILADDRESS}
                                     </td>
                                   </tr>
                                   <tr>
@@ -128,14 +107,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Contact Telephone Number:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {CUSTOMERTELEPHONENUMBER}
+                                      <strong>Contact Telephone Number:</strong> {CUSTOMERTELEPHONENUMBER}
                                     </td>
                                   </tr>
                                   <tr>
@@ -154,14 +126,16 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Company Trade Name:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
+                                      <strong>Company Trade Name:</strong> {COMPANYNAME}
+                                    </td>
+                                  </tr>
+                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
                                               ">
-                                        &nbsp;
-                                      </div>
-                                      {COMPANYNAME}
                                     </td>
                                   </tr>
                                   <tr>
@@ -171,14 +145,16 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>What country are you based in?:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
+                                      <strong>What country are you based in?:</strong> {WHEREBASED}
+                                    </td>
+                                  </tr>
+                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
                                               ">
-                                        &nbsp;
-                                      </div>
-                                      {WHEREBASED}
                                     </td>
                                   </tr>
                                   <tr>
@@ -188,14 +164,16 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>What country will the goods be exported to?:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
+                                      <strong>What country will the goods be exported to?:</strong> {WHEREEXPORTING}
+                                    </td>
+                                  </tr>
+                                   <tr>
+                                    <td colspan="4">
+                                      <hr style="
+                                                border: none;
+                                                border-top: 1px dotted #cccccc;
+                                                margin: 0 8px;
                                               ">
-                                        &nbsp;
-                                      </div>
-                                      {WHEREEXPORTING}
                                     </td>
                                   </tr>
                                   <tr>
@@ -205,14 +183,7 @@
                                               font-size: 14px;
                                               line-height: 20px;
                                             ">
-                                      <strong>Are you currently exporting from the UK?:</strong><br>
-                                      <div style="
-                                                line-height: 4px;
-                                                font-size: 4px;
-                                              ">
-                                        &nbsp;
-                                      </div>
-                                      {CURRENTLYEXPORTING}
+                                      <strong>Are you currently exporting from the UK?:</strong> {CURRENTLYEXPORTING}
                                     </td>
                                   </tr>
                                   <tr>
