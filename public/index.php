@@ -58,16 +58,16 @@ function createHtmlFile($email)
 try {
   $emails = scandir(__DIR__ . '/emails');
   foreach ($emails as $email) {
-    if (str_contains(pathinfo($email)['basename'], '.html.php')) {
-    //if ($email == 'WebAccountDeleted.html.php') {
+   //if (str_contains(pathinfo($email)['basename'], '.html.php')) {
+    if ($email == 'BRPCentralBillingDeliveryRequestToSupplier.html.php') {
       $mail->isSMTP();
       $mail->Host = 'smtp.gmail.com';
       $mail->SMTPAuth = true;
-      $mail->Username = 'kshumbooker@gmail.com';
-      $mail->Password = 'lbwk cend spaz ojtw';
+      $mail->Username = 'shumk5309@gmail.com';
+      $mail->Password = 'xzye subw unvi ythz';
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
       $mail->Port = 587;
-      $mail->setFrom('kshumbooker@gmail.com', ' UAT');
+      $mail->setFrom('shumk5309@gmail.com', ' UAT');
       $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
       $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
       //$mail->addAddress('shumkhk@gmail.com');

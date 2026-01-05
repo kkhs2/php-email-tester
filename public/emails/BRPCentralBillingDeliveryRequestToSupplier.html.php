@@ -62,7 +62,7 @@
 </tr>
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
-  <p>Please ensure contact is made and a response has been sent to the retailer & <!--[if mso]><a href="mailto:brpdropshipment@bookerretail.co.uk" style="text-decoration: underline; color: #000; font-weight: 700">brpdropshipment@bookerretail.co.uk</a><![endif]--><!--[if !mso> <!--><a href="mailto:brpdropshipment@bookerretail.co.uk" style="text-decoration: none;
+  <p>Please ensure contact is made and a response has been sent to the retailer & <!--[if mso]> <a href="mailto:brpdropshipment@bookerretail.co.uk" style="text-decoration: underline; color: #000; font-weight: 700">brpdropshipment@bookerretail.co.uk</a><![endif]--><!--[if !mso> <!--> <a href="mailto:brpdropshipment@bookerretail.co.uk" style="text-decoration: none;
                           border-bottom: 1px dotted #000;
                           font-weight: 700;
                           color: #000;">brpdropshipment@bookerretail.co.uk</a><!--<![endif]--> within 7 days.</p>

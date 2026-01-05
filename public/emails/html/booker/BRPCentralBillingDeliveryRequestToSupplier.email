@@ -576,7 +576,7 @@ Customer Request for BRP Central Billing Deliveries
                     line-height: 22.4px;
                   ">                      
   <!--<![endif]-->
-  <p>Please ensure contact is made and a response has been sent to the retailer & <!--[if mso]><a href="mailto:brpdropshipment@bookerretail.co.uk" style="text-decoration: underline; color: #000; font-weight: 700">brpdropshipment@bookerretail.co.uk</a><![endif]--><!--[if !mso> <!--><a href="mailto:brpdropshipment@bookerretail.co.uk" style="text-decoration: none;
+  <p>Please ensure contact is made and a response has been sent to the retailer & <!--[if mso]> <a href="mailto:brpdropshipment@bookerretail.co.uk" style="text-decoration: underline; color: #000; font-weight: 700">brpdropshipment@bookerretail.co.uk</a><![endif]--><!--[if !mso> <!--> <a href="mailto:brpdropshipment@bookerretail.co.uk" style="text-decoration: none;
                           border-bottom: 1px dotted #000;
                           font-weight: 700;
                           color: #000;">brpdropshipment@bookerretail.co.uk</a><!--<![endif]--> within 7 days.</p>
@@ -858,7 +858,7 @@ Customer Request for BRP Central Billing Deliveries
                             padding: 0;
                           "
                         >
-                          &copy;  Booker  2025                        </p>
+                          &copy;  Booker  2026                        </p>
                       </td>
                       <td width="18"></td>
                     </tr>
