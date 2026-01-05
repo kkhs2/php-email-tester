@@ -75,8 +75,8 @@ try {
       $mail->isHTML(true);
       $mail->Subject = pathinfo($email)['basename'];
       $mail->Body = generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker');
-      //$mail->send();
-      //createHtmlFile($email);
+      $mail->send();
+      createHtmlFile($email);
       echo pathinfo($email)['basename'] . " has been sent <br />";
     }
   }
