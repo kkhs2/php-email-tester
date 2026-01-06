@@ -1,3 +1,4 @@
+Thank you for registering with Booker
 <?php include '../components/type.html.php' ?>
 <tr>
   <?php include '../components/tdstyle.html.php' ?>

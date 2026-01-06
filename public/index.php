@@ -51,16 +51,22 @@ function createHtmlFile($email)
 {
   $fileName = pathinfo($email)['filename'];
   if (substr($fileName, -5)) {
-    file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/' . pathinfo($email)['filename'], generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker'));
+    if (str_contains($fileName, 'OrderConfirmation')) {
+      file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/OrderConfirmation/' . substr(pathinfo($email)['filename'], 0, -5) . '.email', generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker'));
+    } else {
+      file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/' . substr(pathinfo($email)['filename'], 0, -5) . '.email', generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker'));
+    }
+
+    file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/generatedHtml/' . pathinfo($email)['filename'], generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker'));
   }
 }
 
 try {
   $emails = scandir(__DIR__ . '/emails');
   foreach ($emails as $email) {
-   //if (str_contains(pathinfo($email)['basename'], '.html.php')) {
-    if ($email == 'WebBRPAccountCreated.html.php') {
-      $mail->isSMTP();
+   if (str_contains(pathinfo($email)['basename'], '.html.php')) {
+      //if ($email == 'OrderConfirmationSDOEC.html.php') {
+      /*$mail->isSMTP();
       $mail->Host = 'smtp.gmail.com';
       $mail->SMTPAuth = true;
       $mail->Username = 'shumk5309@gmail.com';
@@ -73,12 +79,13 @@ try {
       //$mail->addAddress('shumkhk@gmail.com');
       $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
       $mail->isHTML(true);
-      $mail->Subject = pathinfo($email)['basename'];
-      $mail->Body = generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker');
-      $mail->send();
+      $mail->Subject = pathinfo($email)['basename'];*/
+      //$mail->Body = generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker');
+      //$mail->send();
       createHtmlFile($email);
       echo pathinfo($email)['basename'] . " has been sent <br />";
-    }
+      }
+   //} 
   }
 } catch (Exception $e) {
   echo " Error sending email: " . $e->getMessage();

@@ -1,3 +1,4 @@
+Booker Portal Password Set
 <?php include '../components/type.html.php' ?>
 <tr>
   <?php include '../components/tdstyle.html.php' ?>

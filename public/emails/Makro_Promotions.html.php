@@ -1,3 +1,4 @@
+Form Submission: Promotions - Sign Up
 <?php include '../components/type.html.php' ?>
 <tr>
   <?php include '../components/tdstyle.html.php' ?>

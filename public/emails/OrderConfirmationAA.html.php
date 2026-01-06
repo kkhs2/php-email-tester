@@ -1,3 +1,4 @@
+Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
 <?php include '../components/type.html.php' ?>
 
 <?php include '../components/dearcustomer.html.php' ?>

@@ -465,9 +465,7 @@
                           <strong><?php if ($type == 'venus'): ?> {website support desk number}<?php else: ?>0345 602 3108<?php endif ?></strong>. Lines are open from
                           <?php if ($type == 'venus'): ?>{lines opening times}<?php else: ?>Monday - Sunday 7am to 7pm<?php endif ?>.<br />
                         <br />
-                        <strong>Send us a message</strong><br />If we can help
-                          or if you think we could be doing something better we
-                          always want to hear from you.<br />
+                        <strong>Send us a message</strong><br />If there's anything we can help with, or if you have ideas on how we can do better, we'd love to hear from you, please click the link { LINK }.<br />
                           <br />
                           <strong>Postal Address</strong><br /><?php if ($type == 'venus'): ?>Venus Wine & Spirit Merchants Limited
 Venus House, Unit 3, 62 Garman Road<br />

@@ -1,3 +1,4 @@
+Potential New Customer Request {BRANCHNUMBER} {BRANCHNAME} {TITLE} {FIRSTNAME} {LASTNAME}
 <?php include '../components/type.html.php' ?>
 <tr>
   <?php include '../components/tdstyle.html.php' ?>

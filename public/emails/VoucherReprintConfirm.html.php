@@ -1,3 +1,4 @@
+Voucher Reprint Request
 <?php include '../components/type.html.php' ?>
 <tr>
   <?php include '../components/tdstyle.html.php' ?>

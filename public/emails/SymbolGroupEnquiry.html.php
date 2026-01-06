@@ -1,3 +1,4 @@
+Form Submission: {SYMBOLBRAND} - Symbol Group Enquiry
 <?php include '../components/type.html.php' ?>
 <?php include '../components/smallheight.html.php' ?>
 <tr>
