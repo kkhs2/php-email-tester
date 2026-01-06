@@ -59,7 +59,7 @@ try {
   $emails = scandir(__DIR__ . '/emails');
   foreach ($emails as $email) {
    //if (str_contains(pathinfo($email)['basename'], '.html.php')) {
-    if ($email == 'WebAccountCreated.html.php') {
+    if ($email == 'WebBRPAccountCreated.html.php') {
       $mail->isSMTP();
       $mail->Host = 'smtp.gmail.com';
       $mail->SMTPAuth = true;
