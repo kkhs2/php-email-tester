@@ -30,9 +30,8 @@
 <tr>
   <?php include '../components/tdstyle.html.php' ?>
   <p>
-    Please login to <!--[if mso]>
-<a style="text-decoration: underline; color: #000; font-weight: 700" href="https://www.booker.co.uk">booker.co.uk</a>
-<![endif]--><!--[if !mso> <!--><a style="text-decoration: none;
+    Please login to <!--[if mso]> <a style="text-decoration: underline; color: #000; font-weight: 700" href="https://www.booker.co.uk">booker.co.uk</a>
+<![endif]--><!--[if !mso> <!--> <a style="text-decoration: none;
                           border-bottom: 1px dotted #000;
                           font-weight: 700;
                           color: #000;" href="https://www.booker.co.uk">booker.co.uk</a><!--<![endif]--> with your login details.
