@@ -1,5 +1,4 @@
 Account Cancelled
-
 <!DOCTYPE html>
 <html
   lang="en"
@@ -515,11 +514,7 @@ Account Cancelled
                           "
                         >
                           If you have any further questions, please visit our
-                          help section. If you are experiencing any difficulty,
-                          or need assistance with our account you can call our
-                          Website Support Desk on
-                          <strong> {website support desk number}</strong>. Lines are open from
-                          {lines opening times}.<br />
+                          help section.<br />
                         <br />
                         <strong>Send us a message</strong><br />If there's anything we can help with, or if you have ideas on how we can do better, we'd love to hear from you, please click the link { LINK }.<br />
                           <br />
