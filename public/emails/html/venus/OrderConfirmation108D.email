@@ -497,7 +497,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                 </strong>
               </td>
               <td align="right" style="padding: 18px 18px 18px 0; font-size: 16px">
-                <£nnnnn.nn> (ex VAT)
+                &pound;{PRICE_BS_STRING_EX_VAT} (ex VAT)
               </td>
             </tr>
 
@@ -518,7 +518,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                 </strong>
               </td>
               <td align="right" style="padding: 18px 18px 18px 0; font-size: 16px">
-                <£nnnnn.nn> (inc VAT)
+                &pound;{PRICE_BS_STRING_INC_VAT} (inc VAT)
               </td>
             </tr>
           </table>
@@ -677,13 +677,27 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">
-                                      <strong>{ store address }</strong><br />
+                                      <strong>{BRANCHNAME}</strong><br />
                                       <div
                                         style="line-height: 4px; font-size: 4px">
                                         &nbsp;
                                       </div>
-                                                                              { store telephone number }
+                                                                              {BRANCHEMAILADDRESS}
                                                                             </td>
+                                  </tr>
+                                  <tr>
+                                    <td
+                                      style="
+                                        padding: 8px;
+                                        font-family:  Open Sans , Arial, sans-serif;
+                                        font-size: 14px;
+                                        line-height: 20px;
+                                      ">
+                                      
+                                      <span>
+                                        {BRANCHPHONENUMBER}
+                                      </span>
+                                    </td>
                                   </tr>
                                 </tbody>
                               </table>
@@ -840,10 +854,11 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                             padding: 12px 0;
                           "
                         >
-                          If you have any further questions, please visit our
-                          help section.<br />
+                          If you are experiencing any difficulty, or need assistance with your account you can call our Website Support Desk on {BRANCHPHONENUMBER}. Lines are opened from {BRANCHOPENINGHOURS}. You can also contact by email at <a style="font-weight:bold;color:#fff" href="mailto:{BRANCHEMAILADDRESS}">{BRANCHEMAILADDRESS}</a>.<br />
                         <br />
-                          <strong>Postal Address</strong><br />Venus Wine & Spirit Merchants Limited
+                                                  If you have any further questions please visit our help section.<br />
+                          <br />
+                                                    <strong>Postal Address</strong><br />Venus Wine & Spirit Merchants Limited
 Venus House, Unit 3, 62 Garman Road<br />
 London N17 0UT<br />
                           <br />
