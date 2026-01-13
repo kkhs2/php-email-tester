@@ -955,12 +955,12 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                                         font-size: 14px;
                                         line-height: 20px;
                                       ">
-                                      <strong>{ branch name }</strong><br />
+                                      <strong>{BRANCHNAME}</strong><br />
                                       <div
                                         style="line-height: 4px; font-size: 4px">
                                         &nbsp;
                                       </div>
-                                                                              { branch email address }
+                                                                              {BRANCHEMAILADDRESS}
                                                                             </td>
                                   </tr>
                                   <tr>
@@ -973,7 +973,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                                       ">
                                       
                                       <span>
-                                        <strong style="font-weight: 700">{ branch phone number }</strong>
+                                        {BRANCHPHONENUMBER}
                                       </span>
                                     </td>
                                   </tr>
@@ -1132,10 +1132,11 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                             padding: 12px 0;
                           "
                         >
-                          If you have any further questions, please visit our
-                          help section.<br />
+                          If you are experiencing any difficulty, or need assistance with your account you can call our Website Support Desk on {BRANCHPHONENUMBER}. Lines are opened from {BRANCHOPENINGHOURS}. You can also contact by email at <a style="font-weight:bold;color:#fff" href="mailto:{BRANCHEMAILADDRESS}">{BRANCHEMAILADDRESS}</a>.<br />
                         <br />
-                          <strong>Postal Address</strong><br />Venus Wine & Spirit Merchants Limited
+                                                  If you have any further questions please visit our help section.<br />
+                          <br />
+                                                    <strong>Postal Address</strong><br />Venus Wine & Spirit Merchants Limited
 Venus House, Unit 3, 62 Garman Road<br />
 London N17 0UT<br />
                           <br />
