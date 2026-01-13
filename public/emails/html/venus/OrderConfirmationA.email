@@ -1027,7 +1027,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                       <td>
                         <table width="100%" cellpadding="0" cellspacing="0">
                           <tr>
-                            <td style="padding: 16px 18px; font-family:  Open Sans , Arial, sans-serif;">
+                            <td style="padding: 16px 18px; font-family:  Open Sans , Arial, sans-serif; font-size: 14px;">
                                 <span>
                                   This email is intended solely for the person
                                   or organisation to which it is addressed. It
@@ -1135,13 +1135,11 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                           If you have any further questions, please visit our
                           help section.<br />
                         <br />
-                        <strong>Send us a message</strong><br />If there's anything we can help with, or if you have ideas on how we can do better, we'd love to hear from you, please click the link { LINK }.<br />
-                          <br />
                           <strong>Postal Address</strong><br />Venus Wine & Spirit Merchants Limited
 Venus House, Unit 3, 62 Garman Road<br />
 London N17 0UT<br />
                           <br />
-                          <strong>General Enquiries</strong><br /> [general enquiries phone number]                         </p>
+                          <strong>General Enquiries</strong><br /> 020 8801 9898                         </p>
                       </td>
                       <td width="18"></td>
                     </tr>
