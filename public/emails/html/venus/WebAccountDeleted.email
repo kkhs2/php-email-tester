@@ -377,9 +377,9 @@ Account Cancelled
   <!--<![endif]-->
   <p>
     If you believe this has been done in error, or should you require technical assistance please contact us via the following ways:<br>
-    { branch email address }<br>
-    { branch phone number}<br>
-    Opening times {opening hours} 
+    {BRANCHEMAILADDRESS}<br>
+    {BRANCHPHONENUMBER}<br>
+    Opening times {BRANCHOPENINGHOURS}
   </p>
   </td>
 </tr>
