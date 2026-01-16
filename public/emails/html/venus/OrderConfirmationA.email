@@ -694,7 +694,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                 border-radius: 120px;
                 line-height: 1;
               "
-              href="{hashed customer number and tracktag URL}"
+              href="{TRACKERURL}"
             >
               
               <span style="mso-text-raise: 15pt">
@@ -730,7 +730,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                 border-radius: 120px;
                 line-height: 1;
               "
-              href="{hashed customer number and tracktag URL}"
+              href="{TRACKERURL}"
             >
               <br />
               <span style="mso-text-raise: 15pt;margin-top:18px;font-weight:bold;text-decoration:underline;">
@@ -746,7 +746,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
           </td>
           <td align="right" valign="top" style="padding: 16px 16px">
             <img
-              src="https://www.booker.co.uk/content/emails/icons/email-qrcode.png"
+              src="{TRACKQRCODE}"
               alt="bookmark"
               width="107"
               height="108"
