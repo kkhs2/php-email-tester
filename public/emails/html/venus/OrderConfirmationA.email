@@ -694,7 +694,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                 border-radius: 120px;
                 line-height: 1;
               "
-              href="{TRACKERURL}"
+              href="{hashed customer number and tracktag URL}"
             >
               
               <span style="mso-text-raise: 15pt">
@@ -730,7 +730,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                 border-radius: 120px;
                 line-height: 1;
               "
-              href="{TRACKERURL}"
+              href="{hashed customer number and tracktag URL}"
             >
               <br />
               <span style="mso-text-raise: 15pt;margin-top:18px;font-weight:bold;text-decoration:underline;">
@@ -746,7 +746,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
           </td>
           <td align="right" valign="top" style="padding: 16px 16px">
             <img
-              src="{TRACKQRCODE}"
+              src="https://www.booker.co.uk/content/emails/icons/email-qrcode.png"
               alt="bookmark"
               width="107"
               height="108"
@@ -1227,50 +1227,7 @@ London N17 0UT<br />
                   >
                     <tr>
                       <td width="18"></td>
-                      <td>
-                        <a
-                          href="https://x.com/i/flow/login?redirect_after_login=%2FBookerCatering"
-                          ><img
-                            src="https://www.booker.co.uk/content/emails/icons/email-x.jpg"
-                            height="24"
-                            width="24"
-                            style="
-                              display: inline-block;
-                              vertical-align: middle;
-                              margin-right: 10px;
-                              mso-padding-right-alt: 10px;
-                            "
-                        /></a><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->
-                        <a href="link"
-                          ><img
-                            src="https://www.booker.co.uk/content/emails/icons/email-facebook.jpg"
-                            height="24"
-                            width="24"
-                            style="
-                              display: inline-block;
-                              vertical-align: middle;
-                              margin-right: 10px;
-                              margin-left: 10px;
-                              mso-padding-right-alt: 10px;
-                              mso-padding-left-alt: 10px;
-                            "
-                        /></a><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->
-                        <a href="link"
-                          ><img
-                            src="https://www.booker.co.uk/content/emails/icons/email-instagram.jpg"
-                            height="24"
-                            width="24"
-                            style="
-                              display: inline-block;
-                              vertical-align: middle;
-                              margin-right: 10px;
-                              margin-left: 10px;
-                              mso-padding-right-alt: 10px;
-                              mso-padding-left-alt: 10px;
-                            "
-                        /></a>
-                      </td>
-                      <td align="right">
+                                            <td align="right">
                                                   <a href="https://www.venusltd.co.uk/"
                           ><img
                             src="https://www.booker.co.uk/content/emails/icons/email-venus-logo.png"
