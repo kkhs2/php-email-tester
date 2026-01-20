@@ -1,17 +1,15 @@
 <?php
 
+
 /*const BASE = __DIR__ . '/../';
 
-require __DIR__ . '/../vendor/autoload.php';
-require BASE . '/Functions.php';
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+session_start();
 
-use App\Framework\Router;
+require '../vendor/autoload.php';
+require BASE . 'src/Framework/Router.php';
+require BASE . 'src/Framework/Functions.php';
 
-
-$router = new Router();
-
+$router = new App\Framework\Router();
 require BASE . 'routes.php';
 
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
@@ -19,60 +17,76 @@ $method = $_POST['_method'] ?? $_SERVER['REQUEST_METHOD'];
 
 try {
   $router->route($uri, $method);
-  
-} catch (ValidationException $exception) {
- 
 
- // return redirect($router->previousUrl());
+} catch (Exception $e) {
+  return redirect($router->previousUrl());
 }*/
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//Load Composer's autoloader (created by composer, not included with PHPMailer)
 require '../vendor/autoload.php';
-//Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
-try {
-    $dir = __DIR__ . '/../templates/emails/booker/accountcancelled';
-    
-    
-    $emails = scandir($dir);
+// Take the parent / child templates and generate a HTML file ready to send */
 
-    foreach ($emails as $email) {
-      if (substr($email, -5) == '.html') {
-       
-        $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'kshumbooker@gmail.com';                  //SMTP username
-    $mail->Password   = 'lbwk cend spaz ojtw';                               //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
-    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-    //Recipients
-    $mail->setFrom('noreply@bookertest.co.uk', 'Booker UAT');
-    $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
-    $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
-    //$mail->addAddress('websiteuat@booker.co.uk');
-    $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
-    //$mail->addCC('cc@example.com');
-    //$mail->addBCC('bcc@example.com');
+function generateHtml($path)
+{
 
-    //Attachments
-    //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+  $context = stream_context_create([
+    "ssl" => [
+      "verify_peer" => false,
+      "verify_peer_name" => false,
+    ]
+  ]);
 
-    //Content
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = $email;
-    $mail->Body = file_get_contents($dir . '/' . $email); 
-    $mail->send();
-    echo $email . " has been sent <br />";    
-      }
+  $html = file_get_contents($path, false, $context);
+
+  return $html;
+}
+
+function createHtmlFile($email)
+{
+  $fileName = pathinfo($email)['filename'];
+  if (substr($fileName, -5)) {
+    if (str_contains($fileName, 'OrderConfirmation')) {
+      file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/OrderConfirmation/' . substr(pathinfo($email)['filename'], 0, -5) . '.email', generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker'));
+    } else {
+      file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/' . substr(pathinfo($email)['filename'], 0, -5) . '.email', generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker'));
     }
+
+    file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/emails/html/booker/generatedHtml/' . pathinfo($email)['filename'], generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker'));
+  }
+}
+
+try {
+  $emails = scandir(__DIR__ . '/emails');
+  foreach ($emails as $email) {
+   if (str_contains(pathinfo($email)['basename'], '.html.php')) {
+      //if ($email == 'OrderConfirmationSDOEC.html.php') {
+      /*$mail->isSMTP();
+      $mail->Host = 'smtp.gmail.com';
+      $mail->SMTPAuth = true;
+      $mail->Username = 'shumk5309@gmail.com';
+      $mail->Password = 'xzye subw unvi ythz';
+      $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+      $mail->Port = 587;
+      $mail->setFrom('shumk5309@gmail.com', ' UAT');
+      $mail->addAddress('kenneth.shum@booker.co.uk');     //Add a recipient
+      $mail->addAddress('kshumbooker@gmail.com');     //Add a recipient
+      //$mail->addAddress('shumkhk@gmail.com');
+      $mail->addReplyTo('noreply@bookertest.co.uk', 'Information');
+      $mail->isHTML(true);
+      $mail->Subject = pathinfo($email)['basename'];*/
+      //$mail->Body = generateHtml('https://' . $_SERVER['SERVER_NAME'] . '/emails/' . pathinfo($email)['basename'] . '?type=booker');
+      //$mail->send();
+      createHtmlFile($email);
+      echo pathinfo($email)['basename'] . " has been sent <br />";
+      }
+   //} 
+  }
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+  echo " Error sending email: " . $e->getMessage();
 }

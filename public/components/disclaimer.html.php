@@ -1,0 +1,62 @@
+<tr>
+  <td style="padding: 0 18px">
+    <table
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+      style="
+        background-color: #f5f4f0;
+        border-radius: 20px;
+        font-family: <?php if ($type == 'venus'): ?> Open Sans <?php else: ?> Inter <?php endif ?>, Arial, sans-serif;
+        margin: 0;
+        font-size: 14px;
+        line-height: 19.6px;
+        color: #000000;
+      "
+    >
+      <tr>
+        <td>
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td style="padding: 16px 18px">
+                <div style="margin: 0; padding: 0 0">
+                  <span>
+                    This email is intended solely for the person or organisation
+                    to which it is addressed. It may contain privileged and
+                    confidential information.<br />
+                    <br />
+                    If you are not the intended recipient of the message, please
+                    notify the sender immediately and do not disclose the
+                    contents to any other person, use it for any purpose, or
+                    store or copy the information in any medium.<br />
+                    <br />
+                    Internet communications are not secure and therefore Booker
+                    Group Limited and its subsidiary companies, do not accept
+                    legal responsibility for the contents of this message. Any
+                    views or opinions presented are solely those of the author
+                    and do not necessarily represent those of Booker Group
+                    Limited and its subsidiary companies, unless otherwise
+                    specifically state.<br />
+                    <br />
+                    This e mail is issued by Booker Group Limited registered
+                    number 05145685 (England and Wales) on behalf of itself and
+                    Booker Limited registered number 197380 (England and Wales)
+                    and CTM Wholesale and Booker Direct, (the trading names of
+                    Booker Direct Limited registered number 4004640 (England and
+                    Wales)), all of whose registered offices are situated at
+                    Equity House, Irthlingborough Road, Wellingborough,
+                    Northants, NN8 1LT.<br />
+                    <br />
+                    If the content of this email is to become contractually
+                    binding, it must be made in writing &amp; signed by a duly
+                    authorised representative of Booker Group Limited.
+                  </span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>

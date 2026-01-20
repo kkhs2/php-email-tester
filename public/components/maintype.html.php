@@ -1,0 +1,1 @@
+<?php if ($type == 'venus'): ?> with Venus<?php else: ?> with Booker<?php endif ?>
