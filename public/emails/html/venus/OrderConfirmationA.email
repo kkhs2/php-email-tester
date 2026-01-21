@@ -694,7 +694,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                 border-radius: 120px;
                 line-height: 1;
               "
-              href="{hashed customer number and tracktag URL}"
+              href="{TRACKERURL}"
             >
               
               <span style="mso-text-raise: 15pt">
@@ -730,7 +730,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                 border-radius: 120px;
                 line-height: 1;
               "
-              href="{hashed customer number and tracktag URL}"
+              href="{TRACKERURL}"
             >
               <br />
               <span style="mso-text-raise: 15pt;margin-top:18px;font-weight:bold;text-decoration:underline;">
@@ -746,7 +746,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
           </td>
           <td align="right" valign="top" style="padding: 16px 16px">
             <img
-              src="https://www.booker.co.uk/content/emails/icons/email-qrcode.png"
+              src="{TRACKQRCODE}"
               alt="bookmark"
               width="107"
               height="108"
@@ -1028,46 +1028,10 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                         <table width="100%" cellpadding="0" cellspacing="0">
                           <tr>
                             <td style="padding: 16px 18px; font-family:  Open Sans , Arial, sans-serif; font-size: 14px;">
-                                <span>
-                                  This email is intended solely for the person
-                                  or organisation to which it is addressed. It
-                                  may contain privileged and confidential
-                                  information.<br />
-                                  <br />
-                                  If you are not the intended recipient of the
-                                  message, please notify the sender immediately
-                                  and do not disclose the contents to any other
-                                  person, use it for any purpose, or store or
-                                  copy the information in any medium.<br />
-                                  <br />
-                                  Internet communications are not secure and
-                                  therefore Booker Group Limited and its
-                                  subsidiary companies, do not accept legal
-                                  responsibility for the contents of this
-                                  message. Any views or opinions presented are
-                                  solely those of the author and do not
-                                  necessarily represent those of Booker Group
-                                  Limited and its subsidiary companies, unless
-                                  otherwise specifically state.<br />
-                                  <br />
-                                  This email is issued by Booker Group Limited
-                                  registered number 05689256 (England and Wales)
-                                  on behalf of itself and Booker Limited
-                                  registered number 197380 (England and Wales)
-                                  and CTM Wholesale and Booker Direct, (the
-                                  trading names of Booker Direct Limited
-                                  registered number 4004640 (England and
-                                  Wales)), all of whose registered offices are
-                                  situated at Equity House, Irthlingborough
-                                  Road, Wellingborough, Northants, NN8 1LT.<br />
-                                  <br />
-                                  If the content of this email is to become
-                                  contractually binding, it must be made in
-                                  writing &amp; signed by a duly authorised
-                                  representative of Booker Group Limited.
-                                </span>
-                       
-                            </td>
+                                                                <span>
+                                    Service of documents is not accepted by email.  The information contained in this email and in any attachments is confidential and is solely for the attention and use of the intended recipient(s).  It may be subject to legal professional privilege.  If you are not an intended recipient of this email, you must not use, disclose, copy, distribute or retain this message or any part of it or any attachment(s). If you have received this email in error, please notify the sender immediately and delete all copies of this email from your computer system(s). Internet communications are not secure and therefore Venus Wine and Spirit Merchants Limited do not accept legal responsibility for the contents of this message.<br /><br />
+This email is issued by Venus Wine & Spirit Merchants Limited (CRN 05699256 (England and Wales)), part of the Booker Group Limited (CRN: 5145685 (England and Wales)) group of companies.  Registered office: Equity House, Irthlingborough Road, Wellingborough, Northants, NN8 1LT
+                                  </span>                            </td>
                           </tr>
                         </table>
                       </td>
@@ -1252,3 +1216,4 @@ London N17 0UT<br />
     <!--div for improving accessibilty ends-->
   </body>
 </html>
+
