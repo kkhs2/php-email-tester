@@ -1,4 +1,4 @@
-Claim Confirmation {REFNUMBER}
+Registration Confirmation
 <!DOCTYPE html>
 <html
   lang="en"
@@ -328,7 +328,7 @@ Claim Confirmation {REFNUMBER}
                   ">                      
   <!--<![endif]-->
   <p>
-    Dear <strong>{CUSTOMERNAME}</strong>,
+    Dear <strong>{FIRSTNAME}</strong>,
   </p>
   </td>
 </tr>
@@ -352,7 +352,7 @@ Claim Confirmation {REFNUMBER}
                   ">                      
   <!--<![endif]-->
   <p>
-    Your claim has been successfully submitted.
+    Thank you for registering with venusltd.co.uk.
   </p>
   </td>
 </tr>
@@ -376,40 +376,116 @@ Claim Confirmation {REFNUMBER}
                   ">                      
   <!--<![endif]-->
   <p>
-    Your claim reference is <strong>{REFNUMBER}</strong>.
-  </p>
-  </td>
-</tr>
-<tr>
-  <!--[if mso]>
-<td style="
-      padding: 12px 24px;
-                    font-family:  Open Sans , Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">
-  <![endif]-->
-  <!--[if !mso><!-->
-    <td style="
-      padding: 0px 24px;
-                    font-family:  Open Sans , Arial, sans-serif;
-                    margin: 0;
-                    font-size: 16px;
-                    line-height: 22.4px;
-                  ">                      
-  <!--<![endif]-->
-  <p>
-    You can view your claims details here <!--[if mso]>
-<a style="text-decoration: underline; color: #000; font-weight: 700" href="{DETAILSURL}">{DETAILSURL}</a>
-<![endif]--><!--[if !mso> <!--><a style="text-decoration: none;
+    Please find below confirmation of your User ID and customer number. Please check your customer number carefully, if you believe you have registered the wrong account please contact us by clicking <!--[if mso]> <a style="text-decoration: underline; color: #000; font-weight: 700" href="https://www.venusltd.co.uk/help/incorrectAccountRegistration.aspx">here</a>.<![endif]--><!--[if !mso> <!--> <a style="text-decoration: none;
                           border-bottom: 1px dotted #000;
                           font-weight: 700;
-                          color: #000;" href="{DETAILSURL}">{DETAILSURL}</a><!--<![endif]-->.
+                          color: #000;" href="https://www.venusltd.co.uk/help/incorrectAccountRegistration.aspx">here</a>.<!--<![endif]-->  </p>
+  </td>
+</tr>
+<tr>
+  <!--[if mso]>
+<td style="
+      padding: 12px 24px;
+                    font-family:  Open Sans , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">
+  <![endif]-->
+  <!--[if !mso><!-->
+    <td style="
+      padding: 0px 24px;
+                    font-family:  Open Sans , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">                      
+  <!--<![endif]-->
+  <p>
+    Your User ID is: <strong>{EMAILADDRESS}</strong>.
   </p>
   </td>
 </tr>
-
+<tr>
+  <!--[if mso]>
+<td style="
+      padding: 12px 24px;
+                    font-family:  Open Sans , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">
+  <![endif]-->
+  <!--[if !mso><!-->
+    <td style="
+      padding: 0px 24px;
+                    font-family:  Open Sans , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">                      
+  <!--<![endif]-->
+  <p>
+    Your Customer Number: <strong>{CUSTOMERNUMBER}</strong>.
+  </p>
+  </td>
+</tr>
+<tr>
+  <!--[if mso]>
+<td style="
+      padding: 12px 24px;
+                    font-family:  Open Sans , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">
+  <![endif]-->
+  <!--[if !mso><!-->
+    <td style="
+      padding: 0px 24px;
+                    font-family:  Open Sans , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">                      
+  <!--<![endif]-->
+  <p>
+    Please remember these details as you will need these to login to your account in future.  To start shopping with us click <!--[if mso]> <a style="text-decoration: underline; color: #000; font-weight: 700" href="https://www.venusltd.co.uk">here</a>
+<![endif]--><!--[if !mso> <!--> <a style="text-decoration: none;
+                          border-bottom: 1px dotted #000;
+                          font-weight: 700;
+                          color: #000;" href="https://www.venusltd.co.uk">here</a><!--<![endif]--> to enter the site.
+      </p>
+  </td>
+</tr>
+  <tr>
+  <!--[if mso]>
+<td style="
+      padding: 12px 24px;
+                    font-family:  Open Sans , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">
+  <![endif]-->
+  <!--[if !mso><!-->
+    <td style="
+      padding: 0px 24px;
+                    font-family:  Open Sans , Arial, sans-serif;
+                    margin: 0;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                  ">                      
+  <!--<![endif]-->
+  <p>
+    Should you require further assistance please contact us via the following ways:<br>
+    {BRANCHEMAILADDRESS}<br>
+    {BRANCHPHONENUMBER}<br>
+    Opening times {BRANCHOPENINGHOURS} 
+  </p>
+  </td>
+</tr>
+  
               
               <tr>
                 <td height="12"></td>
