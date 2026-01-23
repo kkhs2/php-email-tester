@@ -960,7 +960,7 @@ Order Confirmation {TRACKINGNUMBER}/Customer Number {CUSTOMERNUMBER}
                                         style="line-height: 4px; font-size: 4px">
                                         &nbsp;
                                       </div>
-                                                                              {BRANCHEMAILADDRESS}
+                                 {BRANCHADDRESS}<br>            {BRANCHEMAILADDRESS}
                                                                             </td>
                                   </tr>
                                   <tr>
