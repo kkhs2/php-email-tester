@@ -400,12 +400,11 @@ Claim Confirmation {REFNUMBER}
                   ">                      
   <!--<![endif]-->
   <p>
-    You can view your claims details here <!--[if mso]>
-<a style="text-decoration: underline; color: #000; font-weight: 700" href="{DETAILSURL}">{DETAILSURL}</a>
-<![endif]--><!--[if !mso> <!--><a style="text-decoration: none;
+    You can view your claims details <!--[if mso]> <a style="text-decoration: underline; color: #000; font-weight: 700" href="{DETAILSURL}">here</a>
+<![endif]--> <!--[if !mso> <!--> <a style="text-decoration: none;
                           border-bottom: 1px dotted #000;
                           font-weight: 700;
-                          color: #000;" href="{DETAILSURL}">{DETAILSURL}</a><!--<![endif]-->.
+                          color: #000;" href="{DETAILSURL}">here</a><!--<![endif]-->.
   </p>
   </td>
 </tr>
